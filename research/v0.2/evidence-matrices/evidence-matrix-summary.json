@@ -1,0 +1,43 @@
+{
+  "dependencies": {
+    "artifact_sha256": "3152018cf4f2334095c18c16f48031b9c68b22584ec3b2365934f41fafb62036",
+    "relationship_kinds": {
+      "DECLARED_BUILD_INCLUDE": 46,
+      "DECLARED_EXTERNAL_LOOKUP": 2,
+      "DECLARED_LINK_EXPRESSION": 122,
+      "DECLARED_PINNED_GITLINK": 25,
+      "DECLARED_SOURCE_INCLUSION": 121
+    },
+    "rows": 316,
+    "verification_states": {
+      "DECLARED_UNRESOLVED": 291,
+      "VERIFIED_PINNED": 25
+    }
+  },
+  "dependency_method": "Pinned .gitmodules/gitlink verification plus syntactic extraction of find_package, add_subdirectory, target_link_libraries, and include expressions from pinned CMake blobs. CMake semantics are not executed.",
+  "license_method": "Pinned license/notice files and explicit SPDX-License-Identifier lines are recorded as evidence; package-wide conclusions remain NOASSERTION.",
+  "licenses": {
+    "artifact_sha256": "10e2fb854abc04102ba3106c2bf5b25c1aff189ff701cbb0da76ab321b7ba76b",
+    "declared_expressions": {
+      "MIT-0": 2,
+      "NONE": 26
+    },
+    "evidence_kinds": {
+      "LICENSE_OR_NOTICE_FILE": 26,
+      "SPDX_IDENTIFIER": 2
+    },
+    "package_conclusion": "NOASSERTION",
+    "rows": 28
+  },
+  "limits": [
+    "CMake expressions are declaration evidence, not resolved build or runtime dependency edges.",
+    "Transitive, linker-confirmed, generated, binary, and runtime dependencies are not assessed.",
+    "License evidence does not imply package-wide or compatibility conclusions."
+  ],
+  "scanned": {
+    "cmake_files": 355,
+    "components": 26,
+    "text_blobs": 3757
+  },
+  "schema_version": 1
+}

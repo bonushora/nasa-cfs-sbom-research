@@ -1,0 +1,15 @@
+area,element,evidence,status,limitation
+NTIA_2021,Supplier Name,SPDX supplier present 1 of 26,PARTIAL,No supplier inference for 25 components
+NTIA_2021,Component Name,SPDX name present 26 of 26,PASS,Source component scope only
+NTIA_2021,Version of Component,SPDX versionInfo present 26 of 26,PASS,Semantic labels and immutable Git identifiers are distinct
+NTIA_2021,Other Unique Identifiers,26 SPDXIDs and immutable VCS locators,PASS,No binary identifiers
+NTIA_2021,Dependency Relationship,25 CONTAINS and one DESCRIBES,PASS,Containment only and not a runtime graph
+NTIA_2021,Author of SBOM Data,Two creationInfo creators,PASS,Independent research authorship
+NTIA_2021,Timestamp,creationInfo created timestamp,PASS,Fixed generation timestamp
+NTIA_2021,Frequency,No recurring cadence,UNKNOWN,None promised
+NTIA_2021,Depth,Direct Gitlinks and bounded Git-tree files,PASS,No transitive build or runtime depth
+NTIA_2021,Known Unknowns,Documented scope limits,PASS,None
+NTIA_2021,Distribution and Delivery,Original public and v0.2 candidate local,PARTIAL,Requires remote publication gate
+NTIA_2021,Access Control,Intended public artifact,NOT_APPLICABLE,No restricted distribution model
+NTIA_2021,Accommodation of Mistakes,Versioned additive artifacts and manifests,PASS,None
+CycloneDX_1_7,Conversion,Mapping design only,NOT_EVALUATED,Official schema and validated local tooling unavailable

@@ -1,0 +1,37 @@
+{
+  "baseline": "088b2fa828db9ff7e00733f1908e0eeb59f66ce3",
+  "treeUrl": "https://api.github.com/repos/nasa/cFS/git/trees/088b2fa828db9ff7e00733f1908e0eeb59f66ce3?recursive=1",
+  "consultedAt": "2026-11-03",
+  "provenance": {
+    "method": "All 25 entries were verified from git ls-tree at the baseline and matched against initialized submodule checkouts in an independent local clone.",
+    "treeCommand": "git ls-tree -r 088b2fa828db9ff7e00733f1908e0eeb59f66ce3",
+    "sampleLibObjectUrl": "https://api.github.com/repos/nasa/sample_lib/git/commits/2d8b7e862673ef90da4355890e18e92822e8acd7"
+  },
+  "entries": [
+    {"path": "cfe", "repository": "cFE", "mode": "160000", "type": "commit", "sha": "c5fb2b4d540bd55eb6c3707da7dd13eee679d4dd"},
+    {"path": "osal", "repository": "osal", "mode": "160000", "type": "commit", "sha": "d2d877a69cff47452bcca274b309147d48e6c16f"},
+    {"path": "psp", "repository": "PSP", "mode": "160000", "type": "commit", "sha": "c4b3b0b65b119e106481ad8e20976ae4d7f554e3"},
+    {"path": "apps/ci_lab", "repository": "ci_lab", "mode": "160000", "type": "commit", "sha": "f5d36625336249312ee9d5815bc875e231815bb4"},
+    {"path": "apps/to_lab", "repository": "to_lab", "mode": "160000", "type": "commit", "sha": "38f7312ec4c1109b8f1c0738730b6e5ac5860f05"},
+    {"path": "apps/sch_lab", "repository": "sch_lab", "mode": "160000", "type": "commit", "sha": "bc848cd8a6c0407023b959191e8aa39a01928444"},
+    {"path": "apps/sample_app", "repository": "sample_app", "mode": "160000", "type": "commit", "sha": "2f93d1a4159a02b18d67ee83342c9e96b90e23e4"},
+    {"path": "libs/sample_lib", "repository": "sample_lib", "mode": "160000", "type": "commit", "sha": "2d8b7e862673ef90da4355890e18e92822e8acd7"},
+    {"path": "tools/cFS-GroundSystem", "repository": "cFS-GroundSystem", "mode": "160000", "type": "commit", "sha": "07a33a81fe7a88d248d9a5dc59bcf433e34594d7"},
+    {"path": "tools/elf2cfetbl", "repository": "elf2cfetbl", "mode": "160000", "type": "commit", "sha": "118b55fe1d128b48dc45fd36278b87827c6d3faa"},
+    {"path": "tools/tblCRCTool", "repository": "tblCRCTool", "mode": "160000", "type": "commit", "sha": "cc61e89535db9fabe35fe26d1a600889f06b3104"},
+    {"path": "tools/eds", "repository": "EdsLib", "mode": "160000", "type": "commit", "sha": "2acc963b34f77692c6396555dcfb10ef43eb1046"},
+    {"path": "apps/cf", "repository": "CF", "mode": "160000", "type": "commit", "sha": "15a871e66cad7ec75e1be78989a93075ff142055"},
+    {"path": "apps/cs", "repository": "CS", "mode": "160000", "type": "commit", "sha": "8510c5c0bd3e3b777086ad4b48aee3e79875553a"},
+    {"path": "apps/ds", "repository": "DS", "mode": "160000", "type": "commit", "sha": "c31e982eca47739dfcf31d4b40cad6068423e6a2"},
+    {"path": "apps/fm", "repository": "FM", "mode": "160000", "type": "commit", "sha": "ed51c5733c0f2d2f521d72f80d1b9254d2c8b5d0"},
+    {"path": "apps/hk", "repository": "HK", "mode": "160000", "type": "commit", "sha": "766dab1591b95ff89d99baaab9b43d234de4e699"},
+    {"path": "apps/hs", "repository": "HS", "mode": "160000", "type": "commit", "sha": "947b903174bca0878210e7fbc53104cff8e7b335"},
+    {"path": "apps/lc", "repository": "LC", "mode": "160000", "type": "commit", "sha": "a1c3a47ea1fa5c0d7751d6ff88848dc9bd8a6c7a"},
+    {"path": "apps/md", "repository": "MD", "mode": "160000", "type": "commit", "sha": "7e027886b22eb9e6492d59700cdc4549b116c698"},
+    {"path": "apps/mm", "repository": "MM", "mode": "160000", "type": "commit", "sha": "f3ee4e678df1fe64b9ee267b7e2a888352e178d5"},
+    {"path": "apps/sbn", "repository": "SBN", "mode": "160000", "type": "commit", "sha": "3b7b37572d63c3f8e85b1f0fa95853c1b78dcf96"},
+    {"path": "apps/sc", "repository": "SC", "mode": "160000", "type": "commit", "sha": "76db5f7b0dde4ea22b41d19962564826967bc123"},
+    {"path": "tools/cfs-cosmos-plugin", "repository": "cfs-cosmos-plugin", "mode": "160000", "type": "commit", "sha": "358339d9fbb0516fdf00306cafc6d2cc7f869cd0"},
+    {"path": "tools/commandline-tools", "repository": "cfs-commandline-tools", "mode": "160000", "type": "commit", "sha": "d70c56ec035694c9a64b317897403266166f5d68"}
+  ]
+}

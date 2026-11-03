@@ -1,0 +1,11 @@
+{
+  "nasa_cfs_root_commit": "088b2fa828db9ff7e00733f1908e0eeb59f66ce3",
+  "official_vdd_archive": {
+    "sha256": "ee1fa901a49091274a19dc475564fbf541c36278714b73bf12cd980a4f165aa3",
+    "size": 13850
+  },
+  "original_spdx_sha256": "10cdb17573d186a59a42de73915e21cd36e3a44a1bf5737a0eebdfe063e8249f",
+  "published_gitlinks_sha256": "7e4bf8a5e27247d8a04136b490eabd37f897a40b19aac3d41f5e14a787e0e7ff",
+  "published_v0_1_1_manifest_sha256": "6b19d557a57222723aba1aa5d7a0d37fa73efb85b219304353180747ec48ddeb",
+  "schema_version": 1
+}

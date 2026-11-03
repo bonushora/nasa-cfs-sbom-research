@@ -1,0 +1,549 @@
+{
+  "archive": {
+    "sha256": "ee1fa901a49091274a19dc475564fbf541c36278714b73bf12cd980a4f165aa3",
+    "size": 13850
+  },
+  "component_documents": [
+    {
+      "document_history_revisions": [
+        "Rev A",
+        "Rev B"
+      ],
+      "document_revision_header": "Rev A",
+      "heading": "Version Description Document - core Flight Executive (cFE) v7.0.1 (Draco)",
+      "heading_line": 1,
+      "identification_line": 27,
+      "path": "vdd/01-core/01-cFE.md",
+      "revision_line": 13,
+      "sha256": "d82b96dab20d747561f033032a093557189c3d41a784fe4e060e7957249f3e37",
+      "software_version": "v7.0.1",
+      "version_line": 5
+    },
+    {
+      "document_history_revisions": [
+        "Rev A"
+      ],
+      "document_revision_header": "Rev A",
+      "heading": "Version Description Document - Operating System Abstraction Layer (OSAL) v7.0.1 (Draco)",
+      "heading_line": 1,
+      "identification_line": 26,
+      "path": "vdd/01-core/02-osal.md",
+      "revision_line": 13,
+      "sha256": "378f769c2f119fd403edf52f95755a22195e915f92da2e86818514b0f1157875",
+      "software_version": "v7.0.1",
+      "version_line": 5
+    },
+    {
+      "document_history_revisions": [
+        "Rev A"
+      ],
+      "document_revision_header": "Rev A",
+      "heading": "Version Description Document - Platform Support Package (PSP) v7.0.1 (Draco)",
+      "heading_line": 1,
+      "identification_line": 26,
+      "path": "vdd/01-core/03-psp.md",
+      "revision_line": 13,
+      "sha256": "68924db746744abe3d83d06549399656144b82b3ce19c8545d2db02530ab8d6c",
+      "software_version": "v7.0.1",
+      "version_line": 5
+    },
+    {
+      "document_history_revisions": [
+        "Rev A"
+      ],
+      "document_revision_header": "Rev A",
+      "heading": "Version Description Document - CFDP Application (CF) v7.0.1 (Draco)",
+      "heading_line": 1,
+      "identification_line": 26,
+      "path": "vdd/02-apps/01-cf.md",
+      "revision_line": 13,
+      "sha256": "fce892dd693b1c54e1507333a92175cb5a8a83a6e156f139e83ff5ba5038fb8a",
+      "software_version": "v7.0.1",
+      "version_line": 5
+    },
+    {
+      "document_history_revisions": [
+        "Rev A"
+      ],
+      "document_revision_header": "Rev A",
+      "heading": "Version Description Document - Command Ingest Lab Application (CI_Lab) v7.0.1 (Draco)",
+      "heading_line": 1,
+      "identification_line": 26,
+      "path": "vdd/02-apps/02-ci_lab.md",
+      "revision_line": 13,
+      "sha256": "7c749c1d302383753252e2f3eefaf7becfb73e952c1ae50235927b67d27c15ba",
+      "software_version": "v7.0.1",
+      "version_line": 5
+    },
+    {
+      "document_history_revisions": [
+        "Rev A"
+      ],
+      "document_revision_header": "Rev A",
+      "heading": "Version Description Document - Checksum Application (CS) v7.0.1 (Draco)",
+      "heading_line": 1,
+      "identification_line": 26,
+      "path": "vdd/02-apps/03-cs.md",
+      "revision_line": 13,
+      "sha256": "abb7d2d945a3faaaf5a61bace40376b653444aa866db16a65d659820cd43fe73",
+      "software_version": "v7.0.1",
+      "version_line": 5
+    },
+    {
+      "document_history_revisions": [
+        "Rev A"
+      ],
+      "document_revision_header": "Rev A",
+      "heading": "Version Description Document - Data Storage Application (DS) v7.0.1 (Draco)",
+      "heading_line": 1,
+      "identification_line": 26,
+      "path": "vdd/02-apps/04-ds.md",
+      "revision_line": 13,
+      "sha256": "20697f0e158f3a18345136fbea5d219ff28078cc6f9657d3cdaf9b972d33a880",
+      "software_version": "v7.0.1",
+      "version_line": 5
+    },
+    {
+      "document_history_revisions": [
+        "Rev A"
+      ],
+      "document_revision_header": "Rev A",
+      "heading": "Version Description Document - File Manager Application (FM) v7.0.1 (Draco)",
+      "heading_line": 1,
+      "identification_line": 26,
+      "path": "vdd/02-apps/05-fm.md",
+      "revision_line": 13,
+      "sha256": "983d993d53bf07732f456abcdc4493ee2cf56234d18593dcbdcfe0536d8bdbad",
+      "software_version": "v7.0.1",
+      "version_line": 5
+    },
+    {
+      "document_history_revisions": [
+        "Rev A"
+      ],
+      "document_revision_header": "Rev A",
+      "heading": "Version Description Document - Housekeeping Application (HK) v7.0.1 (Draco)",
+      "heading_line": 1,
+      "identification_line": 26,
+      "path": "vdd/02-apps/06-hk.md",
+      "revision_line": 13,
+      "sha256": "818f894443cac826363722eb8c43baa249ba8a892cde87266fc863200026b337",
+      "software_version": "v7.0.1",
+      "version_line": 5
+    },
+    {
+      "document_history_revisions": [
+        "Rev A"
+      ],
+      "document_revision_header": "Rev A",
+      "heading": "Version Description Document - Health and Safety Application (HS) v7.0.1 (Draco)",
+      "heading_line": 1,
+      "identification_line": 26,
+      "path": "vdd/02-apps/07-hs.md",
+      "revision_line": 13,
+      "sha256": "bf5fb5043f732d67eac60388a1380af70cb578bf9ddb51eceac4fadeb27d9988",
+      "software_version": "v7.0.1",
+      "version_line": 5
+    },
+    {
+      "document_history_revisions": [
+        "Rev A"
+      ],
+      "document_revision_header": "Rev A",
+      "heading": "Version Description Document - Limit Checker Application (LC) v7.0.1 (Draco)",
+      "heading_line": 1,
+      "identification_line": 26,
+      "path": "vdd/02-apps/08-lc.md",
+      "revision_line": 13,
+      "sha256": "f8af90aef909702802943aceb4e3df3ec80f7bee58665419ff69fb9ead10b011",
+      "software_version": "v7.0.1",
+      "version_line": 5
+    },
+    {
+      "document_history_revisions": [
+        "Rev A"
+      ],
+      "document_revision_header": "Rev A",
+      "heading": "Version Description Document - Memory Dwell Application (MD) v7.0.1 (Draco)",
+      "heading_line": 1,
+      "identification_line": 26,
+      "path": "vdd/02-apps/09-md.md",
+      "revision_line": 13,
+      "sha256": "a57b9c30ecbaa510e5deff00b1a496892cf554a0eefcb6557081e06016fe030f",
+      "software_version": "v7.0.1",
+      "version_line": 5
+    },
+    {
+      "document_history_revisions": [
+        "Rev A"
+      ],
+      "document_revision_header": "Rev A",
+      "heading": "Version Description Document - Memory Manager Application (MM) v7.0.1 (Draco)",
+      "heading_line": 1,
+      "identification_line": 26,
+      "path": "vdd/02-apps/10-mm.md",
+      "revision_line": 13,
+      "sha256": "a147f6eb4b2912e73c2bb85fd76760e47688375510df8a781bcf36b3000c4ad1",
+      "software_version": "v7.0.1",
+      "version_line": 5
+    },
+    {
+      "document_history_revisions": [
+        "Rev A"
+      ],
+      "document_revision_header": "Rev A",
+      "heading": "Version Description Document - Sample Application (Sample_App) v7.0.1 (Draco)",
+      "heading_line": 1,
+      "identification_line": 26,
+      "path": "vdd/02-apps/11-sample_app.md",
+      "revision_line": 13,
+      "sha256": "772697c683ce95143d5b65047cb494542c864257271206550dec4dcafd59b25b",
+      "software_version": "v7.0.1",
+      "version_line": 5
+    },
+    {
+      "document_history_revisions": [
+        "Rev A"
+      ],
+      "document_revision_header": "Rev A",
+      "heading": "Version Description Document - Software Bus Network Application (SBN) v7.0.1 (Draco)",
+      "heading_line": 1,
+      "identification_line": 26,
+      "path": "vdd/02-apps/12-sbn.md",
+      "revision_line": 13,
+      "sha256": "a325261c303620f966c22bdc025f9fa70e8681dccda32a2b002fbcd1273d99bc",
+      "software_version": "v7.0.1",
+      "version_line": 5
+    },
+    {
+      "document_history_revisions": [
+        "Rev A"
+      ],
+      "document_revision_header": "Rev A",
+      "heading": "Version Description Document - Stored Command Application (SC) v7.0.1 (Draco)",
+      "heading_line": 1,
+      "identification_line": 26,
+      "path": "vdd/02-apps/13-sc.md",
+      "revision_line": 13,
+      "sha256": "1efade424de707fe5f10dc2e38443be1569199b056accc880daee8fee9b05c16",
+      "software_version": "v7.0.1",
+      "version_line": 5
+    },
+    {
+      "document_history_revisions": [
+        "Rev A"
+      ],
+      "document_revision_header": "Rev A",
+      "heading": "Version Description Document - Scheduler Lab Application (SCH_Lab) v7.0.1 (Draco)",
+      "heading_line": 1,
+      "identification_line": 26,
+      "path": "vdd/02-apps/14-sch_lab.md",
+      "revision_line": 13,
+      "sha256": "3082010c8a4911b1f30bf5bca178b0ea3d17896965f9f0efca92a4ca7dce3952",
+      "software_version": "v7.0.1",
+      "version_line": 5
+    },
+    {
+      "document_history_revisions": [
+        "Rev A"
+      ],
+      "document_revision_header": "Rev A",
+      "heading": "Version Description Document - Telemetry Output Lab Application (TO_Lab) v7.0.1 (Draco)",
+      "heading_line": 1,
+      "identification_line": 26,
+      "path": "vdd/02-apps/15-to_lab.md",
+      "revision_line": 13,
+      "sha256": "8406c92b08425c5210709f20f5966b8e9a6aa91700120c23cc89b9160cb5366e",
+      "software_version": "v7.0.1",
+      "version_line": 5
+    },
+    {
+      "document_history_revisions": [
+        "Rev A"
+      ],
+      "document_revision_header": "Rev A",
+      "heading": "Version Description Document - Sample Library (Sample_Lib) v7.0.1 (Draco)",
+      "heading_line": 1,
+      "identification_line": 26,
+      "path": "vdd/03-libs/01-sample_lib.md",
+      "revision_line": 13,
+      "sha256": "6907771110acf272ad4aaa20b5e91fcce9072f0ee2ac7899fe5f1d46b7ad8929",
+      "software_version": "v7.0.1",
+      "version_line": 5
+    },
+    {
+      "document_history_revisions": [
+        "Rev A"
+      ],
+      "document_revision_header": "Rev A",
+      "heading": "Version Description Document - cFS Ground System (cFS-GroundSystem) v7.0.1 (Draco)",
+      "heading_line": 1,
+      "identification_line": 26,
+      "path": "vdd/04-tools/01-cFS_GroundSystem.md",
+      "revision_line": 13,
+      "sha256": "4bc64fcba8dc23b52766f2723278fe25b8aa7f89d6a6c9ccb9cf43ea0eb878c2",
+      "software_version": "v7.0.1",
+      "version_line": 5
+    },
+    {
+      "document_history_revisions": [
+        "Rev A"
+      ],
+      "document_revision_header": "Rev A",
+      "heading": "Version Description Document - CCSDS SOIS Electronic Data Sheet Tool and Library (EDSLib) v7.0.1 (Draco)",
+      "heading_line": 1,
+      "identification_line": 26,
+      "path": "vdd/04-tools/02-EDSLib.md",
+      "revision_line": 13,
+      "sha256": "14316008729cfa38b318a388d01391004a3851fd122fada3fbbeac34f0e9c305",
+      "software_version": "v7.0.1",
+      "version_line": 5
+    },
+    {
+      "document_history_revisions": [
+        "Rev A"
+      ],
+      "document_revision_header": "Rev A",
+      "heading": "Version Description Document - cFS ELF to cFE Table Tool (ELF2cFETbl) v7.0.1 (Draco)",
+      "heading_line": 1,
+      "identification_line": 26,
+      "path": "vdd/04-tools/03-elf2cfetbl.md",
+      "revision_line": 13,
+      "sha256": "e4409fdf3040403df0fa1572ab8bb33443817eaf2f4198c78d8d21301749fcbf",
+      "software_version": "v7.0.1",
+      "version_line": 5
+    },
+    {
+      "document_history_revisions": [
+        "Rev A"
+      ],
+      "document_revision_header": "Rev A",
+      "heading": "Version Description Document - core Flight Executive (TBLCRCTool) v7.0.1 (Draco)",
+      "heading_line": 1,
+      "identification_line": 26,
+      "path": "vdd/04-tools/04-tblCRCTool.md",
+      "revision_line": 13,
+      "sha256": "584c8b74c689341bf0b054664e219cab02fa13496b38a8a9e8bbf587784963ba",
+      "software_version": "v7.0.1",
+      "version_line": 5
+    },
+    {
+      "document_history_revisions": [
+        "Rev A"
+      ],
+      "document_revision_header": "Rev A",
+      "heading": "Version Description Document - cFS COSMOS Plugin v7.0.1 (Draco)",
+      "heading_line": 1,
+      "identification_line": 26,
+      "path": "vdd/04-tools/05-cfs-cosmos-plugin.md",
+      "revision_line": 13,
+      "sha256": "148c6fc55a95fcc1c4c956f7ac3cefd7bab6daed16b8e33d9edfa519f9152eaa",
+      "software_version": "v7.0.1",
+      "version_line": 5
+    },
+    {
+      "document_history_revisions": [
+        "Rev A"
+      ],
+      "document_revision_header": "Rev A",
+      "heading": "Version Description Document - cFS Command Line Tools v7.0.1 (Draco)",
+      "heading_line": 1,
+      "identification_line": 26,
+      "path": "vdd/04-tools/06-cfs-commandline-tools.md",
+      "revision_line": 13,
+      "sha256": "03be8b7da3a1566db71547f8f711cff7999399d9bde760710a0c052a895de077",
+      "software_version": "v7.0.1",
+      "version_line": 5
+    }
+  ],
+  "members": [
+    {
+      "path": "vdd",
+      "size": 0,
+      "type": "directory"
+    },
+    {
+      "path": "vdd/04-tools",
+      "size": 0,
+      "type": "directory"
+    },
+    {
+      "path": "vdd/01-core",
+      "size": 0,
+      "type": "directory"
+    },
+    {
+      "path": "vdd/02-apps",
+      "size": 0,
+      "type": "directory"
+    },
+    {
+      "path": "vdd/05-appendix.md",
+      "sha256": "d65a6c98a1884d219f8a16439d94bf42df33be146329879069eea88f3000590f",
+      "size": 1464,
+      "type": "file"
+    },
+    {
+      "path": "vdd/03-libs",
+      "size": 0,
+      "type": "directory"
+    },
+    {
+      "path": "vdd/00-cfs.md",
+      "sha256": "b915ee52c9eec9be4f64cb335ac118b6a7ff2be0d0b3b95e86caff8fd7bbf01e",
+      "size": 22900,
+      "type": "file"
+    },
+    {
+      "path": "vdd/03-libs/01-sample_lib.md",
+      "sha256": "6907771110acf272ad4aaa20b5e91fcce9072f0ee2ac7899fe5f1d46b7ad8929",
+      "size": 5269,
+      "type": "file"
+    },
+    {
+      "path": "vdd/02-apps/09-md.md",
+      "sha256": "a57b9c30ecbaa510e5deff00b1a496892cf554a0eefcb6557081e06016fe030f",
+      "size": 5590,
+      "type": "file"
+    },
+    {
+      "path": "vdd/02-apps/04-ds.md",
+      "sha256": "20697f0e158f3a18345136fbea5d219ff28078cc6f9657d3cdaf9b972d33a880",
+      "size": 5532,
+      "type": "file"
+    },
+    {
+      "path": "vdd/02-apps/02-ci_lab.md",
+      "sha256": "7c749c1d302383753252e2f3eefaf7becfb73e952c1ae50235927b67d27c15ba",
+      "size": 5394,
+      "type": "file"
+    },
+    {
+      "path": "vdd/02-apps/13-sc.md",
+      "sha256": "1efade424de707fe5f10dc2e38443be1569199b056accc880daee8fee9b05c16",
+      "size": 5447,
+      "type": "file"
+    },
+    {
+      "path": "vdd/02-apps/12-sbn.md",
+      "sha256": "a325261c303620f966c22bdc025f9fa70e8681dccda32a2b002fbcd1273d99bc",
+      "size": 5597,
+      "type": "file"
+    },
+    {
+      "path": "vdd/02-apps/03-cs.md",
+      "sha256": "abb7d2d945a3faaaf5a61bace40376b653444aa866db16a65d659820cd43fe73",
+      "size": 5471,
+      "type": "file"
+    },
+    {
+      "path": "vdd/02-apps/11-sample_app.md",
+      "sha256": "772697c683ce95143d5b65047cb494542c864257271206550dec4dcafd59b25b",
+      "size": 5499,
+      "type": "file"
+    },
+    {
+      "path": "vdd/02-apps/07-hs.md",
+      "sha256": "bf5fb5043f732d67eac60388a1380af70cb578bf9ddb51eceac4fadeb27d9988",
+      "size": 5545,
+      "type": "file"
+    },
+    {
+      "path": "vdd/02-apps/08-lc.md",
+      "sha256": "f8af90aef909702802943aceb4e3df3ec80f7bee58665419ff69fb9ead10b011",
+      "size": 5603,
+      "type": "file"
+    },
+    {
+      "path": "vdd/02-apps/10-mm.md",
+      "sha256": "a147f6eb4b2912e73c2bb85fd76760e47688375510df8a781bcf36b3000c4ad1",
+      "size": 5584,
+      "type": "file"
+    },
+    {
+      "path": "vdd/02-apps/14-sch_lab.md",
+      "sha256": "3082010c8a4911b1f30bf5bca178b0ea3d17896965f9f0efca92a4ca7dce3952",
+      "size": 5266,
+      "type": "file"
+    },
+    {
+      "path": "vdd/02-apps/05-fm.md",
+      "sha256": "983d993d53bf07732f456abcdc4493ee2cf56234d18593dcbdcfe0536d8bdbad",
+      "size": 5533,
+      "type": "file"
+    },
+    {
+      "path": "vdd/02-apps/15-to_lab.md",
+      "sha256": "8406c92b08425c5210709f20f5966b8e9a6aa91700120c23cc89b9160cb5366e",
+      "size": 5451,
+      "type": "file"
+    },
+    {
+      "path": "vdd/02-apps/01-cf.md",
+      "sha256": "fce892dd693b1c54e1507333a92175cb5a8a83a6e156f139e83ff5ba5038fb8a",
+      "size": 5455,
+      "type": "file"
+    },
+    {
+      "path": "vdd/02-apps/06-hk.md",
+      "sha256": "818f894443cac826363722eb8c43baa249ba8a892cde87266fc863200026b337",
+      "size": 5504,
+      "type": "file"
+    },
+    {
+      "path": "vdd/01-core/01-cFE.md",
+      "sha256": "d82b96dab20d747561f033032a093557189c3d41a784fe4e060e7957249f3e37",
+      "size": 6167,
+      "type": "file"
+    },
+    {
+      "path": "vdd/01-core/02-osal.md",
+      "sha256": "378f769c2f119fd403edf52f95755a22195e915f92da2e86818514b0f1157875",
+      "size": 7044,
+      "type": "file"
+    },
+    {
+      "path": "vdd/01-core/03-psp.md",
+      "sha256": "68924db746744abe3d83d06549399656144b82b3ce19c8545d2db02530ab8d6c",
+      "size": 5438,
+      "type": "file"
+    },
+    {
+      "path": "vdd/04-tools/04-tblCRCTool.md",
+      "sha256": "584c8b74c689341bf0b054664e219cab02fa13496b38a8a9e8bbf587784963ba",
+      "size": 5296,
+      "type": "file"
+    },
+    {
+      "path": "vdd/04-tools/02-EDSLib.md",
+      "sha256": "14316008729cfa38b318a388d01391004a3851fd122fada3fbbeac34f0e9c305",
+      "size": 5464,
+      "type": "file"
+    },
+    {
+      "path": "vdd/04-tools/05-cfs-cosmos-plugin.md",
+      "sha256": "148c6fc55a95fcc1c4c956f7ac3cefd7bab6daed16b8e33d9edfa519f9152eaa",
+      "size": 5931,
+      "type": "file"
+    },
+    {
+      "path": "vdd/04-tools/03-elf2cfetbl.md",
+      "sha256": "e4409fdf3040403df0fa1572ab8bb33443817eaf2f4198c78d8d21301749fcbf",
+      "size": 5293,
+      "type": "file"
+    },
+    {
+      "path": "vdd/04-tools/01-cFS_GroundSystem.md",
+      "sha256": "4bc64fcba8dc23b52766f2723278fe25b8aa7f89d6a6c9ccb9cf43ea0eb878c2",
+      "size": 5326,
+      "type": "file"
+    },
+    {
+      "path": "vdd/04-tools/06-cfs-commandline-tools.md",
+      "sha256": "03be8b7da3a1566db71547f8f711cff7999399d9bde760710a0c052a895de077",
+      "size": 5310,
+      "type": "file"
+    }
+  ],
+  "schema_version": 1
+}

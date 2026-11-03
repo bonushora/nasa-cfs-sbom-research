@@ -1,0 +1,8 @@
+timestamp_utc,channel,endpoint_or_query,result,response_digest,scope_note
+2026-11-03T20:42:50Z,shell_curl,https://services.nvd.nist.gov/rest/json/cves/2.0?cveId=CVE-2026-105164,DNS_FAILURE,NOT_AVAILABLE_NO_RESPONSE,Exact CVE query
+2026-11-03T20:42:50Z,shell_curl,https://api.osv.dev/v1/vulns/CVE-2026-105164,DNS_FAILURE,NOT_AVAILABLE_NO_RESPONSE,Exact CVE query
+2026-11-03T20:42:50Z,shell_curl,https://api.github.com/repos/nasa/cFS/issues/893,DNS_FAILURE,NOT_AVAILABLE_NO_RESPONSE,Exact NASA issue query
+2026-11-03T20:42:50Z,connected_web,site:nvd.nist.gov NASA cFS 7.0.1,AVAILABLE_METADATA,NOT_AVAILABLE_CHANNEL,Narrow NVD discovery
+2026-11-03T20:42:50Z,connected_web,https://nvd.nist.gov/vuln/detail/CVE-2026-105164,AVAILABLE_METADATA,NOT_AVAILABLE_CHANNEL,NVD affected-version and status readback
+2026-11-03T20:42:50Z,connected_web,https://github.com/nasa/cFS/issues/893,AVAILABLE_METADATA,NOT_AVAILABLE_CHANNEL,Referenced NASA issue
+2026-11-03T20:42:50Z,connected_web,https://github.com/nasa/cFS/issues/945,AVAILABLE_PAGE,NOT_AVAILABLE_CHANNEL,Open NASA issue and milestone readback
