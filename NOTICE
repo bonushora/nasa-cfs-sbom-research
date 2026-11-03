@@ -1,11 +1,13 @@
-NASA-CFS-SBOM-RESEARCH-v0.1
+NASA-CFS-SBOM-RESEARCH-v0.1.1
 
 This is an independent, experimental, unofficial source-level SBOM research
 package. It is not produced, endorsed, certified, or approved by NASA.
 
+This editorial update preserves the technical inventory of the original v0.1 research package at commit 1beb2f48fd0aea86bd817cc3829f0d35026445c2.
+
 Apache License 2.0 applies to covered original research material under the limited
 factual authority statement in RIGHTS_ATTESTATION.md. That statement does not
-claim human authorship line by line, exclusive ownership of AI-assisted output, or
+claim line-by-line human authorship, exclusive ownership of AI-assisted output, or
 authority over third-party material. Third-party and separately licensed material
 is identified in THIRD_PARTY_NOTICES.md.
 

@@ -1,8 +1,23 @@
 # Experimental NASA cFS v7.0.1 Source-Level SPDX SBOM
 
-This is an **independent, experimental, unofficial NASA cFS source-level SPDX
-SBOM**. It is not produced, endorsed, certified, or approved by NASA. The package
-does not represent a flight-qualified system or a binary/runtime SBOM.
+This repository contains an independent, experimental SPDX 2.3 inventory of the
+public NASA Core Flight System (cFS) `v7.0.1` source bundle. It is unofficial and
+is not produced, endorsed, certified, or approved by NASA. It is not a
+flight-qualification artifact or a binary/runtime SBOM.
+
+## Version and publication status
+
+The published `v0.1` package is available at
+<https://github.com/bonushora/nasa-cfs-sbom-research> and is anchored by the
+immutable Git commit:
+
+```text
+1beb2f48fd0aea86bd817cc3829f0d35026445c2
+```
+
+This v0.1.1 editorial update improves the English-language presentation and navigation while preserving the scientific inventory, scripts, schema, dependency pin, and license text from the original published v0.1 package.
+
+## What the inventory describes
 
 The inventory describes the public `nasa/cFS` `v7.0.1` source bundle at commit:
 
@@ -10,57 +25,80 @@ The inventory describes the public `nasa/cFS` `v7.0.1` source bundle at commit:
 088b2fa828db9ff7e00733f1908e0eeb59f66ce3
 ```
 
-It records the 25 Git submodule links physically verified from that Git tree and
-models them as `CONTAINS` relationships in an SPDX 2.3 JSON document.
+It records the 25 Git submodule links observed in that Git tree and represents
+them as `CONTAINS` relationships in an SPDX 2.3 JSON document. Each component is
+pinned to its full Git commit identifier. The inventory makes no inference that a
+component was selected for a build, linked into a binary, deployed, or loaded at
+runtime.
+
+## Documentation guide
+
+| Document | Purpose |
+|---|---|
+| [`METHODOLOGY.md`](METHODOLOGY.md) | Evidence model, SPDX representation, and coverage boundaries. |
+| [`REPRODUCING.md`](REPRODUCING.md) | Integrity, validation, deterministic regeneration, and optional physical-clone checks. |
+| [`ATTRIBUTIONS.md`](ATTRIBUTIONS.md) | Licensing and attribution review for included material. |
+| [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) | Upstream sources, licenses, and notices. |
+| [`RIGHTS_ATTESTATION.md`](RIGHTS_ATTESTATION.md) | Historical v0.1 factual authority statement by the responsible human. |
+| [`PUBLICATION-READINESS.md`](PUBLICATION-READINESS.md) | Historical v0.1 pre-publication qualification record. |
+
+The two historical v0.1 documents retain their original chronology. They are not statements of current publication status.
 
 ## Package contents
 
 - `sbom/cfs-v7.0.1.spdx.json` — experimental SPDX 2.3 inventory.
-- `data/cfs-v7.0.1-gitlinks.json` — controlled table of the 25 Git links.
+- `data/cfs-v7.0.1-gitlinks.json` — controlled table of 25 Git links.
+- `schemas/spdx-schema-v2.3.json` — included official SPDX 2.3 JSON Schema.
 - `scripts/generate_sbom.py` — deterministic SBOM generator.
-- `scripts/validate_sbom.py` — mission-specific structural checks.
-- `scripts/validate_spdx_schema.py` — official SPDX 2.3 JSON Schema validation.
-- `scripts/verify_inventory.py` — table/SBOM comparison and optional physical-clone check.
-- `scripts/check_package.py` — package manifest, symlink, path, and secret checks.
-- `REPRODUCING.md` — reproduction and validation instructions.
-- `METHODOLOGY.md` — evidence model and coverage boundaries.
-- `ATTRIBUTIONS.md` — licensing and attribution review.
-- `RIGHTS_ATTESTATION.md` — responsible human's factual authority statement.
-- `THIRD_PARTY_NOTICES.md` — upstream notices and license provenance.
-- `LICENSE` and `NOTICE` — Apache-2.0 framework and scope notice.
-- `PUBLICATION-READINESS.md` — pre-publication gate report.
-- `SHA256SUMS` — candidate file inventory and integrity manifest.
+- `scripts/validate_sbom.py` — project-specific structural checks.
+- `scripts/validate_spdx_schema.py` — official-schema validation.
+- `scripts/verify_inventory.py` — table/SBOM comparison and optional clone check.
+- `scripts/check_package.py` — manifest, symlink, path, and secret checks.
+- `SHA256SUMS` — non-self-referential package integrity manifest.
 
 ## Quick verification
 
-Python 3.10 or newer is recommended.
+Python 3.10 or newer is recommended. From a package directory that does not
+contain Git administrative metadata:
 
 ```bash
 python3 -m pip install -r requirements.txt
-python3 scripts/generate_sbom.py
+sha256sum -c SHA256SUMS
 python3 scripts/validate_sbom.py
 python3 scripts/validate_spdx_schema.py
 python3 scripts/verify_inventory.py
 python3 scripts/check_package.py
 ```
 
-See `REPRODUCING.md` for independent verification against a separate cFS clone.
+See [`REPRODUCING.md`](REPRODUCING.md) for deterministic regeneration, guidance
+for validating a Git clone through a clean export, and optional verification
+against an independent cFS clone.
 
-## Important limitations
+## Coverage boundaries
 
-- `filesAnalyzed` is `false`; individual source files were not inventoried.
-- No build, binary, container image, toolchain, operating-system package, dynamic
-  module, or runtime was observed.
-- A Git submodule relationship does not prove inclusion in a selected build or
-  binary.
+- `filesAnalyzed` is `false`; individual source files are not inventoried.
+- No build, binary, container image, toolchain, operating-system package,
+  generated input, dynamic module, or runtime behavior was observed.
+- A Git submodule relationship does not demonstrate inclusion in a selected
+  build or executable.
 - Component licenses remain `NOASSERTION` unless independently established.
+- The work does not establish NASA approval, deployment authorization, or flight
+  readiness.
 
-## Publication status
+## Citation guidance
 
-This directory is a local review candidate. Publication is not authorized.
-The responsible human has registered a factual licensing-authority attestation for
-the covered original and AI-assisted research materials. Apache-2.0 applies only
-to covered original material; upstream materials retain their respective terms.
-The local readiness assessment passes, but a separate human publication decision
-is still required. See `RIGHTS_ATTESTATION.md`, `NOTICE`,
-`THIRD_PARTY_NOTICES.md`, and `PUBLICATION-READINESS.md`.
+For reproducible reference to the published research, cite the repository URL,
+the published version (`v0.1`), the research commit
+`1beb2f48fd0aea86bd817cc3829f0d35026445c2`, and the NASA cFS baseline
+`088b2fa828db9ff7e00733f1908e0eeb59f66ce3`. Cite the SPDX document separately
+when the inventory itself is the object of analysis.
+
+For the v0.1.1 editorial update, cite the specific Git commit containing the documentation being referenced.
+
+## Licensing and attribution
+
+Apache License 2.0 applies only to covered original research material for which
+the necessary authority exists. Upstream and separately licensed materials retain
+their own terms. See [`NOTICE`](NOTICE), [`ATTRIBUTIONS.md`](ATTRIBUTIONS.md),
+[`RIGHTS_ATTESTATION.md`](RIGHTS_ATTESTATION.md), and
+[`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).
