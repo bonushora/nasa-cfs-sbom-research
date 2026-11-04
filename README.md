@@ -1,5 +1,8 @@
 # Experimental NASA cFS v7.0.1 Source-Level SPDX SBOM
 
+**Languages:** English (scientific reference) | [Português brasileiro — complementary translation](README.pt-BR.md).
+**Research v0.2:** [supplemental results, methodology and limitations](research/v0.2/README.md). The v0.1/v0.1.1 material below is preserved as historical documentation.
+
 This repository contains an independent, experimental SPDX 2.3 inventory of the
 public NASA Core Flight System (cFS) `v7.0.1` source bundle. It is unofficial and
 is not produced, endorsed, certified, or approved by NASA. It is not a
