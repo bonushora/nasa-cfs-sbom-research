@@ -1,0 +1,54 @@
+cff-version: 1.2.0
+message: >-
+  If you use this independent research artifact, cite this exact version and
+  commit, and identify the NASA cFS upstream baseline separately.
+type: software
+title: >-
+  Experimental NASA cFS v7.0.1 Source-Level SPDX SBOM Inventory with VDD
+  Reconciliation and External Discussion Provenance
+version: "0.2"
+date-released: "2026-11-04"
+authors:
+  - family-names: Rangel
+    given-names: Thales
+    orcid: "https://orcid.org/0000-0002-0629-9731"
+    affiliation: Independent Researcher
+commit: "c7981ea2fd501b3e1fb6d0f856e85c1274894e06"
+repository-code: "https://github.com/bonushora/nasa-cfs-sbom-research"
+url: "https://github.com/bonushora/nasa-cfs-sbom-research/tree/c7981ea2fd501b3e1fb6d0f856e85c1274894e06"
+identifiers:
+  - type: other
+    value: "c7981ea2fd501b3e1fb6d0f856e85c1274894e06"
+    description: Exact Git commit for this version of the research artifact
+  - type: other
+    value: "088b2fa828db9ff7e00733f1908e0eeb59f66ce3"
+    description: Distinct upstream NASA cFS v7.0.1 source baseline studied
+license: Apache-2.0
+abstract: >-
+  Independent experimental research representing the public NASA core Flight
+  System (cFS) v7.0.1 source bundle and its 25 pinned Git-linked components as
+  an SPDX 2.3 source-level inventory. Version 0.2 adds reconciliation against
+  the official cFS Version Description Document package, a bounded Git-tree
+  inventory, conservative dependency and license evidence, vulnerability
+  research status, standards mapping, and external-discussion provenance. The
+  reported VDD crosswalk found exact full-length Git revision agreement for 25
+  of 25 components. The artifact does not build cFS and is not a build, binary,
+  deployment, or runtime SBOM. Apache-2.0 applies only to covered original
+  research material; SPDX data and third-party materials retain their
+  separately documented terms. This is independent research and was not
+  produced, sponsored, endorsed, certified, approved, or validated by NASA.
+keywords:
+  - software bill of materials
+  - SBOM
+  - SPDX 2.3
+  - NASA cFS
+  - core Flight System
+  - source-level inventory
+  - Version Description Document
+  - VDD reconciliation
+  - software supply chain
+  - Git provenance
+  - reproducible research
+  - license evidence
+  - dependency evidence
+  - aerospace software
