@@ -1,0 +1,149 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "name": "NASA-cFS-v7.0.1-R4-link-observations",
+  "documentNamespace": "https://bonushora.invalid/spdx/nasa-cfs-sbom-expansion-v02/r4/link/088b2fa828db9ff7e00733f1908e0eeb59f66ce3",
+  "creationInfo": {
+    "created": "2026-11-11T00:00:00Z",
+    "creators": [
+      "Tool: bonushora-r4-physical-sbom-generator/1.0"
+    ]
+  },
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Build-native-std-link-commands",
+      "name": "native_std link command set",
+      "versionInfo": "088b2fa828db9ff7e00733f1908e0eeb59f66ce3",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "R4Status=LINK_OBSERVED; 651 link.txt files physically reconciled."
+    },
+    {
+      "SPDXID": "SPDXRef-LinkFlag-dl",
+      "name": "link flag -ldl",
+      "versionInfo": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "R4Status=LINK_OBSERVED; occurrences=398; observation does not itself establish DT_NEEDED."
+    },
+    {
+      "SPDXID": "SPDXRef-LinkFlag-gcov",
+      "name": "link flag -lgcov",
+      "versionInfo": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "R4Status=LINK_OBSERVED; occurrences=304; observation does not itself establish DT_NEEDED."
+    },
+    {
+      "SPDXID": "SPDXRef-LinkFlag-pthread",
+      "name": "link flag -lpthread",
+      "versionInfo": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "R4Status=LINK_OBSERVED; occurrences=398; observation does not itself establish DT_NEEDED."
+    },
+    {
+      "SPDXID": "SPDXRef-LinkFlag-rt",
+      "name": "link flag -lrt",
+      "versionInfo": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "R4Status=LINK_OBSERVED; occurrences=398; observation does not itself establish DT_NEEDED."
+    },
+    {
+      "SPDXID": "SPDXRef-LinkNotObserved-m",
+      "name": "m",
+      "versionInfo": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "R4Status=NOT_SELECTED_OR_NOT_OBSERVED in native_std link command evidence."
+    },
+    {
+      "SPDXID": "SPDXRef-LinkNotObserved-Expat",
+      "name": "Expat",
+      "versionInfo": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "R4Status=NOT_SELECTED_OR_NOT_OBSERVED in native_std link command evidence."
+    },
+    {
+      "SPDXID": "SPDXRef-LinkNotObserved-Lua",
+      "name": "Lua",
+      "versionInfo": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "R4Status=NOT_SELECTED_OR_NOT_OBSERVED in native_std link command evidence."
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Build-native-std-link-commands"
+    },
+    {
+      "spdxElementId": "SPDXRef-Build-native-std-link-commands",
+      "relationshipType": "OTHER",
+      "relatedSpdxElement": "SPDXRef-LinkFlag-dl",
+      "comment": "LINK_OBSERVED -ldl in 398 commands"
+    },
+    {
+      "spdxElementId": "SPDXRef-Build-native-std-link-commands",
+      "relationshipType": "OTHER",
+      "relatedSpdxElement": "SPDXRef-LinkFlag-gcov",
+      "comment": "LINK_OBSERVED -lgcov in 304 commands"
+    },
+    {
+      "spdxElementId": "SPDXRef-Build-native-std-link-commands",
+      "relationshipType": "OTHER",
+      "relatedSpdxElement": "SPDXRef-LinkFlag-pthread",
+      "comment": "LINK_OBSERVED -lpthread in 398 commands"
+    },
+    {
+      "spdxElementId": "SPDXRef-Build-native-std-link-commands",
+      "relationshipType": "OTHER",
+      "relatedSpdxElement": "SPDXRef-LinkFlag-rt",
+      "comment": "LINK_OBSERVED -lrt in 398 commands"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-LinkNotObserved-m"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-LinkNotObserved-Expat"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-LinkNotObserved-Lua"
+    }
+  ]
+}

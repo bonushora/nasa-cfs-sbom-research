@@ -1,0 +1,98 @@
+{
+  "baseline_commit": "088b2fa828db9ff7e00733f1908e0eeb59f66ce3",
+  "tests": [
+    {
+      "label": "cpu1-shared-sockets",
+      "status": "PASS_RECONCILED",
+      "binary_sha256": "fd1ae674d7d8702bf043b3b808188c0114fa0191af11df7e521efc981b9c2779",
+      "binary_original_path": "workspaces/R4/native_std/build/native/default_cpu1/osal/unit-test-coverage/shared/coverage-shared-sockets-testrunner",
+      "assertions": 117,
+      "segments": 16,
+      "exit_code": 0,
+      "summary_path": "evidence/cpu1-shared-sockets/utassert-summary.txt",
+      "gcda_sha256": "c5d345c195a3110f46a9ac0b53134f5ae8867ed06a4aa2d25a726491b7f08cb8",
+      "gcno_sha256": "f22d4ff42e8832e056e86c4526350aba5fa678aef952d5430bccbe8c76209514",
+      "gcov_header_pair": {
+        "gcda": "616463672a343142314d67c7",
+        "gcno": "6f6e63672a343142314d67c7"
+      },
+      "source_unit": "workspaces/R4/native_std/source/osal/src/os/shared/src/osapi-sockets.c",
+      "source_sha256": "a109dadccfe2a1874695526451683cc2426ac6973f75b54682fd7c47db574b28",
+      "trace_policy_prohibited_attempts": 0,
+      "trace_original_hashes": [
+        "2013fbf8718d2a927cac98ff63820a8be821e32dad8485ad831291bfaf263784"
+      ]
+    },
+    {
+      "label": "cpu1-vxworks-loader",
+      "status": "PASS",
+      "binary_sha256": "0a593021687541ff61ab1969a8d191e59646c43b76bd72c8556bf494f0731c43",
+      "binary_original_path": "workspaces/R4/native_std/build/native/default_cpu1/osal/unit-test-coverage/vxworks/coverage-vxworks-loader-testrunner",
+      "assertions": 10,
+      "segments": 4,
+      "exit_code": 0,
+      "summary_path": "evidence/cpu1-vxworks-loader/utassert-summary.txt",
+      "gcda_sha256": "67ca66b9dcafc2550a76b47bf99df66c71a6ff53ba444ad1591cf7079bd5a0ac",
+      "gcno_sha256": "79dd8ad5a97482e98b24017759259385d5d3d3534a8ce2bedd19e6e6b33c2b3c",
+      "gcov_header_pair": {
+        "gcda": "616463672a343142754867c7",
+        "gcno": "6f6e63672a343142754867c7"
+      },
+      "source_unit": "workspaces/R4/native_std/source/osal/src/os/vxworks/src/os-impl-loader.c",
+      "source_sha256": "e8ff62cc609b8082ac1fc7bbd1c47237a410f479f48723a7b1e6178f3a62789a",
+      "trace_policy_prohibited_attempts": 0,
+      "trace_original_hashes": [
+        "32719c021f8c08b94aeb5a8b49c444a2fbd0606369aecc4d28b79d1d2a6fd7f5"
+      ]
+    },
+    {
+      "label": "cpu2-shared-sockets",
+      "status": "PASS",
+      "binary_sha256": "66824990facc83ea5b877b70b2157fb9926fe2063f8075acfcc20ac8e4c2488e",
+      "binary_original_path": "workspaces/R4/native_std/build/native/default_cpu2/osal/unit-test-coverage/shared/coverage-shared-sockets-testrunner",
+      "assertions": 117,
+      "segments": 16,
+      "exit_code": 0,
+      "summary_path": "evidence/cpu2-shared-sockets/utassert-summary.txt",
+      "gcda_sha256": "98acab3ae52081cb4bc5a2b0219295bb651a5d3a33905b7555cfac3244612609",
+      "gcno_sha256": "c7165529d7b9e7c6bb5f377c003fcdeb1a0255a02a1315dc797c7f703dfce961",
+      "gcov_header_pair": {
+        "gcda": "616463672a343142a04c67c7",
+        "gcno": "6f6e63672a343142a04c67c7"
+      },
+      "source_unit": "workspaces/R4/native_std/source/osal/src/os/shared/src/osapi-sockets.c",
+      "source_sha256": "a109dadccfe2a1874695526451683cc2426ac6973f75b54682fd7c47db574b28",
+      "trace_policy_prohibited_attempts": 0,
+      "trace_original_hashes": [
+        "56da02d30a6ae50ce1862f39fd4ed39f54b468f445b742a078344c66ae9e76a2"
+      ]
+    },
+    {
+      "label": "cpu2-vxworks-loader",
+      "status": "PASS",
+      "binary_sha256": "d61911ee9f5b1fbafca3842ddc81becaa7f2e28c0ce89557427f5e8c12f29dcb",
+      "binary_original_path": "workspaces/R4/native_std/build/native/default_cpu2/osal/unit-test-coverage/vxworks/coverage-vxworks-loader-testrunner",
+      "assertions": 10,
+      "segments": 4,
+      "exit_code": 0,
+      "summary_path": "evidence/cpu2-vxworks-loader/utassert-summary.txt",
+      "gcda_sha256": "13517e7962e5fef3043fb709a11b8d62386969cc481fe87b6b4c17705f0944a3",
+      "gcno_sha256": "e04efe1b6d449df97c310c7231596e9a4dc596b289649ce056cbafa17eae3038",
+      "gcov_header_pair": {
+        "gcda": "616463672a343142bf4767c7",
+        "gcno": "6f6e63672a343142bf4767c7"
+      },
+      "source_unit": "workspaces/R4/native_std/source/osal/src/os/vxworks/src/os-impl-loader.c",
+      "source_sha256": "e8ff62cc609b8082ac1fc7bbd1c47237a410f479f48723a7b1e6178f3a62789a",
+      "trace_policy_prohibited_attempts": 0,
+      "trace_original_hashes": [
+        "e21877beaee1623f55b9aee9f42b1a07e27dfc3a67dc6ee6746f275a06f21c23"
+      ]
+    }
+  ],
+  "assertions": 254,
+  "segments": 40,
+  "qualified_tests": 4,
+  "historical_status": "BLOCKED_PRESERVED",
+  "resume_status": "PASS"
+}

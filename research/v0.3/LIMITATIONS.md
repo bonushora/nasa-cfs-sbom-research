@@ -1,0 +1,3 @@
+# Limitations
+
+Four of 396 CTest registrations qualified; 392 others remain outside this pilot. No operational network or VxWorks hardware validation, coverage percentage, complete effect absence proof, or flight qualification. Native EDS is blocked by Lua dependencies; GLOBAL_GREEN remains BLOCKED. The six distributed SPDX documents are complete original documents; selected runtime excerpts do not independently authenticate undistributed binaries or raw evidence. SHA-256 manifests are not digital signatures. The scoped human rights attestation and limited automated disclosure review are recorded separately; neither is an unrestricted legal guarantee.

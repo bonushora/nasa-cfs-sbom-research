@@ -1,0 +1,155 @@
+{
+  "type": "supplement_not_spdx",
+  "documents": [
+    {
+      "path": "sbom/R4/build-toolchain.spdx.json",
+      "sha256": "e8de470f27665857d422f2e649c3f2c28094fda48ee52d52ad00a9425b046b70",
+      "name": "NASA-cFS-v7.0.1-R4-build-toolchain",
+      "documentNamespace": "https://bonushora.invalid/spdx/nasa-cfs-sbom-expansion-v02/r4/build/088b2fa828db9ff7e00733f1908e0eeb59f66ce3",
+      "SPDXID": "SPDXRef-DOCUMENT",
+      "spdxVersion": "SPDX-2.3",
+      "packages": 9,
+      "files": 0,
+      "relationships": 9,
+      "public_path": "spdx/build-toolchain.spdx.json",
+      "distribution": "ORIGINAL_BYTES",
+      "public_sha256": "e8de470f27665857d422f2e649c3f2c28094fda48ee52d52ad00a9425b046b70"
+    },
+    {
+      "path": "sbom/R4/compiled-artifacts.spdx.json",
+      "sha256": "2849d60a09aa360a97e35279a48fe2686883ed62218263f6d51a5aef8186bfd3",
+      "name": "NASA-cFS-v7.0.1-R4-compiled-artifacts",
+      "documentNamespace": "https://bonushora.invalid/spdx/nasa-cfs-sbom-expansion-v02/r4/artifacts/088b2fa828db9ff7e00733f1908e0eeb59f66ce3",
+      "SPDXID": "SPDXRef-DOCUMENT",
+      "spdxVersion": "SPDX-2.3",
+      "packages": 2,
+      "files": 546,
+      "relationships": 548,
+      "public_path": "spdx/compiled-artifacts.spdx.json",
+      "distribution": "ORIGINAL_BYTES",
+      "public_sha256": "2849d60a09aa360a97e35279a48fe2686883ed62218263f6d51a5aef8186bfd3"
+    },
+    {
+      "path": "sbom/R4/conditional-components.spdx.json",
+      "sha256": "09943a659734be8a9d13c0bdc4ada79430c5683d3913718299418b314b41cc09",
+      "name": "NASA-cFS-v7.0.1-R4-conditional-components",
+      "documentNamespace": "https://bonushora.invalid/spdx/nasa-cfs-sbom-expansion-v02/r4/conditional/088b2fa828db9ff7e00733f1908e0eeb59f66ce3",
+      "SPDXID": "SPDXRef-DOCUMENT",
+      "spdxVersion": "SPDX-2.3",
+      "packages": 8,
+      "files": 0,
+      "relationships": 8,
+      "public_path": "spdx/conditional-components.spdx.json",
+      "distribution": "ORIGINAL_BYTES",
+      "public_sha256": "09943a659734be8a9d13c0bdc4ada79430c5683d3913718299418b314b41cc09"
+    },
+    {
+      "path": "sbom/R4/dynamic-dependencies.spdx.json",
+      "sha256": "42d26fe1ec665c4cf1accca589796ab7263aa99e78a868e08736c86e9640c17b",
+      "name": "NASA-cFS-v7.0.1-R4-dynamic-dependencies",
+      "documentNamespace": "https://bonushora.invalid/spdx/nasa-cfs-sbom-expansion-v02/r4/dynamic/088b2fa828db9ff7e00733f1908e0eeb59f66ce3",
+      "SPDXID": "SPDXRef-DOCUMENT",
+      "spdxVersion": "SPDX-2.3",
+      "packages": 2,
+      "files": 474,
+      "relationships": 908,
+      "public_path": "spdx/dynamic-dependencies.spdx.json",
+      "distribution": "ORIGINAL_BYTES",
+      "public_sha256": "42d26fe1ec665c4cf1accca589796ab7263aa99e78a868e08736c86e9640c17b"
+    },
+    {
+      "path": "sbom/R4/link-commands.spdx.json",
+      "sha256": "e7f5131aa20e12bb49c73f46c11c356c97d92ff15e1d391070d4f6e4aea34a20",
+      "name": "NASA-cFS-v7.0.1-R4-link-observations",
+      "documentNamespace": "https://bonushora.invalid/spdx/nasa-cfs-sbom-expansion-v02/r4/link/088b2fa828db9ff7e00733f1908e0eeb59f66ce3",
+      "SPDXID": "SPDXRef-DOCUMENT",
+      "spdxVersion": "SPDX-2.3",
+      "packages": 8,
+      "files": 0,
+      "relationships": 8,
+      "public_path": "spdx/link-commands.spdx.json",
+      "distribution": "ORIGINAL_BYTES",
+      "public_sha256": "e7f5131aa20e12bb49c73f46c11c356c97d92ff15e1d391070d4f6e4aea34a20"
+    },
+    {
+      "path": "sbom/R4/source-composition.spdx.json",
+      "sha256": "5beec2c2d052836e4d86c8fd28c3983acfc9218f8da4d446c78701adb7b98ff7",
+      "name": "NASA-cFS-v7.0.1-R4-source-composition",
+      "documentNamespace": "https://bonushora.invalid/spdx/nasa-cfs-sbom-expansion-v02/r4/source/088b2fa828db9ff7e00733f1908e0eeb59f66ce3",
+      "SPDXID": "SPDXRef-DOCUMENT",
+      "spdxVersion": "SPDX-2.3",
+      "packages": 26,
+      "files": 0,
+      "relationships": 26,
+      "public_path": "spdx/source-composition.spdx.json",
+      "distribution": "ORIGINAL_BYTES",
+      "public_sha256": "5beec2c2d052836e4d86c8fd28c3983acfc9218f8da4d446c78701adb7b98ff7"
+    }
+  ],
+  "test_links": [
+    {
+      "test": "cpu1-shared-sockets",
+      "binary_sha256": "fd1ae674d7d8702bf043b3b808188c0114fa0191af11df7e521efc981b9c2779",
+      "matches": [
+        {
+          "documentNamespace": "https://bonushora.invalid/spdx/nasa-cfs-sbom-expansion-v02/r4/artifacts/088b2fa828db9ff7e00733f1908e0eeb59f66ce3",
+          "SPDXID": "SPDXRef-File-113c1acd1742ff4ce0537b76",
+          "record_type": "files"
+        },
+        {
+          "documentNamespace": "https://bonushora.invalid/spdx/nasa-cfs-sbom-expansion-v02/r4/dynamic/088b2fa828db9ff7e00733f1908e0eeb59f66ce3",
+          "SPDXID": "SPDXRef-File-113c1acd1742ff4ce0537b76",
+          "record_type": "files"
+        }
+      ]
+    },
+    {
+      "test": "cpu1-vxworks-loader",
+      "binary_sha256": "0a593021687541ff61ab1969a8d191e59646c43b76bd72c8556bf494f0731c43",
+      "matches": [
+        {
+          "documentNamespace": "https://bonushora.invalid/spdx/nasa-cfs-sbom-expansion-v02/r4/artifacts/088b2fa828db9ff7e00733f1908e0eeb59f66ce3",
+          "SPDXID": "SPDXRef-File-ceca68e7b3069475b48853ee",
+          "record_type": "files"
+        },
+        {
+          "documentNamespace": "https://bonushora.invalid/spdx/nasa-cfs-sbom-expansion-v02/r4/dynamic/088b2fa828db9ff7e00733f1908e0eeb59f66ce3",
+          "SPDXID": "SPDXRef-File-ceca68e7b3069475b48853ee",
+          "record_type": "files"
+        }
+      ]
+    },
+    {
+      "test": "cpu2-shared-sockets",
+      "binary_sha256": "66824990facc83ea5b877b70b2157fb9926fe2063f8075acfcc20ac8e4c2488e",
+      "matches": [
+        {
+          "documentNamespace": "https://bonushora.invalid/spdx/nasa-cfs-sbom-expansion-v02/r4/artifacts/088b2fa828db9ff7e00733f1908e0eeb59f66ce3",
+          "SPDXID": "SPDXRef-File-77d8cec127c30b56ae7b537c",
+          "record_type": "files"
+        },
+        {
+          "documentNamespace": "https://bonushora.invalid/spdx/nasa-cfs-sbom-expansion-v02/r4/dynamic/088b2fa828db9ff7e00733f1908e0eeb59f66ce3",
+          "SPDXID": "SPDXRef-File-77d8cec127c30b56ae7b537c",
+          "record_type": "files"
+        }
+      ]
+    },
+    {
+      "test": "cpu2-vxworks-loader",
+      "binary_sha256": "d61911ee9f5b1fbafca3842ddc81becaa7f2e28c0ce89557427f5e8c12f29dcb",
+      "matches": [
+        {
+          "documentNamespace": "https://bonushora.invalid/spdx/nasa-cfs-sbom-expansion-v02/r4/artifacts/088b2fa828db9ff7e00733f1908e0eeb59f66ce3",
+          "SPDXID": "SPDXRef-File-8a3ecc123c0f794784114d1f",
+          "record_type": "files"
+        },
+        {
+          "documentNamespace": "https://bonushora.invalid/spdx/nasa-cfs-sbom-expansion-v02/r4/dynamic/088b2fa828db9ff7e00733f1908e0eeb59f66ce3",
+          "SPDXID": "SPDXRef-File-8a3ecc123c0f794784114d1f",
+          "record_type": "files"
+        }
+      ]
+    }
+  ]
+}

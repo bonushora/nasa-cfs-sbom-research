@@ -1,0 +1,145 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "name": "NASA-cFS-v7.0.1-R4-conditional-components",
+  "documentNamespace": "https://bonushora.invalid/spdx/nasa-cfs-sbom-expansion-v02/r4/conditional/088b2fa828db9ff7e00733f1908e0eeb59f66ce3",
+  "creationInfo": {
+    "created": "2026-11-11T00:00:00Z",
+    "creators": [
+      "Tool: bonushora-r4-physical-sbom-generator/1.0"
+    ]
+  },
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Conditional-native-eds",
+      "name": "native_eds build lane",
+      "versionInfo": "088b2fa828db9ff7e00733f1908e0eeb59f66ce3",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "R4Status=BLOCKED; no configure/build/artifacts."
+    },
+    {
+      "SPDXID": "SPDXRef-Conditional-LuaRuntime",
+      "name": "Lua runtime",
+      "versionInfo": "5.3.6",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "R4Status=AVAILABLE_RUNTIME_ONLY; NOT_SELECTED; does not satisfy development requirement."
+    },
+    {
+      "SPDXID": "SPDXRef-Conditional-LuaDev",
+      "name": "liblua5.3-dev",
+      "versionInfo": "5.3.6-1build1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "R4Status=BLOCKED; official APT candidate identified but download unavailable and package not installed."
+    },
+    {
+      "SPDXID": "SPDXRef-Conditional-clang14",
+      "name": "clang-format-14 APT candidate",
+      "versionInfo": "1:14.0.0-1ubuntu1.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "R4Status=NOT_SELECTED; download unavailable; local clang-format 20.1.8 qualified instead."
+    },
+    {
+      "SPDXID": "SPDXRef-Conditional-jsonc",
+      "name": "json-c development binding",
+      "versionInfo": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "R4Status=NOT_SELECTED; optional EdsLib binding."
+    },
+    {
+      "SPDXID": "SPDXRef-Conditional-NasaOsal",
+      "name": "NasaOsal external package",
+      "versionInfo": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "R4Status=NOT_SELECTED; conditional standalone EdsLib test dependency."
+    },
+    {
+      "SPDXID": "SPDXRef-Conditional-Expat",
+      "name": "Expat",
+      "versionInfo": "2.4.7",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "R4Status=READY_NOT_SELECTED; required by blocked sedstool lane."
+    },
+    {
+      "SPDXID": "SPDXRef-Conditional-Python",
+      "name": "Python development",
+      "versionInfo": "3.10",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "R4Status=READY_NOT_SELECTED; native_eds lane blocked before configure."
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Conditional-native-eds"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Conditional-LuaRuntime"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Conditional-LuaDev"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Conditional-clang14"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Conditional-jsonc"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Conditional-NasaOsal"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Conditional-Expat"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Conditional-Python"
+    }
+  ]
+}

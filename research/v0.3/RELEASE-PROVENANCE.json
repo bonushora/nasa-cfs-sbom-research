@@ -1,0 +1,52 @@
+{
+  "mission": "NASA-CFS-SBOM-R5A-RELEASE-QUALIFICATION-v0.1",
+  "approval_date": "2026-11-12",
+  "input_manifest_sha256": "1d7aa471bfd9781be644718041645b34c3e050eeedc8f4b99f917753c814cb02",
+  "consolidation_manifest_sha256": "7b03476395aa059d3761b2d81fe11107dcfab9507d8837964508cb4d2c39eac6",
+  "publication_base_commit": "d659af1fda004ac2c5f47208a055aecfc1d8882e",
+  "status": "LOCAL_RELEASE_QUALIFICATION",
+  "modified_paths": [
+    "CITATION.cff",
+    "LIMITATIONS.md",
+    "PUBLICATION-DELTA.md",
+    "PUBLICATION-PLAN.md",
+    "README.md",
+    "README.pt-BR.md",
+    "REDACTION-REPORT.json",
+    "RESEARCH-STATEMENT.md"
+  ],
+  "added_paths": [
+    "RIGHTS_ATTESTATION.md",
+    "RELEASE-PROVENANCE.json",
+    "provenance/mt24.SHA256SUMS"
+  ],
+  "original_payload_hashes": {
+    "CITATION.cff": "2692463b8eccad713b3c6432cebb5e99c9e6d7d59cb427ea9bb240f105ed0ee3",
+    "LIMITATIONS.md": "aa351f67c2523e5ee487a8dfb369df2a02ee037173395b0421744c8f58ca3436",
+    "ORIGINAL-ANCHORS.json": "7c078cdb4cc31b5f1405d431436c6e6003f522424bbff62095fcc21716b67459",
+    "PUBLICATION-DELTA.md": "9cfc52b2bf12408af5d843cc021fd3339eb3d5403201a45a4bfca063efcc60a2",
+    "PUBLICATION-PLAN.md": "28090ecb3a1e72b79ee7b7d0e65bc5346df60be03024a7676d206ab030896b09",
+    "README.md": "c2205b4c6efda1b96c13a4412ea3775f50624ebff28d03ed7604b19171f2a10c",
+    "README.pt-BR.md": "f7f8f5d36221e21a5f790258c76ed8095344ecb8f34fcb5acfae8f93f2765f33",
+    "REDACTION-REPORT.json": "f7a6681ea55ef5cac342ffecb11eaf5e75c29666635a13ff54a7aaa408c1cd95",
+    "REPRODUCIBILITY.md": "1cc5a11402fde7fce4e74ada004debb41d3b8bc147058ba73df8c1e6f752c1e2",
+    "RESEARCH-STATEMENT.md": "dab3b4566864d4f071821f488f890ec3b977c590a687406a467cc0e5aa29b2c8",
+    "RUNTIME-EVIDENCE-SUPPLEMENT.md": "e2025a3d5ba7d1f86d5356bb247ff2c93b98e28f84dea54fd65517e7f7d296f6",
+    "SBOM-LINKAGE.public.json": "bb184f705189d18af9839e282c366e10728696b1056fcb3ea075f4d501bd9e78",
+    "evidence/cpu1-shared-sockets/utassert-summary.txt": "8490a82e8d7846ca5c40b4556ba83feec759939e02087ddf78eaeb7771b6428b",
+    "evidence/cpu1-vxworks-loader/utassert-summary.txt": "15391ebdec9d553aab499e231190133a8373078d4a2ee1e710992725ef5e4f8f",
+    "evidence/cpu2-shared-sockets/utassert-summary.txt": "8490a82e8d7846ca5c40b4556ba83feec759939e02087ddf78eaeb7771b6428b",
+    "evidence/cpu2-vxworks-loader/utassert-summary.txt": "15391ebdec9d553aab499e231190133a8373078d4a2ee1e710992725ef5e4f8f",
+    "provenance/original-consolidation.SHA256SUMS": "7b03476395aa059d3761b2d81fe11107dcfab9507d8837964508cb4d2c39eac6",
+    "runtime-evidence.public.json": "d84e57f035cd94efd402ee2a24cb92962b3b7ab603aee607b01e0fdd86913629",
+    "spdx/build-toolchain.spdx.json": "e8de470f27665857d422f2e649c3f2c28094fda48ee52d52ad00a9425b046b70",
+    "spdx/compiled-artifacts.spdx.json": "2849d60a09aa360a97e35279a48fe2686883ed62218263f6d51a5aef8186bfd3",
+    "spdx/conditional-components.spdx.json": "09943a659734be8a9d13c0bdc4ada79430c5683d3913718299418b314b41cc09",
+    "spdx/dynamic-dependencies.spdx.json": "42d26fe1ec665c4cf1accca589796ab7263aa99e78a868e08736c86e9640c17b",
+    "spdx/link-commands.spdx.json": "e7f5131aa20e12bb49c73f46c11c356c97d92ff15e1d391070d4f6e4aea34a20",
+    "spdx/source-composition.spdx.json": "5beec2c2d052836e4d86c8fd28c3983acfc9218f8da4d446c78701adb7b98ff7",
+    "verify_public_package.py": "73dc6f4ba90368dfb7450e7fa4b2e3f07297d9e33de84a499f3682eecb582f9f"
+  },
+  "publication_authority": "NOT_GRANTED",
+  "global_green": "BLOCKED"
+}

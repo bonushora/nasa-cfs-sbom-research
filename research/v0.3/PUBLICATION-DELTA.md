@@ -1,0 +1,3 @@
+# Publication delta
+
+Historical R8 `321091a9a97f6a2aa392ea9957fe4ed9f84143d7`: 25/25 VDD revision matches, 4,341 bounded tree entries, 316 dependency declaration rows, 28 license evidence rows; no build or runtime completeness claim. Three later documentary commits add external discussion provenance, citation metadata and Brazilian Portuguese documentation. All 29 original v0.2 paths and the original SBOM remain unchanged; publication base `d659af1fda004ac2c5f47208a055aecfc1d8882e`. Version 0.3 adds R4 build perspectives and the R5-A four-test runtime supplement. No historical files are replaced. The external VDD note is a documentary reference, not NASA validation.

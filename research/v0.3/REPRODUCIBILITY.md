@@ -1,0 +1,3 @@
+# Reproducibility
+
+Run `python3 -B verify_public_package.py` from this directory. Verify the package manifest, compare the selected test counters with the public summary excerpts, and match each SHA-256 and SPDXID against its document or explicitly marked excerpt. Original binaries, full traces and GCOV files are not distributed: the public package cannot independently prove their byte identity or repeat the experiment. Original hashes anchor local evidence; GCOV header excerpts illustrate pairing, not coverage percentages. Independent rebuild/reexecution requires the pinned upstream source, toolchain and controlled environment; no claim of deterministic binary reproduction is made.

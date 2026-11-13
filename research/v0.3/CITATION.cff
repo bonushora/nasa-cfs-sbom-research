@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Cite version 0.3, the exact publication commit when available, and the distinct upstream cFS baseline."
+title: "NASA cFS SBOM Enrichment: Artifact Identity and Runtime Evidence Qualification"
+version: "0.3"
+type: software
+authors:
+  - family-names: Rangel
+    given-names: Thales
+    orcid: "https://orcid.org/0000-0002-0629-9731"
+    affiliation: Independent Researcher
+repository-code: "https://github.com/bonushora/nasa-cfs-sbom-research"

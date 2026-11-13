@@ -1,0 +1,36 @@
+[  END] No test cases
+[ INFO]                        ABORT::0     WARN::0     FLOW::0     DEBUG::0     N/A::0   
+[  END] 01 OS_SocketAPI_Init    TOTAL::1     PASS::1     FAIL::0     MIR::0     TSF::0     TTF::0   
+[ INFO]                        ABORT::0     WARN::0     FLOW::0     DEBUG::0     N/A::0   
+[  END] 02 OS_SocketAddr        TOTAL::15    PASS::15    FAIL::0     MIR::0     TSF::0     TTF::0   
+[ INFO]                        ABORT::0     WARN::0     FLOW::0     DEBUG::0     N/A::0   
+[  END] 03 OS_SocketOpen        TOTAL::4     PASS::4     FAIL::0     MIR::0     TSF::0     TTF::0   
+[ INFO]                        ABORT::0     WARN::0     FLOW::0     DEBUG::0     N/A::0   
+[  END] 04 OS_SocketBind        TOTAL::4     PASS::4     FAIL::0     MIR::0     TSF::0     TTF::0   
+[ INFO]                        ABORT::0     WARN::0     FLOW::0     DEBUG::0     N/A::0   
+[  END] 05 OS_SocketBindAddress TOTAL::8     PASS::8     FAIL::0     MIR::0     TSF::0     TTF::0   
+[ INFO]                        ABORT::0     WARN::0     FLOW::0     DEBUG::0     N/A::0   
+[  END] 06 OS_SocketListen      TOTAL::10    PASS::10    FAIL::0     MIR::0     TSF::0     TTF::0   
+[ INFO]                        ABORT::0     WARN::0     FLOW::0     DEBUG::0     N/A::0   
+[  END] 07 OS_SocketAccept      TOTAL::8     PASS::8     FAIL::0     MIR::0     TSF::0     TTF::0   
+[ INFO]                        ABORT::0     WARN::0     FLOW::0     DEBUG::0     N/A::0   
+[  END] 08 OS_SocketConnect     TOTAL::7     PASS::7     FAIL::0     MIR::0     TSF::0     TTF::0   
+[ INFO]                        ABORT::0     WARN::0     FLOW::0     DEBUG::0     N/A::0   
+[  END] 09 OS_SocketRecvFrom    TOTAL::8     PASS::8     FAIL::0     MIR::0     TSF::0     TTF::0   
+[ INFO]                        ABORT::0     WARN::0     FLOW::0     DEBUG::0     N/A::0   
+[  END] 10 OS_SocketSendTo      TOTAL::7     PASS::7     FAIL::0     MIR::0     TSF::0     TTF::0   
+[ INFO]                        ABORT::0     WARN::0     FLOW::0     DEBUG::0     N/A::0   
+[  END] 11 OS_SocketShutdown    TOTAL::23    PASS::23    FAIL::0     MIR::0     TSF::0     TTF::0   
+[ INFO]                        ABORT::0     WARN::0     FLOW::0     DEBUG::0     N/A::0   
+[  END] 12 OS_SocketGetIdByName TOTAL::5     PASS::5     FAIL::0     MIR::0     TSF::0     TTF::0   
+[ INFO]                        ABORT::0     WARN::0     FLOW::0     DEBUG::0     N/A::0   
+[  END] 13 OS_SocketGetInfo     TOTAL::5     PASS::5     FAIL::0     MIR::0     TSF::0     TTF::0   
+[ INFO]                        ABORT::0     WARN::0     FLOW::0     DEBUG::0     N/A::0   
+[  END] 14 OS_CreateSocketName  TOTAL::2     PASS::2     FAIL::0     MIR::0     TSF::0     TTF::0   
+[ INFO]                        ABORT::0     WARN::0     FLOW::0     DEBUG::0     N/A::0   
+[  END] 15 OS_SocketGetOption   TOTAL::5     PASS::5     FAIL::0     MIR::0     TSF::0     TTF::0   
+[ INFO]                        ABORT::0     WARN::0     FLOW::0     DEBUG::0     N/A::0   
+[  END] 16 OS_SocketSetOption   TOTAL::5     PASS::5     FAIL::0     MIR::0     TSF::0     TTF::0   
+[ INFO]                        ABORT::0     WARN::0     FLOW::0     DEBUG::0     N/A::0   
+[  END] 16 SUMMARY              TOTAL::117   PASS::117   FAIL::0     MIR::0     TSF::0     TTF::0   
+COMPLETE: 16 tests Segment(s) executed

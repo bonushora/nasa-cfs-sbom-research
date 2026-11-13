@@ -1,0 +1,167 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "name": "NASA-cFS-v7.0.1-R4-build-toolchain",
+  "documentNamespace": "https://bonushora.invalid/spdx/nasa-cfs-sbom-expansion-v02/r4/build/088b2fa828db9ff7e00733f1908e0eeb59f66ce3",
+  "creationInfo": {
+    "created": "2026-11-11T00:00:00Z",
+    "creators": [
+      "Tool: bonushora-r4-physical-sbom-generator/1.0"
+    ]
+  },
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Tool-CMake",
+      "name": "CMake",
+      "versionInfo": "3.22.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "R4Status=BUILD_SELECTED; configuration log and cache observed."
+    },
+    {
+      "SPDXID": "SPDXRef-Tool-Make",
+      "name": "GNU Make",
+      "versionInfo": "4.3",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "R4Status=BUILD_SELECTED; prep/install command observed."
+    },
+    {
+      "SPDXID": "SPDXRef-Tool-GCC",
+      "name": "GCC",
+      "versionInfo": "11.4.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "R4Status=BUILD_SELECTED; /usr/bin/cc and compile commands observed."
+    },
+    {
+      "SPDXID": "SPDXRef-Tool-Binutils",
+      "name": "GNU Binutils",
+      "versionInfo": "2.38",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "R4Status=BUILD_SELECTED; linker commands and readelf qualification observed."
+    },
+    {
+      "SPDXID": "SPDXRef-Tool-clang-format",
+      "name": "clang-format",
+      "versionInfo": "20.1.8",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "R4Status=QUALIFIED_NOT_BUILD_OBSERVED; local mission binary SHA256 ca14ea89c24f78f85f752202384757258c8e0bd7038244b10b356092fa78b82d; no stub-generator invocation in logs.",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ca14ea89c24f78f85f752202384757258c8e0bd7038244b10b356092fa78b82d"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Tool-Perl",
+      "name": "Perl",
+      "versionInfo": "5.34.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "R4Status=SOURCE_DECLARED_NOT_BUILD_OBSERVED; generate_stubs.pl targets were not invoked."
+    },
+    {
+      "SPDXID": "SPDXRef-Tool-Python",
+      "name": "Python",
+      "versionInfo": "3.10.12",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "R4Status=READY_NOT_SELECTED_FOR_NATIVE_STD."
+    },
+    {
+      "SPDXID": "SPDXRef-Library-Expat",
+      "name": "Expat",
+      "versionInfo": "2.4.7",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "R4Status=READY_NOT_SELECTED_FOR_NATIVE_STD."
+    },
+    {
+      "SPDXID": "SPDXRef-Library-Lua-dev",
+      "name": "Lua development surface",
+      "versionInfo": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "R4Status=BLOCKED; headers, linker library and pkg-config 5.3/5.4 absent."
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Tool-CMake"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Tool-Make"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Tool-GCC"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Tool-Binutils"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Tool-clang-format"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Tool-Perl"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Tool-Python"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Library-Expat"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Library-Lua-dev"
+    }
+  ]
+}

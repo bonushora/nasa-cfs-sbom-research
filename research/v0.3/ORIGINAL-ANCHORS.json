@@ -1,0 +1,19 @@
+{
+  "consolidation_manifest_sha256": "7b03476395aa059d3761b2d81fe11107dcfab9507d8837964508cb4d2c39eac6",
+  "historical_manifests": {
+    "evidence/R5-A/PILOT01-20261112T215300.669168Z/SHA256SUMS": "6748f420e349ce65ec3a510e47be752a88210e45d5c19c9c90301ad4b789f03c",
+    "evidence/R5-A/PILOT01-RESUME-20261112T215813.299646Z/SHA256SUMS": "9bd61c3e7b12ff4456e28bbe114dacda94cde0b1b49b29c316a458b29fcd4275",
+    "evidence/R4/SHA256SUMS": "2198b469ed184136b7a43318c3831c75a1a9e41d54a10cb84c0a5a1e1b717c47"
+  },
+  "r8_publication_commit": "321091a9a97f6a2aa392ea9957fe4ed9f84143d7",
+  "publication_base_commit": "d659af1fda004ac2c5f47208a055aecfc1d8882e",
+  "external_vdd_document_sha256": "4ce4aebf7a3e6837ef73810d795328b252c0bc5c55fe12e5363ae7e55776f34d",
+  "original_manifest_public_path": "provenance/original-consolidation.SHA256SUMS",
+  "original_consolidation_payload": {
+    "RUNTIME-EVIDENCE-SUPPLEMENT.md": "da25689e31194ed4b04e5e70c8bbbd8fa6aee57b27b4ac0bb669bed5a6b6adc9",
+    "SBOM-LINKAGE.json": "dc714ac1148cc0c0f80a2b054e53a98781f1dcd99ca493a87531b12824863bda",
+    "SOURCE-ANCHORS.sha256": "42d6fcb2cc2324717688633a47d6a177b3190ebd6a70f3e25963b192887eed71",
+    "runtime-evidence.json": "d9618116fca2418df03b2b2cfd3b2c19ffa18e83d21a20521b9b55a755895bab",
+    "SHA256SUMS": "7b03476395aa059d3761b2d81fe11107dcfab9507d8837964508cb4d2c39eac6"
+  }
+}

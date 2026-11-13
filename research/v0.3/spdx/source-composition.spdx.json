@@ -1,0 +1,616 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "name": "NASA-cFS-v7.0.1-R4-source-composition",
+  "documentNamespace": "https://bonushora.invalid/spdx/nasa-cfs-sbom-expansion-v02/r4/source/088b2fa828db9ff7e00733f1908e0eeb59f66ce3",
+  "creationInfo": {
+    "created": "2026-11-11T00:00:00Z",
+    "creators": [
+      "Tool: bonushora-r4-physical-sbom-generator/1.0"
+    ]
+  },
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-cFS",
+      "name": "NASA Core Flight System (cFS)",
+      "versionInfo": "7.0.1",
+      "downloadLocation": "https://github.com/nasa/cFS/tree/088b2fa828db9ff7e00733f1908e0eeb59f66ce3",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "comment": "Top-level source baseline. Exactly 25 Gitlinks were reconciled against physical checkouts. R4Status=SOURCE_DECLARED.",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "vcs",
+          "referenceLocator": "git+https://github.com/nasa/cFS.git@088b2fa828db9ff7e00733f1908e0eeb59f66ce3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-apps-cf",
+      "name": "CF",
+      "versionInfo": "15a871e66cad7ec75e1be78989a93075ff142055",
+      "downloadLocation": "https://github.com/nasa/CF.git",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "Gitlink path apps/cf; expected and checked-out SHA match; status PASS. R4Status=SOURCE_DECLARED.",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "vcs",
+          "referenceLocator": "git+https://github.com/nasa/CF.git@15a871e66cad7ec75e1be78989a93075ff142055"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-apps-ci-lab",
+      "name": "ci_lab",
+      "versionInfo": "f5d36625336249312ee9d5815bc875e231815bb4",
+      "downloadLocation": "https://github.com/nasa/ci_lab.git",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "Gitlink path apps/ci_lab; expected and checked-out SHA match; status PASS. R4Status=SOURCE_DECLARED.",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "vcs",
+          "referenceLocator": "git+https://github.com/nasa/ci_lab.git@f5d36625336249312ee9d5815bc875e231815bb4"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-apps-cs",
+      "name": "CS",
+      "versionInfo": "8510c5c0bd3e3b777086ad4b48aee3e79875553a",
+      "downloadLocation": "https://github.com/nasa/CS.git",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "Gitlink path apps/cs; expected and checked-out SHA match; status PASS. R4Status=SOURCE_DECLARED.",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "vcs",
+          "referenceLocator": "git+https://github.com/nasa/CS.git@8510c5c0bd3e3b777086ad4b48aee3e79875553a"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-apps-ds",
+      "name": "DS",
+      "versionInfo": "c31e982eca47739dfcf31d4b40cad6068423e6a2",
+      "downloadLocation": "https://github.com/nasa/DS.git",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "Gitlink path apps/ds; expected and checked-out SHA match; status PASS. R4Status=SOURCE_DECLARED.",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "vcs",
+          "referenceLocator": "git+https://github.com/nasa/DS.git@c31e982eca47739dfcf31d4b40cad6068423e6a2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-apps-fm",
+      "name": "FM",
+      "versionInfo": "ed51c5733c0f2d2f521d72f80d1b9254d2c8b5d0",
+      "downloadLocation": "https://github.com/nasa/FM.git",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "Gitlink path apps/fm; expected and checked-out SHA match; status PASS. R4Status=SOURCE_DECLARED.",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "vcs",
+          "referenceLocator": "git+https://github.com/nasa/FM.git@ed51c5733c0f2d2f521d72f80d1b9254d2c8b5d0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-apps-hk",
+      "name": "HK",
+      "versionInfo": "766dab1591b95ff89d99baaab9b43d234de4e699",
+      "downloadLocation": "https://github.com/nasa/HK.git",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "Gitlink path apps/hk; expected and checked-out SHA match; status PASS. R4Status=SOURCE_DECLARED.",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "vcs",
+          "referenceLocator": "git+https://github.com/nasa/HK.git@766dab1591b95ff89d99baaab9b43d234de4e699"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-apps-hs",
+      "name": "HS",
+      "versionInfo": "947b903174bca0878210e7fbc53104cff8e7b335",
+      "downloadLocation": "https://github.com/nasa/HS.git",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "Gitlink path apps/hs; expected and checked-out SHA match; status PASS. R4Status=SOURCE_DECLARED.",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "vcs",
+          "referenceLocator": "git+https://github.com/nasa/HS.git@947b903174bca0878210e7fbc53104cff8e7b335"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-apps-lc",
+      "name": "LC",
+      "versionInfo": "a1c3a47ea1fa5c0d7751d6ff88848dc9bd8a6c7a",
+      "downloadLocation": "https://github.com/nasa/LC.git",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "Gitlink path apps/lc; expected and checked-out SHA match; status PASS. R4Status=SOURCE_DECLARED.",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "vcs",
+          "referenceLocator": "git+https://github.com/nasa/LC.git@a1c3a47ea1fa5c0d7751d6ff88848dc9bd8a6c7a"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-apps-md",
+      "name": "MD",
+      "versionInfo": "7e027886b22eb9e6492d59700cdc4549b116c698",
+      "downloadLocation": "https://github.com/nasa/MD.git",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "Gitlink path apps/md; expected and checked-out SHA match; status PASS. R4Status=SOURCE_DECLARED.",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "vcs",
+          "referenceLocator": "git+https://github.com/nasa/MD.git@7e027886b22eb9e6492d59700cdc4549b116c698"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-apps-mm",
+      "name": "MM",
+      "versionInfo": "f3ee4e678df1fe64b9ee267b7e2a888352e178d5",
+      "downloadLocation": "https://github.com/nasa/MM.git",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "Gitlink path apps/mm; expected and checked-out SHA match; status PASS. R4Status=SOURCE_DECLARED.",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "vcs",
+          "referenceLocator": "git+https://github.com/nasa/MM.git@f3ee4e678df1fe64b9ee267b7e2a888352e178d5"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-apps-sample-app",
+      "name": "sample_app",
+      "versionInfo": "2f93d1a4159a02b18d67ee83342c9e96b90e23e4",
+      "downloadLocation": "https://github.com/nasa/sample_app.git",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "Gitlink path apps/sample_app; expected and checked-out SHA match; status PASS. R4Status=SOURCE_DECLARED.",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "vcs",
+          "referenceLocator": "git+https://github.com/nasa/sample_app.git@2f93d1a4159a02b18d67ee83342c9e96b90e23e4"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-apps-sbn",
+      "name": "SBN",
+      "versionInfo": "3b7b37572d63c3f8e85b1f0fa95853c1b78dcf96",
+      "downloadLocation": "https://github.com/nasa/SBN.git",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "Gitlink path apps/sbn; expected and checked-out SHA match; status PASS. R4Status=SOURCE_DECLARED.",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "vcs",
+          "referenceLocator": "git+https://github.com/nasa/SBN.git@3b7b37572d63c3f8e85b1f0fa95853c1b78dcf96"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-apps-sc",
+      "name": "SC",
+      "versionInfo": "76db5f7b0dde4ea22b41d19962564826967bc123",
+      "downloadLocation": "https://github.com/nasa/SC.git",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "Gitlink path apps/sc; expected and checked-out SHA match; status PASS. R4Status=SOURCE_DECLARED.",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "vcs",
+          "referenceLocator": "git+https://github.com/nasa/SC.git@76db5f7b0dde4ea22b41d19962564826967bc123"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-apps-sch-lab",
+      "name": "sch_lab",
+      "versionInfo": "bc848cd8a6c0407023b959191e8aa39a01928444",
+      "downloadLocation": "https://github.com/nasa/sch_lab.git",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "Gitlink path apps/sch_lab; expected and checked-out SHA match; status PASS. R4Status=SOURCE_DECLARED.",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "vcs",
+          "referenceLocator": "git+https://github.com/nasa/sch_lab.git@bc848cd8a6c0407023b959191e8aa39a01928444"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-apps-to-lab",
+      "name": "to_lab",
+      "versionInfo": "38f7312ec4c1109b8f1c0738730b6e5ac5860f05",
+      "downloadLocation": "https://github.com/nasa/to_lab.git",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "Gitlink path apps/to_lab; expected and checked-out SHA match; status PASS. R4Status=SOURCE_DECLARED.",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "vcs",
+          "referenceLocator": "git+https://github.com/nasa/to_lab.git@38f7312ec4c1109b8f1c0738730b6e5ac5860f05"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-cfe",
+      "name": "cFE",
+      "versionInfo": "c5fb2b4d540bd55eb6c3707da7dd13eee679d4dd",
+      "downloadLocation": "https://github.com/nasa/cFE.git",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "Gitlink path cfe; expected and checked-out SHA match; status PASS. R4Status=SOURCE_DECLARED.",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "vcs",
+          "referenceLocator": "git+https://github.com/nasa/cFE.git@c5fb2b4d540bd55eb6c3707da7dd13eee679d4dd"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-libs-sample-lib",
+      "name": "sample_lib",
+      "versionInfo": "2d8b7e862673ef90da4355890e18e92822e8acd7",
+      "downloadLocation": "https://github.com/nasa/sample_lib.git",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "Gitlink path libs/sample_lib; expected and checked-out SHA match; status PASS. R4Status=SOURCE_DECLARED.",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "vcs",
+          "referenceLocator": "git+https://github.com/nasa/sample_lib.git@2d8b7e862673ef90da4355890e18e92822e8acd7"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-osal",
+      "name": "osal",
+      "versionInfo": "d2d877a69cff47452bcca274b309147d48e6c16f",
+      "downloadLocation": "https://github.com/nasa/osal.git",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "Gitlink path osal; expected and checked-out SHA match; status PASS. R4Status=SOURCE_DECLARED.",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "vcs",
+          "referenceLocator": "git+https://github.com/nasa/osal.git@d2d877a69cff47452bcca274b309147d48e6c16f"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-psp",
+      "name": "PSP",
+      "versionInfo": "c4b3b0b65b119e106481ad8e20976ae4d7f554e3",
+      "downloadLocation": "https://github.com/nasa/PSP.git",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "Gitlink path psp; expected and checked-out SHA match; status PASS. R4Status=SOURCE_DECLARED.",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "vcs",
+          "referenceLocator": "git+https://github.com/nasa/PSP.git@c4b3b0b65b119e106481ad8e20976ae4d7f554e3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-tools-cFS-GroundSystem",
+      "name": "cFS-GroundSystem",
+      "versionInfo": "07a33a81fe7a88d248d9a5dc59bcf433e34594d7",
+      "downloadLocation": "https://github.com/nasa/cFS-GroundSystem.git",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "Gitlink path tools/cFS-GroundSystem; expected and checked-out SHA match; status PASS. R4Status=SOURCE_DECLARED.",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "vcs",
+          "referenceLocator": "git+https://github.com/nasa/cFS-GroundSystem.git@07a33a81fe7a88d248d9a5dc59bcf433e34594d7"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-tools-cfs-cosmos-plugin",
+      "name": "cfs-cosmos-plugin",
+      "versionInfo": "358339d9fbb0516fdf00306cafc6d2cc7f869cd0",
+      "downloadLocation": "https://github.com/nasa/cfs-cosmos-plugin.git",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "Gitlink path tools/cfs-cosmos-plugin; expected and checked-out SHA match; status PASS. R4Status=SOURCE_DECLARED.",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "vcs",
+          "referenceLocator": "git+https://github.com/nasa/cfs-cosmos-plugin.git@358339d9fbb0516fdf00306cafc6d2cc7f869cd0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-tools-commandline-tools",
+      "name": "cfs-commandline-tools",
+      "versionInfo": "d70c56ec035694c9a64b317897403266166f5d68",
+      "downloadLocation": "https://github.com/nasa/cfs-commandline-tools.git",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "Gitlink path tools/commandline-tools; expected and checked-out SHA match; status PASS. R4Status=SOURCE_DECLARED.",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "vcs",
+          "referenceLocator": "git+https://github.com/nasa/cfs-commandline-tools.git@d70c56ec035694c9a64b317897403266166f5d68"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-tools-eds",
+      "name": "EdsLib",
+      "versionInfo": "2acc963b34f77692c6396555dcfb10ef43eb1046",
+      "downloadLocation": "https://github.com/nasa/EdsLib.git",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "Gitlink path tools/eds; expected and checked-out SHA match; status PASS. R4Status=SOURCE_DECLARED.",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "vcs",
+          "referenceLocator": "git+https://github.com/nasa/EdsLib.git@2acc963b34f77692c6396555dcfb10ef43eb1046"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-tools-elf2cfetbl",
+      "name": "elf2cfetbl",
+      "versionInfo": "118b55fe1d128b48dc45fd36278b87827c6d3faa",
+      "downloadLocation": "https://github.com/nasa/elf2cfetbl.git",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "Gitlink path tools/elf2cfetbl; expected and checked-out SHA match; status PASS. R4Status=SOURCE_DECLARED.",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "vcs",
+          "referenceLocator": "git+https://github.com/nasa/elf2cfetbl.git@118b55fe1d128b48dc45fd36278b87827c6d3faa"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-tools-tblCRCTool",
+      "name": "tblCRCTool",
+      "versionInfo": "cc61e89535db9fabe35fe26d1a600889f06b3104",
+      "downloadLocation": "https://github.com/nasa/tblCRCTool.git",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "Gitlink path tools/tblCRCTool; expected and checked-out SHA match; status PASS. R4Status=SOURCE_DECLARED.",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "vcs",
+          "referenceLocator": "git+https://github.com/nasa/tblCRCTool.git@cc61e89535db9fabe35fe26d1a600889f06b3104"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-cFS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cFS",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-apps-cf"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cFS",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-apps-ci-lab"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cFS",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-apps-cs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cFS",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-apps-ds"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cFS",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-apps-fm"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cFS",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-apps-hk"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cFS",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-apps-hs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cFS",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-apps-lc"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cFS",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-apps-md"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cFS",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-apps-mm"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cFS",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-apps-sample-app"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cFS",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-apps-sbn"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cFS",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-apps-sc"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cFS",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-apps-sch-lab"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cFS",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-apps-to-lab"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cFS",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-cfe"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cFS",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-libs-sample-lib"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cFS",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-osal"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cFS",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-psp"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cFS",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-tools-cFS-GroundSystem"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cFS",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-tools-cfs-cosmos-plugin"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cFS",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-tools-commandline-tools"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cFS",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-tools-eds"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cFS",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-tools-elf2cfetbl"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cFS",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-tools-tblCRCTool"
+    }
+  ],
+  "comment": "R4 source composition copied from the hash-validated R1 source inventory and physically reconciled against the isolated R4 native_std source before build; all 25 Gitlinks are SOURCE_DECLARED."
+}
