@@ -1,0 +1,118 @@
+{
+  "author": "Thales Rangel",
+  "derivations": [
+    {
+      "public_artifact": "evidence/DEPENDENCY-EVIDENCE.json",
+      "public_sha256": "89c64b58b9703d3e2824185b1424771c2e46e40d219bc9580e151fab69fb6ec8",
+      "source_artifact": "DEPENDENCY-EVIDENCE.json",
+      "source_sha256": "89c64b58b9703d3e2824185b1424771c2e46e40d219bc9580e151fab69fb6ec8",
+      "transformation": "STRUCTURED_JSON_WITH_LOCAL_PATH_TOKENS"
+    },
+    {
+      "public_artifact": "evidence/EDS-CANDIDATE-CLASSIFICATION.json",
+      "public_sha256": "8e83065b74bb5b00d6825e13815d4b700423f67f4fe6dd0f2b706b13dd5c28e6",
+      "source_artifact": "EDS-CANDIDATE-CLASSIFICATION.json",
+      "source_sha256": "8e83065b74bb5b00d6825e13815d4b700423f67f4fe6dd0f2b706b13dd5c28e6",
+      "transformation": "STRUCTURED_JSON_WITH_LOCAL_PATH_TOKENS"
+    },
+    {
+      "public_artifact": "evidence/EDSLIB-CTEST-STATIC-RESOLUTION.json",
+      "public_sha256": "12c1b31ccf166140ffaada4cddae0b5baa2ff0fa94af1b7d1826c0cc2a28b5c3",
+      "source_artifact": "EDSLIB-CTEST-STATIC-RESOLUTION.json",
+      "source_sha256": "33d25079efb2d96eff1e871a9ccdbe6e0cfdd46f7056f17cbd765a70d2bb2949",
+      "transformation": "ALLOWLIST_STATIC_CTEST_PROJECTION"
+    },
+    {
+      "public_artifact": "evidence/ELF-BUILD.json",
+      "public_sha256": "764572cddb2d250f66288b29f0b59c3992543c56851b4a0ce419a991d18918e1",
+      "source_artifact": "ELF-BUILD.json",
+      "source_sha256": "3e4ee4072ec1be65ba6101285fe5be99f634f073efacbaefe08cc40c94629af8",
+      "transformation": "ALLOWLIST_ELF_METADATA_PROJECTION"
+    },
+    {
+      "public_artifact": "evidence/ELF-INSTALL.json",
+      "public_sha256": "1f91b1f26aec6355e11787e624ebc52a79221a1bb19c7c26114b43ce0b005f1e",
+      "source_artifact": "ELF-INSTALL.json",
+      "source_sha256": "0728670059b761224795e16cc10e7de64be5e00fd707e16978395174a9be2e3c",
+      "transformation": "ALLOWLIST_ELF_METADATA_PROJECTION"
+    },
+    {
+      "public_artifact": "evidence/LUA-SEDSTOOL-PROVENANCE.json",
+      "public_sha256": "53792dc3020d9333600aef1483388981510eb01729689996de2ece0eeaace25a",
+      "source_artifact": "LUA-SEDSTOOL-PROVENANCE.json",
+      "source_sha256": "e8d57bf50f4fe7edb87a7dc39f2e56e9192d5cb60831a4743766cf2dbe053219",
+      "transformation": "ALLOWLIST_PROVENANCE_PROJECTION"
+    },
+    {
+      "public_artifact": "evidence/STD-EDS-COMPARISON.json",
+      "public_sha256": "3bb55e876522e5610a1bc6e4a2a30c4e1148629cc091f7979fa8764a918405fc",
+      "source_artifact": "STD-EDS-CONSOLIDATION.json",
+      "source_sha256": "3bb55e876522e5610a1bc6e4a2a30c4e1148629cc091f7979fa8764a918405fc",
+      "transformation": "STRUCTURED_JSON_WITH_LOCAL_PATH_TOKENS"
+    },
+    {
+      "public_artifact": "sbom/native-eds-build-toolchain.spdx.json",
+      "public_sha256": "d93eff56223cf7efd9654dbbbc00269d6fcda65d8dc0806bbc452ae619a0e4a4",
+      "source_artifact": "native-eds-build-toolchain.spdx.json",
+      "source_sha256": "d93eff56223cf7efd9654dbbbc00269d6fcda65d8dc0806bbc452ae619a0e4a4",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "public_artifact": "sbom/native-eds-compiled-artifacts.spdx.json",
+      "public_sha256": "24785374712bc0a3a231d353e5fb01f37169db12dd750c7db6db3b4981191117",
+      "source_artifact": "native-eds-compiled-artifacts.spdx.json",
+      "source_sha256": "24785374712bc0a3a231d353e5fb01f37169db12dd750c7db6db3b4981191117",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "public_artifact": "sbom/native-eds-dynamic-dependencies.spdx.json",
+      "public_sha256": "5fb6e6fceaa8ef1ff8a9f5226fc912ed774ac8c86aa298dadd38fc375979a0b2",
+      "source_artifact": "native-eds-dynamic-dependencies.spdx.json",
+      "source_sha256": "5fb6e6fceaa8ef1ff8a9f5226fc912ed774ac8c86aa298dadd38fc375979a0b2",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "public_artifact": "sbom/native-eds-generated-artifacts.spdx.json",
+      "public_sha256": "de859427c960fd31b306bda6c056ff5a5814eb04ed68fa39217e58eb20bf983d",
+      "source_artifact": "native-eds-generated-artifacts.spdx.json",
+      "source_sha256": "de859427c960fd31b306bda6c056ff5a5814eb04ed68fa39217e58eb20bf983d",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "public_artifact": "sbom/native-eds-link-commands.spdx.json",
+      "public_sha256": "34c2be1b0d4954aca5d9436abc87b813530cf3e88c444512e16acc240f8ae7b9",
+      "source_artifact": "native-eds-link-commands.spdx.json",
+      "source_sha256": "34c2be1b0d4954aca5d9436abc87b813530cf3e88c444512e16acc240f8ae7b9",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "public_artifact": "sbom/native-eds-semantic-dependencies.spdx.json",
+      "public_sha256": "8c78ffee6d148b3169dda92551e554f9c0d096307942d171e80f858255ea0100",
+      "source_artifact": "native-eds-semantic-dependencies.spdx.json",
+      "source_sha256": "8c78ffee6d148b3169dda92551e554f9c0d096307942d171e80f858255ea0100",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "public_artifact": "sbom/native-eds-source-composition.spdx.json",
+      "public_sha256": "df2a7f7f8db6901e61ecdfc9d3a2da02203fac3c7be2b6d2eea645ec5ac079d0",
+      "source_artifact": "native-eds-source-composition.spdx.json",
+      "source_sha256": "df2a7f7f8db6901e61ecdfc9d3a2da02203fac3c7be2b6d2eea645ec5ac079d0",
+      "transformation": "BYTE_IDENTICAL"
+    }
+  ],
+  "global_green": "BLOCKED",
+  "input_manifest_sha256": {
+    "MT30": "f13eecf48cc4a068add02f671d1a4a66b31e6e81d0fce9f130144eafbe9b8657",
+    "MT31": "0e3d42948f514e4b5024f93af84576ce4dcfd97a3912c779f402828d04440399",
+    "MT33": "dd2487e90c4f00b42aef96c1b5a919ee7aad262c5f617737a17e5ac502c4ba92",
+    "MT35-R2": "d73768c388d3d2961df1e8e736eb4ecffebcb89f400376b82c0012993a78a30a"
+  },
+  "orcid": "0000-0002-0629-9731",
+  "previous_publication_commit": "da53788b15c290b5e14afda3332a016aada8f0e0",
+  "publication_authority": "NOT_GRANTED",
+  "research_method": "Human-directed, AI-assisted",
+  "research_version": "v0.4",
+  "rights_review": "PREPARED_PENDING_FINAL_ATTESTATION",
+  "schema_sha256": "9cf356a5646faf012a9f2ad170847158c4bed4c6ee2ab7c4f8b7dddda4bc500d",
+  "upstream_commit": "088b2fa828db9ff7e00733f1908e0eeb59f66ce3"
+}

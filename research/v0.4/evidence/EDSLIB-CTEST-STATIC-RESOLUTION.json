@@ -1,0 +1,159 @@
+{
+  "finding": "R5B-EDS-RELATIVE-DT-NEEDED-001",
+  "installed_paths": [
+    {
+      "path": "cpu1/functional-edslib-datatypedb-testrunner",
+      "sha256": "4f6b56f58b1c94bfe9f6a40b976b5249ed1c4c7f3ee21b441df872d707e19d83"
+    },
+    {
+      "path": "cpu1/functional-edslib-displaydb-testrunner",
+      "sha256": "2a59a76fe194f9e50a11b9662773b999783a150ce17b4cedb5650239897625bf"
+    },
+    {
+      "path": "cpu1/functional-edslib-global-testrunner",
+      "sha256": "171f49970a2415741c17776924c08981de506627ed43304c49e4956ab2c38250"
+    },
+    {
+      "path": "cpu1/functional-edslib-intfdb-testrunner",
+      "sha256": "23b6f5b47bcf1037f083e616f35dbb909283cb8293a24ad6750932413a13b33f"
+    },
+    {
+      "path": "cpu1/functional-edslib-pack-testrunner",
+      "sha256": "157bf93f8c46b90764735d0c344375c723b36cd894f0e038871d7e1d849eb8b3"
+    },
+    {
+      "path": "cpu1/functional-edslib-unpack-testrunner",
+      "sha256": "b5086ec069d819e9dc2d1295f4d4f91d5de81f5bd9aad6bef502fc162aa52658"
+    },
+    {
+      "path": "cpu2/functional-edslib-datatypedb-testrunner",
+      "sha256": "4f6b56f58b1c94bfe9f6a40b976b5249ed1c4c7f3ee21b441df872d707e19d83"
+    },
+    {
+      "path": "cpu2/functional-edslib-displaydb-testrunner",
+      "sha256": "2a59a76fe194f9e50a11b9662773b999783a150ce17b4cedb5650239897625bf"
+    },
+    {
+      "path": "cpu2/functional-edslib-global-testrunner",
+      "sha256": "171f49970a2415741c17776924c08981de506627ed43304c49e4956ab2c38250"
+    },
+    {
+      "path": "cpu2/functional-edslib-intfdb-testrunner",
+      "sha256": "23b6f5b47bcf1037f083e616f35dbb909283cb8293a24ad6750932413a13b33f"
+    },
+    {
+      "path": "cpu2/functional-edslib-pack-testrunner",
+      "sha256": "157bf93f8c46b90764735d0c344375c723b36cd894f0e038871d7e1d849eb8b3"
+    },
+    {
+      "path": "cpu2/functional-edslib-unpack-testrunner",
+      "sha256": "b5086ec069d819e9dc2d1295f4d4f91d5de81f5bd9aad6bef502fc162aa52658"
+    }
+  ],
+  "interpretation": "For all six examined CTest registrations, the recorded working directory resolves the relative dependency path to the expected library SHA-256. This is a static result, not a loader execution or a successful test result.",
+  "library_candidates": [
+    {
+      "path": "obj/ut_eds_db.so",
+      "root": "build",
+      "sha256": "b96234ff68477811d5947af281040e5aec4a09cec2e4dbfc22fb2f5dfd16e0ee"
+    },
+    {
+      "path": "native/default/obj/ut_eds_db.so",
+      "root": "build",
+      "sha256": "b96234ff68477811d5947af281040e5aec4a09cec2e4dbfc22fb2f5dfd16e0ee"
+    }
+  ],
+  "needed": "../../../obj/ut_eds_db.so",
+  "registered_test_names": 6,
+  "resolution_counts": {
+    "STATIC_MATCH": 6
+  },
+  "runtime_resolution": "NOT_VERIFIED",
+  "tests": [
+    {
+      "candidate": "build/native/default/obj/ut_eds_db.so",
+      "candidate_sha256": "b96234ff68477811d5947af281040e5aec4a09cec2e4dbfc22fb2f5dfd16e0ee",
+      "command_sha256": "4f6b56f58b1c94bfe9f6a40b976b5249ed1c4c7f3ee21b441df872d707e19d83",
+      "ctest_file": "native/default/edslib/fsw/unit-test/CTestTestfile.cmake",
+      "ctest_sha256": "2412545c2cdd39f530c4b326677cc575e4ff042fea38a72a135ff58a56b94ba0",
+      "cwd": "$BUILD/native/default/edslib/fsw/unit-test",
+      "cwd_basis": "CTEST_FILE_DIRECTORY_DEFAULT",
+      "line": 9,
+      "matches_installed_identity": true,
+      "resolution": "STATIC_MATCH",
+      "target": "functional-edslib-datatypedb-testrunner",
+      "test_name": "functional-edslib-datatypedb"
+    },
+    {
+      "candidate": "build/native/default/obj/ut_eds_db.so",
+      "candidate_sha256": "b96234ff68477811d5947af281040e5aec4a09cec2e4dbfc22fb2f5dfd16e0ee",
+      "command_sha256": "2a59a76fe194f9e50a11b9662773b999783a150ce17b4cedb5650239897625bf",
+      "ctest_file": "native/default/edslib/fsw/unit-test/CTestTestfile.cmake",
+      "ctest_sha256": "2412545c2cdd39f530c4b326677cc575e4ff042fea38a72a135ff58a56b94ba0",
+      "cwd": "$BUILD/native/default/edslib/fsw/unit-test",
+      "cwd_basis": "CTEST_FILE_DIRECTORY_DEFAULT",
+      "line": 11,
+      "matches_installed_identity": true,
+      "resolution": "STATIC_MATCH",
+      "target": "functional-edslib-displaydb-testrunner",
+      "test_name": "functional-edslib-displaydb"
+    },
+    {
+      "candidate": "build/native/default/obj/ut_eds_db.so",
+      "candidate_sha256": "b96234ff68477811d5947af281040e5aec4a09cec2e4dbfc22fb2f5dfd16e0ee",
+      "command_sha256": "171f49970a2415741c17776924c08981de506627ed43304c49e4956ab2c38250",
+      "ctest_file": "native/default/edslib/fsw/unit-test/CTestTestfile.cmake",
+      "ctest_sha256": "2412545c2cdd39f530c4b326677cc575e4ff042fea38a72a135ff58a56b94ba0",
+      "cwd": "$BUILD/native/default/edslib/fsw/unit-test",
+      "cwd_basis": "CTEST_FILE_DIRECTORY_DEFAULT",
+      "line": 7,
+      "matches_installed_identity": true,
+      "resolution": "STATIC_MATCH",
+      "target": "functional-edslib-global-testrunner",
+      "test_name": "functional-edslib-global"
+    },
+    {
+      "candidate": "build/native/default/obj/ut_eds_db.so",
+      "candidate_sha256": "b96234ff68477811d5947af281040e5aec4a09cec2e4dbfc22fb2f5dfd16e0ee",
+      "command_sha256": "23b6f5b47bcf1037f083e616f35dbb909283cb8293a24ad6750932413a13b33f",
+      "ctest_file": "native/default/edslib/fsw/unit-test/CTestTestfile.cmake",
+      "ctest_sha256": "2412545c2cdd39f530c4b326677cc575e4ff042fea38a72a135ff58a56b94ba0",
+      "cwd": "$BUILD/native/default/edslib/fsw/unit-test",
+      "cwd_basis": "CTEST_FILE_DIRECTORY_DEFAULT",
+      "line": 13,
+      "matches_installed_identity": true,
+      "resolution": "STATIC_MATCH",
+      "target": "functional-edslib-intfdb-testrunner",
+      "test_name": "functional-edslib-intfdb"
+    },
+    {
+      "candidate": "build/native/default/obj/ut_eds_db.so",
+      "candidate_sha256": "b96234ff68477811d5947af281040e5aec4a09cec2e4dbfc22fb2f5dfd16e0ee",
+      "command_sha256": "157bf93f8c46b90764735d0c344375c723b36cd894f0e038871d7e1d849eb8b3",
+      "ctest_file": "native/default/edslib/fsw/unit-test/CTestTestfile.cmake",
+      "ctest_sha256": "2412545c2cdd39f530c4b326677cc575e4ff042fea38a72a135ff58a56b94ba0",
+      "cwd": "$BUILD/native/default/edslib/fsw/unit-test",
+      "cwd_basis": "CTEST_FILE_DIRECTORY_DEFAULT",
+      "line": 15,
+      "matches_installed_identity": true,
+      "resolution": "STATIC_MATCH",
+      "target": "functional-edslib-pack-testrunner",
+      "test_name": "functional-edslib-pack"
+    },
+    {
+      "candidate": "build/native/default/obj/ut_eds_db.so",
+      "candidate_sha256": "b96234ff68477811d5947af281040e5aec4a09cec2e4dbfc22fb2f5dfd16e0ee",
+      "command_sha256": "b5086ec069d819e9dc2d1295f4d4f91d5de81f5bd9aad6bef502fc162aa52658",
+      "ctest_file": "native/default/edslib/fsw/unit-test/CTestTestfile.cmake",
+      "ctest_sha256": "2412545c2cdd39f530c4b326677cc575e4ff042fea38a72a135ff58a56b94ba0",
+      "cwd": "$BUILD/native/default/edslib/fsw/unit-test",
+      "cwd_basis": "CTEST_FILE_DIRECTORY_DEFAULT",
+      "line": 17,
+      "matches_installed_identity": true,
+      "resolution": "STATIC_MATCH",
+      "target": "functional-edslib-unpack-testrunner",
+      "test_name": "functional-edslib-unpack"
+    }
+  ],
+  "vulnerability": "NOT_ESTABLISHED"
+}

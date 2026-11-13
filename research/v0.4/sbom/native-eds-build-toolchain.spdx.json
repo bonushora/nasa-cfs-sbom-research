@@ -1,0 +1,428 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "comment": "Observed build inputs and tool artifacts; not a complete toolchain dependency closure.",
+  "creationInfo": {
+    "created": "2026-11-13T05:36:52Z",
+    "creators": [
+      "Person: Thales Rangel",
+      "Tool: MT33-v0.1"
+    ]
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://bonushora.invalid/spdx/r5b/0e3d42948f514e4b5024f93af84576ce4dcfd97a3912c779f402828d04440399/20261113T053652.322959Z/build-toolchain",
+  "files": [
+    {
+      "SPDXID": "SPDXRef-6ffb2c1bfc15d1231c277830e886e157",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3a8832a4a06cabf15d1594c45b58f50f7e620bbf"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "15784e6b68da1713098027c9886fe904f683910fd416cf0348d4b7dd45e3da8c"
+        }
+      ],
+      "comment": "Build generator; two observed executions",
+      "copyrightText": "NOASSERTION",
+      "fileName": "build/tools/eds/tool/sedstool",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-6d74be54acd4a09a0ac4ce4c846dba00",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "68b92420d6404aa104363babf0bd7d59ba1202e9"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "54720e25dccf40c688fe5755b8b741f8c905937c49da67544d59c35192899e39"
+        }
+      ],
+      "comment": "Original verified DEB container",
+      "copyrightText": "NOASSERTION",
+      "fileName": "lua-debs/liblua5.3-0_5.3.6-1build1_amd64.deb",
+      "fileTypes": [
+        "ARCHIVE"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-2c0776cc9f248c82136c223eb43d52c6",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3bbf4bda3a6755d580f8cf70f4b85ef7687087fc"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0c3b531c642d191c1a883a87bb79e8605d9fcddc58019669f2fe00e5773d0df1"
+        }
+      ],
+      "comment": "Original verified DEB container",
+      "copyrightText": "NOASSERTION",
+      "fileName": "lua-debs/liblua5.3-dev_5.3.6-1build1_amd64.deb",
+      "fileTypes": [
+        "ARCHIVE"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-f84f6a62ca8e4be6f4ca56acfc9db6cf",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b7524ed9a4ad27d617a9949eae337632bcbfc08a"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "654d73b77a8d4a967aac66962063da654d439874ad9fa0e4589c1c04a3961232"
+        }
+      ],
+      "comment": "Original verified DEB container",
+      "copyrightText": "NOASSERTION",
+      "fileName": "lua-debs/lua5.3_5.3.6-1build1_amd64.deb",
+      "fileTypes": [
+        "ARCHIVE"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-043c93e6dd1521327ee3dc6e540cefad",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8275bc4fa7b295583635f07103a18515b1884db2"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b402036cde8fcc9180d28ead326cdac20381a352561c4cfd4fc11cf92aeea85b"
+        }
+      ],
+      "comment": "Observed compiler dependency",
+      "copyrightText": "NOASSERTION",
+      "fileName": "lua-prefix/usr/include/lua5.3/lauxlib.h",
+      "fileTypes": [
+        "SOURCE"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-c925028806e8927edf9cc2f2cd647db3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "26e822ecebd46c8f8aeaeeed6bacdd00da509556"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d05e8e3b199aa51fec7c3d40f058a1e4f9aa76bb0587a9fe211f00c800f71a9d"
+        }
+      ],
+      "comment": "Observed compiler dependency",
+      "copyrightText": "NOASSERTION",
+      "fileName": "lua-prefix/usr/include/lua5.3/lua.h",
+      "fileTypes": [
+        "SOURCE"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-ece449210f67c51396e22f650d3f9858",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8ec2a8821108f6e42be5f8be9c0012690ba74be7"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "73f5a1b9c33098d4276b41734843945cba5d91f78bfa6cd7a8bd008d41bb1d8d"
+        }
+      ],
+      "comment": "Observed compiler dependency",
+      "copyrightText": "NOASSERTION",
+      "fileName": "lua-prefix/usr/include/lua5.3/luaconf.h",
+      "fileTypes": [
+        "SOURCE"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-df9c86a08cc23f52331750f145ab2ee5",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b681dfa109599792544393abba2e475aed43bec7"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ff460960aad15065580bbd64a49dcd73e9b9d728209a1d0dfedee4817c6f0543"
+        }
+      ],
+      "comment": "Observed compiler dependency",
+      "copyrightText": "NOASSERTION",
+      "fileName": "lua-prefix/usr/include/lua5.3/lualib.h",
+      "fileTypes": [
+        "SOURCE"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-260a0092811c91e7af68f9884c35f72e",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3c2cab23dd5a0d6a24a6190791e40536f3bf5e84"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b881d40587cef6e5186f5141cdc7228a2e0952ebb376ba9e090a9efb79117229"
+        }
+      ],
+      "comment": "Observed compiler dependency",
+      "copyrightText": "NOASSERTION",
+      "fileName": "lua-prefix/usr/include/x86_64-linux-gnu/lua5.3-deb-multiarch.h",
+      "fileTypes": [
+        "SOURCE"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-a4d2af8df80edcf2cfc1a42a3a8220c6",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "bb896c3e84ac0e3107927f0c5a176efaf3286f76"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "99d643c45f9f501eb4d6d89e17b698b94fec0de11e459b9947fdfbe8902ddf52"
+        }
+      ],
+      "comment": "Runtime observed opened by sedstool",
+      "copyrightText": "NOASSERTION",
+      "fileName": "lua-prefix/usr/lib/x86_64-linux-gnu/liblua5.3.so.0.0.0",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "NASA-cFS-v7.0.1-R5B-native-eds-build-toolchain",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-136e74ae9678971d42cd1bb4c1bbcbc0",
+      "comment": "MT31 cmake-version log; controlled libcurl",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "CMake",
+      "versionInfo": "3.22.1"
+    },
+    {
+      "SPDXID": "SPDXRef-237d755e598924fafe143d877a600e93",
+      "comment": "libexpat.so.1 observed in build ELF; package resolution not asserted",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "Expat"
+    },
+    {
+      "SPDXID": "SPDXRef-eb352279a808703aa28d77c6ee7ac0e6",
+      "comment": "Compiler family observed in build; version not independently assigned here",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "GCC"
+    },
+    {
+      "SPDXID": "SPDXRef-08c8c4a18e3491b446a5c309a67abc53",
+      "comment": "Official prep/install invocation",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "GNU Make"
+    },
+    {
+      "SPDXID": "SPDXRef-6a68221f9421e357aeb68ca271eb2228",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "54720e25dccf40c688fe5755b8b741f8c905937c49da67544d59c35192899e39"
+        }
+      ],
+      "comment": "Ubuntu Jammy amd64; signed index chain verified in MT30.",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://archive.ubuntu.com/ubuntu/pool/main/l/lua5.3/liblua5.3-0_5.3.6-1build1_amd64.deb",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "liblua5.3-0",
+      "versionInfo": "5.3.6-1build1"
+    },
+    {
+      "SPDXID": "SPDXRef-128126c36a476ef01dec1b1790b35374",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0c3b531c642d191c1a883a87bb79e8605d9fcddc58019669f2fe00e5773d0df1"
+        }
+      ],
+      "comment": "Ubuntu Jammy amd64; signed index chain verified in MT30.",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://archive.ubuntu.com/ubuntu/pool/main/l/lua5.3/liblua5.3-dev_5.3.6-1build1_amd64.deb",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "liblua5.3-dev",
+      "versionInfo": "5.3.6-1build1"
+    },
+    {
+      "SPDXID": "SPDXRef-1316ad0f4ce5eeabadc8b3e276a3d966",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "654d73b77a8d4a967aac66962063da654d439874ad9fa0e4589c1c04a3961232"
+        }
+      ],
+      "comment": "Ubuntu Jammy amd64; signed index chain verified in MT30.",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://archive.ubuntu.com/ubuntu/pool/universe/l/lua5.3/lua5.3_5.3.6-1build1_amd64.deb",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "lua5.3",
+      "versionInfo": "5.3.6-1build1"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-043c93e6dd1521327ee3dc6e540cefad",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-08c8c4a18e3491b446a5c309a67abc53",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-128126c36a476ef01dec1b1790b35374",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-1316ad0f4ce5eeabadc8b3e276a3d966",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-136e74ae9678971d42cd1bb4c1bbcbc0",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-237d755e598924fafe143d877a600e93",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-260a0092811c91e7af68f9884c35f72e",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-2c0776cc9f248c82136c223eb43d52c6",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6a68221f9421e357aeb68ca271eb2228",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6d74be54acd4a09a0ac4ce4c846dba00",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6ffb2c1bfc15d1231c277830e886e157",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-a4d2af8df80edcf2cfc1a42a3a8220c6",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-c925028806e8927edf9cc2f2cd647db3",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-df9c86a08cc23f52331750f145ab2ee5",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-eb352279a808703aa28d77c6ee7ac0e6",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-ece449210f67c51396e22f650d3f9858",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-f84f6a62ca8e4be6f4ca56acfc9db6cf",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.3"
+}

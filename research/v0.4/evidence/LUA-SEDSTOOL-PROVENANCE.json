@@ -1,0 +1,91 @@
+{
+  "apt_trust": {
+    "freshness": "cached Jammy release, not refreshed",
+    "indexes": [
+      {
+        "component": "main",
+        "snapshot_sha256": "12ce0797a6ed39a1fee1321985976c6b78872a8fe4c7ef2fb712f2364c9839a3",
+        "uncompressed_bytes": 6779186,
+        "uncompressed_sha256": "12ce0797a6ed39a1fee1321985976c6b78872a8fe4c7ef2fb712f2364c9839a3"
+      },
+      {
+        "component": "universe",
+        "snapshot_sha256": "6b8cc68643d18250ab297c4f6d427a8778b1d1534e1a3033fff0f221fa20a419",
+        "uncompressed_bytes": 64332414,
+        "uncompressed_sha256": "6b8cc68643d18250ab297c4f6d427a8778b1d1534e1a3033fff0f221fa20a419"
+      }
+    ],
+    "keyring_sha256": "1a4dd63e5c76728960a2edddae22e2e0fc53df8e8b87806deb971030ac704eb0",
+    "release_sha256": "c14060cd8c6d625874dfcb9523a35a395bf4865c28b6b6a82569ef326fe92dc6",
+    "signature_check": "gpgv PASS"
+  },
+  "headers": [
+    {
+      "path": "usr/include/lua5.3/lauxlib.h",
+      "sha256": "b402036cde8fcc9180d28ead326cdac20381a352561c4cfd4fc11cf92aeea85b"
+    },
+    {
+      "path": "usr/include/lua5.3/lua.h",
+      "sha256": "d05e8e3b199aa51fec7c3d40f058a1e4f9aa76bb0587a9fe211f00c800f71a9d"
+    },
+    {
+      "path": "usr/include/lua5.3/luaconf.h",
+      "sha256": "73f5a1b9c33098d4276b41734843945cba5d91f78bfa6cd7a8bd008d41bb1d8d"
+    },
+    {
+      "path": "usr/include/lua5.3/lualib.h",
+      "sha256": "ff460960aad15065580bbd64a49dcd73e9b9d728209a1d0dfedee4817c6f0543"
+    },
+    {
+      "path": "usr/include/x86_64-linux-gnu/lua5.3-deb-multiarch.h",
+      "sha256": "b881d40587cef6e5186f5141cdc7228a2e0952ebb376ba9e090a9efb79117229"
+    }
+  ],
+  "mt30_seal": "f13eecf48cc4a068add02f671d1a4a66b31e6e81d0fce9f130144eafbe9b8657",
+  "mt31_seal": "0e3d42948f514e4b5024f93af84576ce4dcfd97a3912c779f402828d04440399",
+  "note": "Observed successful opens, not complete runtime dependency trace.",
+  "observed_runs": [
+    {
+      "local_lua_open": true,
+      "other_lua_opens": []
+    },
+    {
+      "local_lua_open": true,
+      "other_lua_opens": []
+    }
+  ],
+  "packages": [
+    {
+      "architecture": "amd64",
+      "component": "universe",
+      "package": "lua5.3",
+      "sha256": "654d73b77a8d4a967aac66962063da654d439874ad9fa0e4589c1c04a3961232",
+      "size": 144344,
+      "trust": "cached Jammy InRelease signature and Packages SHA256 verified",
+      "uri": "https://archive.ubuntu.com/ubuntu/pool/universe/l/lua5.3/lua5.3_5.3.6-1build1_amd64.deb",
+      "version": "5.3.6-1build1"
+    },
+    {
+      "architecture": "amd64",
+      "component": "main",
+      "package": "liblua5.3-dev",
+      "sha256": "0c3b531c642d191c1a883a87bb79e8605d9fcddc58019669f2fe00e5773d0df1",
+      "size": 166914,
+      "trust": "cached Jammy InRelease signature and Packages SHA256 verified",
+      "uri": "https://archive.ubuntu.com/ubuntu/pool/main/l/lua5.3/liblua5.3-dev_5.3.6-1build1_amd64.deb",
+      "version": "5.3.6-1build1"
+    },
+    {
+      "architecture": "amd64",
+      "component": "main",
+      "package": "liblua5.3-0",
+      "sha256": "54720e25dccf40c688fe5755b8b741f8c905937c49da67544d59c35192899e39",
+      "size": 140026,
+      "trust": "cached Jammy InRelease signature and Packages SHA256 verified",
+      "uri": "https://archive.ubuntu.com/ubuntu/pool/main/l/lua5.3/liblua5.3-0_5.3.6-1build1_amd64.deb",
+      "version": "5.3.6-1build1"
+    }
+  ],
+  "runtime_sha256": "99d643c45f9f501eb4d6d89e17b698b94fec0de11e459b9947fdfbe8902ddf52",
+  "sedstool_sha256": "15784e6b68da1713098027c9886fe904f683910fd416cf0348d4b7dd45e3da8c"
+}
