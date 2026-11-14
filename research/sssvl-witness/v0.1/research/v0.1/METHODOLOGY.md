@@ -1,0 +1,3 @@
+# Methodology
+
+References were frozen before deliberate changes. W04 compares synthetic entities and edges; B2-A compares configuration-qualified file paths, SHA-256 claims and direct DT_NEEDED declarations, not package identities or resolved providers. STD uses historical DYNAMIC_LINK; EDS uses JSON comments. B2-B1 materialized and checked 16 SPDX documents before evaluation; B2-B2 ran eight primary and eight repeat evaluations in separate processes. Schema Draft7 and implemented reference checks are not full normative SPDX certification. The reference is separate from submitted mutations but shares build lineage.

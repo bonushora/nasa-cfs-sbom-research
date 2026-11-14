@@ -1,0 +1,184 @@
+{
+  "CITATION.cff": {
+    "basis": "Own bibliographic metadata, version-only editorial change; formal CFF schema not verified.",
+    "decision": "QUALIFIED_LOCAL_ONLY",
+    "license": "CC-BY-4.0",
+    "publication": "NOT_AUTHORIZED",
+    "scope": "Original contributions only; no grant of third-party rights or ownership of facts."
+  },
+  "EVIDENCE-INDEX.json": {
+    "basis": "Factual provenance and integrity index; not a blanket license of source materials.",
+    "decision": "REFERENCE_OR_METADATA_ONLY",
+    "license": "NO_NEW_GRANT_METADATA",
+    "publication": "NOT_AUTHORIZED",
+    "scope": "Reference/license/technical metadata; no new grant by researcher."
+  },
+  "LICENSE": {
+    "basis": "Own editorial replacement under explicit author declaration; does not grant rights to third-party material.",
+    "decision": "QUALIFIED_LOCAL_ONLY",
+    "license": "CC-BY-4.0",
+    "publication": "NOT_AUTHORIZED",
+    "scope": "Original contributions only; no grant of third-party rights or ownership of facts."
+  },
+  "LICENSE-MANIFEST.json": {
+    "basis": "Generated integrity metadata",
+    "decision": "REFERENCE_OR_METADATA_ONLY",
+    "license": "NO_NEW_GRANT_METADATA",
+    "publication": "NOT_AUTHORIZED",
+    "scope": "Factual integrity/license index; no new grant"
+  },
+  "LICENSES/Apache-2.0.txt": {
+    "basis": "Full standard license text included as license reference.",
+    "decision": "REFERENCE_OR_METADATA_ONLY",
+    "license": "STANDARD_LICENSE_TEXT_NO_NEW_GRANT",
+    "publication": "NOT_AUTHORIZED",
+    "scope": "Reference/license/technical metadata; no new grant by researcher."
+  },
+  "LICENSES/CC-BY-4.0.txt": {
+    "basis": "Full standard license text included as license reference.",
+    "decision": "REFERENCE_OR_METADATA_ONLY",
+    "license": "STANDARD_LICENSE_TEXT_NO_NEW_GRANT",
+    "publication": "NOT_AUTHORIZED",
+    "scope": "Reference/license/technical metadata; no new grant by researcher."
+  },
+  "NOTICE": {
+    "basis": "Own editorial replacement under explicit author declaration; does not grant rights to third-party material.",
+    "decision": "QUALIFIED_LOCAL_ONLY",
+    "license": "CC-BY-4.0",
+    "publication": "NOT_AUTHORIZED",
+    "scope": "Original contributions only; no grant of third-party rights or ownership of facts."
+  },
+  "README.md": {
+    "basis": "Own editorial replacement under explicit author declaration; does not grant rights to third-party material.",
+    "decision": "QUALIFIED_LOCAL_ONLY",
+    "license": "CC-BY-4.0",
+    "publication": "NOT_AUTHORIZED",
+    "scope": "Original contributions only; no grant of third-party rights or ownership of facts."
+  },
+  "SHA256SUMS": {
+    "basis": "Generated integrity metadata",
+    "decision": "REFERENCE_OR_METADATA_ONLY",
+    "license": "NO_NEW_GRANT_METADATA",
+    "publication": "NOT_AUTHORIZED",
+    "scope": "Factual integrity/license index; no new grant"
+  },
+  "research/v0.1/ABSTRACT.md": {
+    "basis": "Own authored narrative regenerated from sealed W08 review; author declaration; historical names and hashes are factual references, not third-party license grants.",
+    "decision": "QUALIFIED_LOCAL_ONLY",
+    "license": "CC-BY-4.0",
+    "publication": "NOT_AUTHORIZED",
+    "scope": "Original contributions only; no grant of third-party rights or ownership of facts."
+  },
+  "research/v0.1/CLAIM-QUALIFICATION.md": {
+    "basis": "Own authored narrative regenerated from sealed W08 review; author declaration; historical names and hashes are factual references, not third-party license grants.",
+    "decision": "QUALIFIED_LOCAL_ONLY",
+    "license": "CC-BY-4.0",
+    "publication": "NOT_AUTHORIZED",
+    "scope": "Original contributions only; no grant of third-party rights or ownership of facts."
+  },
+  "research/v0.1/DISTRIBUTION-STATUS.md": {
+    "basis": "Own editorial replacement under explicit author declaration; does not grant rights to third-party material.",
+    "decision": "QUALIFIED_LOCAL_ONLY",
+    "license": "CC-BY-4.0",
+    "publication": "NOT_AUTHORIZED",
+    "scope": "Original contributions only; no grant of third-party rights or ownership of facts."
+  },
+  "research/v0.1/EXPERIMENTAL-RESULTS.md": {
+    "basis": "Own authored narrative regenerated from sealed W08 review; author declaration; historical names and hashes are factual references, not third-party license grants.",
+    "decision": "QUALIFIED_LOCAL_ONLY",
+    "license": "CC-BY-4.0",
+    "publication": "NOT_AUTHORIZED",
+    "scope": "Original contributions only; no grant of third-party rights or ownership of facts."
+  },
+  "research/v0.1/HYPOTHESES.md": {
+    "basis": "Own preregistered original text; exact historical hash; author declaration.",
+    "decision": "QUALIFIED_LOCAL_ONLY",
+    "license": "CC-BY-4.0",
+    "publication": "NOT_AUTHORIZED",
+    "scope": "Original contributions only; no grant of third-party rights or ownership of facts."
+  },
+  "research/v0.1/LICENSE-REVIEW.md": {
+    "basis": "Own editorial replacement under explicit author declaration; does not grant rights to third-party material.",
+    "decision": "QUALIFIED_LOCAL_ONLY",
+    "license": "CC-BY-4.0",
+    "publication": "NOT_AUTHORIZED",
+    "scope": "Original contributions only; no grant of third-party rights or ownership of facts."
+  },
+  "research/v0.1/METHODOLOGY.md": {
+    "basis": "Own authored narrative regenerated from sealed W08 review; author declaration; historical names and hashes are factual references, not third-party license grants.",
+    "decision": "QUALIFIED_LOCAL_ONLY",
+    "license": "CC-BY-4.0",
+    "publication": "NOT_AUTHORIZED",
+    "scope": "Original contributions only; no grant of third-party rights or ownership of facts."
+  },
+  "research/v0.1/PROVENANCE.md": {
+    "basis": "Own authored narrative regenerated from sealed W08 review; author declaration; historical names and hashes are factual references, not third-party license grants.",
+    "decision": "QUALIFIED_LOCAL_ONLY",
+    "license": "CC-BY-4.0",
+    "publication": "NOT_AUTHORIZED",
+    "scope": "Original contributions only; no grant of third-party rights or ownership of facts."
+  },
+  "research/v0.1/REPRODUCTION.md": {
+    "basis": "Own editorial replacement under explicit author declaration; does not grant rights to third-party material.",
+    "decision": "QUALIFIED_LOCAL_ONLY",
+    "license": "CC-BY-4.0",
+    "publication": "NOT_AUTHORIZED",
+    "scope": "Original contributions only; no grant of third-party rights or ownership of facts."
+  },
+  "research/v0.1/SCIENTIFIC-REPORT.md": {
+    "basis": "Own authored narrative regenerated from sealed W08 review; author declaration; historical names and hashes are factual references, not third-party license grants.",
+    "decision": "QUALIFIED_LOCAL_ONLY",
+    "license": "CC-BY-4.0",
+    "publication": "NOT_AUTHORIZED",
+    "scope": "Original contributions only; no grant of third-party rights or ownership of facts."
+  },
+  "research/v0.1/THREATS-TO-VALIDITY.md": {
+    "basis": "Own authored narrative regenerated from sealed W08 review; author declaration; historical names and hashes are factual references, not third-party license grants.",
+    "decision": "QUALIFIED_LOCAL_ONLY",
+    "license": "CC-BY-4.0",
+    "publication": "NOT_AUTHORIZED",
+    "scope": "Original contributions only; no grant of third-party rights or ownership of facts."
+  },
+  "research/v0.1/evidence/CLAIM-REVIEW.json": {
+    "basis": "Own W08 review/aggregate results generated by authenticated documentary runner. License only original expression and eligible data rights; factual measurements and upstream references are not appropriated.",
+    "decision": "QUALIFIED_LOCAL_ONLY",
+    "license": "CC-BY-4.0",
+    "publication": "NOT_AUTHORIZED",
+    "scope": "Original contributions only; no grant of third-party rights or ownership of facts."
+  },
+  "research/v0.1/evidence/METRIC-REVIEW.json": {
+    "basis": "Own W08 review/aggregate results generated by authenticated documentary runner. License only original expression and eligible data rights; factual measurements and upstream references are not appropriated.",
+    "decision": "QUALIFIED_LOCAL_ONLY",
+    "license": "CC-BY-4.0",
+    "publication": "NOT_AUTHORIZED",
+    "scope": "Original contributions only; no grant of third-party rights or ownership of facts."
+  },
+  "research/v0.1/evidence/SEMANTIC-SUPPLEMENT.json": {
+    "basis": "Own W08 review/aggregate results generated by authenticated documentary runner. License only original expression and eligible data rights; factual measurements and upstream references are not appropriated.",
+    "decision": "QUALIFIED_LOCAL_ONLY",
+    "license": "CC-BY-4.0",
+    "publication": "NOT_AUTHORIZED",
+    "scope": "Original contributions only; no grant of third-party rights or ownership of facts."
+  },
+  "research/v0.1/evidence/THREAT-REVIEW.json": {
+    "basis": "Own W08 review/aggregate results generated by authenticated documentary runner. License only original expression and eligible data rights; factual measurements and upstream references are not appropriated.",
+    "decision": "QUALIFIED_LOCAL_ONLY",
+    "license": "CC-BY-4.0",
+    "publication": "NOT_AUTHORIZED",
+    "scope": "Original contributions only; no grant of third-party rights or ownership of facts."
+  },
+  "research/v0.1/tools/typed_adapter.py": {
+    "basis": "Original implementation authenticated against historical generator literal and standalone file; imports stdlib; no embedded third-party notice; explicit author authority. Header-only change, AST unchanged.",
+    "decision": "QUALIFIED_LOCAL_ONLY",
+    "license": "Apache-2.0",
+    "publication": "NOT_AUTHORIZED",
+    "scope": "Original contributions only; no grant of third-party rights or ownership of facts."
+  },
+  "research/v0.1/tools/witness.py": {
+    "basis": "Original implementation authenticated against historical generator literal and standalone file; imports stdlib; no embedded third-party notice; explicit author authority. Header-only change, AST unchanged.",
+    "decision": "QUALIFIED_LOCAL_ONLY",
+    "license": "Apache-2.0",
+    "publication": "NOT_AUTHORIZED",
+    "scope": "Original contributions only; no grant of third-party rights or ownership of facts."
+  }
+}

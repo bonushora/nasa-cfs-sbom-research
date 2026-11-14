@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this research, please cite it."
+title: "Beyond SBOM Validity: A Configuration-Aware Composition Witness for Software Supply Chain Assurance"
+type: software
+version: "0.1"
+authors:
+  - family-names: Rangel
+    given-names: Thales
+    orcid: "https://orcid.org/0000-0002-0629-9731"

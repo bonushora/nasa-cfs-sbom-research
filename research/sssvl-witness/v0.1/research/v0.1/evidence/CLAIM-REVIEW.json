@@ -1,0 +1,257 @@
+[
+  {
+    "id": "H1",
+    "limit": "No claim about any real scanner.",
+    "objection": "A naive policy is not a scanner defect.",
+    "original": "Verdict inflation\n\nA specified pipeline that converts zero advisory\nmatches into an unrestricted secure verdict may\nproduce an unjustified conclusion after omission\nof a relevant synthetic component.\n\nPositive control: the complete inventory must\nproduce the planted synthetic advisory match.\n\nIf the positive control fails, the experiment\nis invalid.\n\nIf the evaluator makes only a scoped no-match\nstatement, or blocks the broader verdict, the\nproposed failure is not demonstrated for it.\n\nA deliberately naive promotion policy demonstrates\na policy failure, not necessarily a scanner defect.",
+    "prior_claim": "Contrafactual de seguranca irrestrita com evidencia insuficiente",
+    "prior_evidence": [
+      {
+        "mission": "SSSVL-SBOM-WITNESS-CFS-v0.1-W05-B-20261114T153932.563503Z",
+        "record": "COMPARISON.json",
+        "seal": "f5376a5017ec50d23a676294c67325a9663247c816f41b0e0af47d9c5d428bee",
+        "sha256": "37c307b6646c17cbfbb7bd269f90513228f286b117cdd5a1ca27ce8e696599b5"
+      },
+      {
+        "mission": "SSSVL-SBOM-WITNESS-CFS-v0.1-W05-B-20261114T153932.563503Z",
+        "record": "METRICS.json",
+        "seal": "f5376a5017ec50d23a676294c67325a9663247c816f41b0e0af47d9c5d428bee",
+        "sha256": "07795a1f894faf587b9e0e09f31da83e92a21b601de6a45161a399507289566e"
+      },
+      {
+        "mission": "SSSVL-SBOM-WITNESS-CFS-v0.1-W01-W02-R1-20261113T141925.233282Z",
+        "record": "HYPOTHESES.md",
+        "seal": "b865902782f514998e343bd862ae556198ff21e2c970a4bf7424cb9bb7259a4c",
+        "sha256": "37dfa5911a84f6148ee6a9b8e764f8f025f2ba025a61dee30b74f2b38faa2ece"
+      }
+    ],
+    "response": "The planted advisory positive control and paired omission support the counterfactual only. A scoped no-match or blocked broad verdict is not a failure.",
+    "status": "SUPPORTED_SYNTHETIC_ONLY"
+  },
+  {
+    "id": "H2",
+    "limit": "W04 and B2-A are distinct; reference independent of submitted mutations, not independent build.",
+    "objection": "Cases designed with the evaluator can favor its implementation.",
+    "original": "Reconciliation\n\nA witness with an independent scoped reference\ndetects a missing required entity, identity\nmismatch or absent required dependency.\n\nPrediction: discrepancy recorded and requested\nbroad conclusion blocked.\n\nFalsification: a required mismatch or unresolved\nidentity is accepted as reconciled.",
+    "prior_claim": "Deteccao das insuficiencias introduzidas",
+    "prior_evidence": [
+      {
+        "mission": "SSSVL-SBOM-WITNESS-CFS-v0.1-W05-B-20261114T153932.563503Z",
+        "record": "COMPARISON.json",
+        "seal": "f5376a5017ec50d23a676294c67325a9663247c816f41b0e0af47d9c5d428bee",
+        "sha256": "37c307b6646c17cbfbb7bd269f90513228f286b117cdd5a1ca27ce8e696599b5"
+      },
+      {
+        "mission": "SSSVL-SBOM-WITNESS-CFS-v0.1-W06-B2-B2-20261114T165525.320516Z",
+        "record": "METRICS.json",
+        "seal": "0f35383f6b24a14c97d935f75267f64ceed0375be2c8be1883077a1fef274a9c",
+        "sha256": "f32199df0cc27feb829a9926987395b2c380b693f7ab0ec7b5c54fe9a895d98b"
+      },
+      {
+        "mission": "SSSVL-SBOM-WITNESS-CFS-v0.1-W06-B2-B2-20261114T165525.320516Z",
+        "record": "ORACLE.json",
+        "seal": "0f35383f6b24a14c97d935f75267f64ceed0375be2c8be1883077a1fef274a9c",
+        "sha256": "4a4fe5b8c2c7dbfdf6491849ae43aa60cbe85c0471e3596bdf2f99e09579622e"
+      },
+      {
+        "mission": "SSSVL-SBOM-WITNESS-CFS-v0.1-W01-W02-R1-20261113T141925.233282Z",
+        "record": "HYPOTHESES.md",
+        "seal": "b865902782f514998e343bd862ae556198ff21e2c970a4bf7424cb9bb7259a4c",
+        "sha256": "37dfa5911a84f6148ee6a9b8e764f8f025f2ba025a61dee30b74f2b38faa2ece"
+      }
+    ],
+    "response": "Missing identities, hash mismatch and absent declarations were detected in selected cases. An accepted required mismatch would refute the prediction.",
+    "status": "SUPPORTED_BOUNDED"
+  },
+  {
+    "id": "H3",
+    "limit": "REAL-07 is a different test: SHA256 claim changes, SHA1 remains; no physical alteration.",
+    "objection": "Schema and regenerated document hashes do not prove full normative compliance.",
+    "original": "Integrity versus completeness\n\nA schema-valid SBOM with regenerated checksums can\nomit a required reference component.\n\nPrediction: schema and integrity PASS, scoped\ncoverage FAIL.\n\nInvalid construction: schema/checksum failure or\nfailure to independently establish the missing\nreference identity.",
+    "prior_claim": "Validade formal nao implica suficiência material",
+    "prior_evidence": [
+      {
+        "mission": "SSSVL-SBOM-WITNESS-CFS-v0.1-W06-B2-B1-20261114T164606.435303Z",
+        "record": "REPORT.json",
+        "seal": "69c72bd71e26e94ab8adae8dc79d42fa3394ce4e9937f81d59c6c03301770ab5",
+        "sha256": "27e02fc452d8a0108f13206d818b7188d251eae016642dc1eecc33d0ef82782a"
+      },
+      {
+        "mission": "SSSVL-SBOM-WITNESS-CFS-v0.1-W06-B2-B1-20261114T164606.435303Z",
+        "record": "MATERIALIZATION.json",
+        "seal": "69c72bd71e26e94ab8adae8dc79d42fa3394ce4e9937f81d59c6c03301770ab5",
+        "sha256": "4da5aa562fb93d20f0de495ab7d729206ac9ab40075df05f4e861e7bfbb8d1ab"
+      },
+      {
+        "mission": "SSSVL-SBOM-WITNESS-CFS-v0.1-W06-B2-B2-20261114T165525.320516Z",
+        "record": "METRICS.json",
+        "seal": "0f35383f6b24a14c97d935f75267f64ceed0375be2c8be1883077a1fef274a9c",
+        "sha256": "f32199df0cc27feb829a9926987395b2c380b693f7ab0ec7b5c54fe9a895d98b"
+      },
+      {
+        "mission": "SSSVL-SBOM-WITNESS-CFS-v0.1-W01-W02-R1-20261113T141925.233282Z",
+        "record": "HYPOTHESES.md",
+        "seal": "b865902782f514998e343bd862ae556198ff21e2c970a4bf7424cb9bb7259a4c",
+        "sha256": "37dfa5911a84f6148ee6a9b8e764f8f025f2ba025a61dee30b74f2b38faa2ece"
+      }
+    ],
+    "response": "REAL-03/04 omit a reference identity; schema and implemented integrity checks pass while scoped coverage fails. A schema/checksum failure would invalidate this construction.",
+    "status": "SUPPORTED_BOUNDED"
+  },
+  {
+    "id": "H4",
+    "limit": "No autonomous configuration discovery or spoofing resistance.",
+    "objection": "Caller supplies configuration; REAL-08 blocks before roles.",
+    "original": "Configuration awareness\n\nAn inventory of one configuration cannot support\nanother configuration without reconciliation\nagainst the latter's required reference scope.\n\nPrediction: controlled substitution detects\nconfiguration or coverage mismatches.\n\nFalsification: the required reference universe\nis equivalent under the declared scope.\n\nInvalid comparison: source, build, install or\nruntime scope is silently mixed.",
+    "prior_claim": "Configuracao altera a qualificacao",
+    "prior_evidence": [
+      {
+        "mission": "SSSVL-SBOM-WITNESS-CFS-v0.1-W05-B-20261114T153932.563503Z",
+        "record": "COMPARISON.json",
+        "seal": "f5376a5017ec50d23a676294c67325a9663247c816f41b0e0af47d9c5d428bee",
+        "sha256": "37c307b6646c17cbfbb7bd269f90513228f286b117cdd5a1ca27ce8e696599b5"
+      },
+      {
+        "mission": "SSSVL-SBOM-WITNESS-CFS-v0.1-W06-B2-B2-20261114T165525.320516Z",
+        "record": "primary-REAL-08.json",
+        "seal": "0f35383f6b24a14c97d935f75267f64ceed0375be2c8be1883077a1fef274a9c",
+        "sha256": "4f2cfccf7f277342e1316f839795c7234689bed8cfc6546985bdc48e08e32de3"
+      },
+      {
+        "mission": "SSSVL-SBOM-WITNESS-CFS-v0.1-W01-W02-R1-20261113T141925.233282Z",
+        "record": "HYPOTHESES.md",
+        "seal": "b865902782f514998e343bd862ae556198ff21e2c970a4bf7424cb9bb7259a4c",
+        "sha256": "37dfa5911a84f6148ee6a9b8e764f8f025f2ba025a61dee30b74f2b38faa2ece"
+      }
+    ],
+    "response": "Explicit mismatch is detected; equivalent required universes would defeat the claimed distinction. Do not mix source/build/install/runtime.",
+    "status": "SUPPORTED_BOUNDED"
+  },
+  {
+    "id": "H5",
+    "limit": "PARTIAL_COVERAGE; legitimate duplicates NOT_ESTABLISHED; real specificity NOT_TESTED.",
+    "objection": "Optional exclusion does not establish legitimate duplicate handling.",
+    "original": "Specificity\n\nA valid scoped control must not be blocked merely\nbecause an explicitly excluded component is absent.\n\nFalsification: justified out-of-scope exclusions\nor legitimate duplicate identities cause an\nincorrect insufficiency verdict.",
+    "prior_claim": "Exclusao opcional justificada pode preservar suficiencia",
+    "prior_evidence": [
+      {
+        "mission": "SSSVL-SBOM-WITNESS-CFS-v0.1-W05-B-20261114T153932.563503Z",
+        "record": "PRIMARY.json",
+        "seal": "f5376a5017ec50d23a676294c67325a9663247c816f41b0e0af47d9c5d428bee",
+        "sha256": "a139139b81357770dbc3d84e989ed94d81bff93e5f75daf83922395b6f67662a"
+      },
+      {
+        "mission": "SSSVL-SBOM-WITNESS-CFS-v0.1-W05-B-20261114T153932.563503Z",
+        "record": "ORACLE-FROZEN.json",
+        "seal": "f5376a5017ec50d23a676294c67325a9663247c816f41b0e0af47d9c5d428bee",
+        "sha256": "99a573305e661829a27b0e48ff276ba903609a38803935bf1d1cfc29243f80a1"
+      },
+      {
+        "mission": "SSSVL-SBOM-WITNESS-CFS-v0.1-W01-W02-R1-20261113T141925.233282Z",
+        "record": "HYPOTHESES.md",
+        "seal": "b865902782f514998e343bd862ae556198ff21e2c970a4bf7424cb9bb7259a4c",
+        "sha256": "37dfa5911a84f6148ee6a9b8e764f8f025f2ba025a61dee30b74f2b38faa2ece"
+      }
+    ],
+    "response": "EXP-SBOM-08 supports justified exclusion only. Incorrect blocking of justified exclusions or legitimate duplicates would refute specificity.",
+    "status": "SUPPORTED_SYNTHETIC_ONLY"
+  },
+  {
+    "id": "C6",
+    "limit": "Not a mission-required universe; no provider/package/transitive/runtime promotion.",
+    "objection": "Shared build lineage may share systematic omissions.",
+    "original": null,
+    "prior_claim": "Identidades e declaracoes diretas STD/EDS reconciliadas",
+    "prior_evidence": [
+      {
+        "mission": "SSSVL-SBOM-WITNESS-CFS-v0.1-W06-B1-Q1-M1-20261114T162308.349789Z",
+        "record": "METRICS.json",
+        "seal": "3ac9b9bc0297e4f62583526afda8dba5ce64053ae2f0adde033c03239dd2dc0d",
+        "sha256": "d0a721c0cae53a54701e95bcdec45719d45154b3e5153022ee9d61744b30c7ff"
+      },
+      {
+        "mission": "SSSVL-SBOM-WITNESS-CFS-v0.1-W06-B2-B2-20261114T165525.320516Z",
+        "record": "REFERENCE.json",
+        "seal": "0f35383f6b24a14c97d935f75267f64ceed0375be2c8be1883077a1fef274a9c",
+        "sha256": "d33c6b9c28e6dd0743d76cce64ecab9a0aba2baf8d70d2a112dc01bbc1cf11fb"
+      },
+      {
+        "mission": "SSSVL-SBOM-WITNESS-CFS-v0.1-W06-B2-B2-20261114T165525.320516Z",
+        "record": "primary-REAL-01.json",
+        "seal": "0f35383f6b24a14c97d935f75267f64ceed0375be2c8be1883077a1fef274a9c",
+        "sha256": "956809121580cfe88152096adc27ceae8d21ac8bb59cb876db4d2d23a115b384"
+      },
+      {
+        "mission": "SSSVL-SBOM-WITNESS-CFS-v0.1-W06-B2-B2-20261114T165525.320516Z",
+        "record": "primary-REAL-02.json",
+        "seal": "0f35383f6b24a14c97d935f75267f64ceed0375be2c8be1883077a1fef274a9c",
+        "sha256": "6a0e9214427ff8ff0a78ab97f49a2efb5cf00205cf89692e9e20e18abe714496"
+      }
+    ],
+    "response": "Exact installed snapshots match 546/474/432 STD and 565/483/458 EDS.",
+    "status": "SUPPORTED_BOUNDED"
+  },
+  {
+    "id": "C7",
+    "limit": "No population error rate, external reproducibility or OS isolation claim.",
+    "objection": "Repeated runs are not independent samples.",
+    "original": null,
+    "prior_claim": "Repetibilidade nos casos reais",
+    "prior_evidence": [
+      {
+        "mission": "SSSVL-SBOM-WITNESS-CFS-v0.1-W06-B2-B2-20261114T165525.320516Z",
+        "record": "METRICS.json",
+        "seal": "0f35383f6b24a14c97d935f75267f64ceed0375be2c8be1883077a1fef274a9c",
+        "sha256": "f32199df0cc27feb829a9926987395b2c380b693f7ab0ec7b5c54fe9a895d98b"
+      }
+    ],
+    "response": "8 distinct cases, 16 evaluations, 8 identical pairs.",
+    "status": "SUPPORTED_BOUNDED"
+  },
+  {
+    "id": "C8",
+    "limit": "Keep claims separate and unestablished.",
+    "objection": "No scanner or exploit tested.",
+    "original": null,
+    "prior_claim": "Falha scanner comercial ou vulnerabilidade cFS",
+    "prior_evidence": [
+      {
+        "mission": "SSSVL-SBOM-WITNESS-CFS-v0.1-W06-B2-B2-20261114T165525.320516Z",
+        "record": "REPORT.json",
+        "seal": "0f35383f6b24a14c97d935f75267f64ceed0375be2c8be1883077a1fef274a9c",
+        "sha256": "5b7ffa7966f481e80a3fd13e47f496095390d5268c283e29a92ac3fbbf85bff4"
+      },
+      {
+        "mission": "SSSVL-SBOM-WITNESS-CFS-v0.1-W05-B-20261114T153932.563503Z",
+        "record": "REPORT.json",
+        "seal": "f5376a5017ec50d23a676294c67325a9663247c816f41b0e0af47d9c5d428bee",
+        "sha256": "b9b7cd109818c55bc4f8a79c00bda379537df3b527931daa595678c9954aa896"
+      }
+    ],
+    "response": "No evidence of commercial scanner defect or cFS vulnerability.",
+    "status": "NOT_ESTABLISHED"
+  },
+  {
+    "id": "C9",
+    "limit": "Package/version, provider, static, transitive and runtime remain UNKNOWN/NOT_VERIFIED.",
+    "objection": "Snapshot scope omits runtime and other composition dimensions.",
+    "original": null,
+    "prior_claim": "Completude global ou seguranca operacional",
+    "prior_evidence": [
+      {
+        "mission": "SSSVL-SBOM-WITNESS-CFS-v0.1-W06-B2-B2-20261114T165525.320516Z",
+        "record": "REPORT.json",
+        "seal": "0f35383f6b24a14c97d935f75267f64ceed0375be2c8be1883077a1fef274a9c",
+        "sha256": "5b7ffa7966f481e80a3fd13e47f496095390d5268c283e29a92ac3fbbf85bff4"
+      },
+      {
+        "mission": "SSSVL-SBOM-WITNESS-CFS-v0.1-W06-B2-B2-20261114T165525.320516Z",
+        "record": "CONTRACT.json",
+        "seal": "0f35383f6b24a14c97d935f75267f64ceed0375be2c8be1883077a1fef274a9c",
+        "sha256": "a6f53691a4458485b1fc45bf325765c0dbd3d818c0d2400a55513c2163e1d109"
+      }
+    ],
+    "response": "Sufficiency verdict has no operational security authority.",
+    "status": "NOT_ESTABLISHED"
+  }
+]

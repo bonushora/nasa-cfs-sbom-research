@@ -1,0 +1,3 @@
+# Experimental results
+
+STD: 546 installed files, 474 ELF, 432 direct declarations; EDS: 565, 483, 458. ELF is a subset of installed files. Counts are configuration-specific occurrences. Synthetic: 11 distinct cases, 44 executions, 330+330 leaf assertions, 22/22 pairs, 3/3 paired checks. Original profile: false acceptance 0/11, false blocking N/A (no positives); supplemented: 0/8 and 0/3. Real-derived: 8 distinct cases, 16 evaluations, 16/16 oracle agreement, 8/8 pairs, false acceptance 0/12, false blocking 0/4. Primary: 0/6 and 0/2; repeat: 0/6 and 0/2. Do not pool units or treat repeats as independent cases.

@@ -1,0 +1,124 @@
+{
+  "dimensions": {
+    "EDS": [
+      565,
+      483,
+      458
+    ],
+    "STD": [
+      546,
+      474,
+      432
+    ]
+  },
+  "distinct_cases": 8,
+  "negative_cases": 6,
+  "pooling": "PROHIBITED_DIFFERENT_UNITS",
+  "positive_cases": 2,
+  "real": {
+    "combined": {
+      "false_acceptance": [
+        0,
+        12
+      ],
+      "false_blocking": [
+        0,
+        4
+      ],
+      "oracle_agreement": [
+        16,
+        16
+      ]
+    },
+    "primary": {
+      "false_acceptance": [
+        0,
+        6
+      ],
+      "false_blocking": [
+        0,
+        2
+      ],
+      "oracle_agreement": [
+        8,
+        8
+      ]
+    },
+    "repeat": {
+      "false_acceptance": [
+        0,
+        6
+      ],
+      "false_blocking": [
+        0,
+        2
+      ],
+      "oracle_agreement": [
+        8,
+        8
+      ]
+    }
+  },
+  "repeatability": [
+    8,
+    8
+  ],
+  "scope": "EXACT_SNAPSHOT_NOT_MISSION_REQUIRED_UNIVERSE",
+  "synthetic": {
+    "assertions": [
+      330,
+      330
+    ],
+    "executions": 44,
+    "paired_assertions": [
+      3,
+      3
+    ],
+    "pairs": [
+      22,
+      22
+    ],
+    "profiles": {
+      "ORIGINAL_W03": {
+        "blocked": 11,
+        "cases": 11,
+        "entity": [
+          26,
+          33
+        ],
+        "false_accept": 0,
+        "false_block": 0,
+        "hypothetical_claims": 5,
+        "hypothetical_despite_block": 5,
+        "negative": 11,
+        "positive": 0,
+        "relation": [
+          0,
+          22
+        ],
+        "security_violations": 0,
+        "sufficient": 0
+      },
+      "SUPPLEMENTED_DECLARATIVE": {
+        "blocked": 8,
+        "cases": 11,
+        "entity": [
+          26,
+          33
+        ],
+        "false_accept": 0,
+        "false_block": 0,
+        "hypothetical_claims": 5,
+        "hypothetical_despite_block": 4,
+        "negative": 8,
+        "positive": 3,
+        "relation": [
+          14,
+          22
+        ],
+        "security_violations": 0,
+        "sufficient": 3
+      }
+    }
+  }
+}

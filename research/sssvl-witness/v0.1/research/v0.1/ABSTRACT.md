@@ -1,0 +1,3 @@
+# Abstract
+
+This independent experimental study separates SBOM documentary validity from sufficiency against a frozen composition reference. A synthetic witness evaluated 11 cases in two profiles (44 executions); a distinct typed comparator evaluated eight cases derived from NASA cFS STD and EDS installed snapshots (16 evaluations). All 16 real-derived evaluations agreed with pre-registered oracles; eight pairs repeated identically. Six negative cases and two positive controls were each evaluated twice, with zero observed false acceptances (0/12) and false blocks (0/4). The findings concern file identities and direct dynamic declarations, not global completeness, vulnerability discovery or operational assurance.
