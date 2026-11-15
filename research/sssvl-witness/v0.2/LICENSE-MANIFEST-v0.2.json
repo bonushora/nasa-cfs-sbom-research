@@ -1,0 +1,889 @@
+{
+  "accepted_checkpoint": "7d3cfd51ef4f161ae764fd9e503062b5d0e05f7cb499a29cbd8cde865d3592aa",
+  "files": [
+    {
+      "attribution": {
+        "adaptation_disclosed": true,
+        "author": "Thales Rangel",
+        "orcid": "https://orcid.org/0000-0002-0629-9731",
+        "source_doi": "10.5281/zenodo.24230342"
+      },
+      "author_decision": "APPROVED",
+      "category": "EDITORIAL_CANDIDATE",
+      "decision_id": "L05",
+      "license": "CC-BY-4.0",
+      "license_authorization": "AUTHOR_APPROVED",
+      "new_grant": false,
+      "path": "BIBLIOGRAPHIC-METADATA.json",
+      "public_release": "NOT_AUTHORIZED",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "ELIGIBLE_AUTHOR_CONTRIBUTIONS_ONLY",
+      "sha256": "1a3b2d4283112e4d1228c5c8feea95d636afbad68a8f6f1ddc8809ecf31d3be7",
+      "third_party_rights_granted": false
+    },
+    {
+      "attribution": {
+        "adaptation_disclosed": true,
+        "author": "Thales Rangel",
+        "orcid": "https://orcid.org/0000-0002-0629-9731",
+        "source_doi": "10.5281/zenodo.24230342"
+      },
+      "author_decision": "APPROVED",
+      "category": "EDITORIAL_CANDIDATE",
+      "decision_id": "L05",
+      "license": "CC-BY-4.0",
+      "license_authorization": "AUTHOR_APPROVED",
+      "new_grant": false,
+      "path": "EDITORIAL-NOTE.md",
+      "public_release": "NOT_AUTHORIZED",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "ELIGIBLE_AUTHOR_CONTRIBUTIONS_ONLY",
+      "sha256": "2850e0f498db4dfa4066d71ff70d94b388662b2301467801de6039a8370147af",
+      "third_party_rights_granted": false
+    },
+    {
+      "attribution": {
+        "adaptation_disclosed": true,
+        "author": "Thales Rangel",
+        "orcid": "https://orcid.org/0000-0002-0629-9731",
+        "source_doi": "10.5281/zenodo.24230342"
+      },
+      "author_decision": "APPROVED",
+      "category": "EDITORIAL_CANDIDATE",
+      "decision_id": "L05",
+      "license": "CC-BY-4.0",
+      "license_authorization": "AUTHOR_APPROVED",
+      "new_grant": false,
+      "path": "README.md",
+      "public_release": "NOT_AUTHORIZED",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "ELIGIBLE_AUTHOR_CONTRIBUTIONS_ONLY",
+      "sha256": "3c05c27c92c3c61eff69c609c9fd644e2cc05533e7e65d2688ddb1a9dadb4857",
+      "third_party_rights_granted": false
+    },
+    {
+      "author_decision": "APPROVED",
+      "authority": [
+        "original-v0.1/LICENSE-MANIFEST.json"
+      ],
+      "category": "ORIGINAL_UNCHANGED",
+      "decision_id": "L01",
+      "license": "CC-BY-4.0",
+      "new_grant": false,
+      "path": "original-v0.1/CITATION.cff",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "PRESERVE_HISTORICAL_LICENSE_AND_SCOPE",
+      "sha256": "250ff9b7766bd52a631213c9ddfedc51d00d91ed50db424cecce2b1637b8a8a5",
+      "third_party_rights_granted": false
+    },
+    {
+      "author_decision": "APPROVED",
+      "authority": [
+        "original-v0.1/LICENSE-MANIFEST.json"
+      ],
+      "category": "ORIGINAL_UNCHANGED",
+      "decision_id": "L03",
+      "license": "NO_NEW_GRANT_METADATA",
+      "new_grant": false,
+      "path": "original-v0.1/EVIDENCE-INDEX.json",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "PRESERVE_HISTORICAL_LICENSE_AND_SCOPE",
+      "sha256": "df18f6d8f6b5ec48ba0d585fb6bad82ec1437a776c8e0ecf0937f7b17c8b4de2",
+      "third_party_rights_granted": false
+    },
+    {
+      "author_decision": "APPROVED",
+      "authority": [
+        "original-v0.1/LICENSE-MANIFEST.json"
+      ],
+      "category": "ORIGINAL_UNCHANGED",
+      "decision_id": "L01",
+      "license": "CC-BY-4.0",
+      "new_grant": false,
+      "path": "original-v0.1/LICENSE",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "PRESERVE_HISTORICAL_LICENSE_AND_SCOPE",
+      "sha256": "f27b3932928726c89b7d3f1cb2e823e5f738b05a1fb1a9fe576fd717a136138b",
+      "third_party_rights_granted": false
+    },
+    {
+      "author_decision": "APPROVED",
+      "authority": [
+        "original-v0.1/LICENSE-MANIFEST.json"
+      ],
+      "category": "ORIGINAL_UNCHANGED",
+      "decision_id": "L03",
+      "license": "NO_NEW_GRANT_METADATA",
+      "new_grant": false,
+      "path": "original-v0.1/LICENSE-MANIFEST.json",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "PRESERVE_HISTORICAL_LICENSE_AND_SCOPE",
+      "sha256": "78bbcff66f533d7dfb9ab673142a2a16a50847c69c24f9945a9fc8f1e2d11df1",
+      "third_party_rights_granted": false
+    },
+    {
+      "author_decision": "APPROVED",
+      "authority": [
+        "original-v0.1/LICENSE-MANIFEST.json"
+      ],
+      "category": "ORIGINAL_UNCHANGED",
+      "decision_id": "L03",
+      "license": "STANDARD_LICENSE_TEXT_NO_NEW_GRANT",
+      "new_grant": false,
+      "path": "original-v0.1/LICENSES/Apache-2.0.txt",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "PRESERVE_HISTORICAL_LICENSE_AND_SCOPE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "third_party_rights_granted": false
+    },
+    {
+      "author_decision": "APPROVED",
+      "authority": [
+        "original-v0.1/LICENSE-MANIFEST.json"
+      ],
+      "category": "ORIGINAL_UNCHANGED",
+      "decision_id": "L03",
+      "license": "STANDARD_LICENSE_TEXT_NO_NEW_GRANT",
+      "new_grant": false,
+      "path": "original-v0.1/LICENSES/CC-BY-4.0.txt",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "PRESERVE_HISTORICAL_LICENSE_AND_SCOPE",
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "third_party_rights_granted": false
+    },
+    {
+      "author_decision": "APPROVED",
+      "authority": [
+        "original-v0.1/LICENSE-MANIFEST.json"
+      ],
+      "category": "ORIGINAL_UNCHANGED",
+      "decision_id": "L01",
+      "license": "CC-BY-4.0",
+      "new_grant": false,
+      "path": "original-v0.1/NOTICE",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "PRESERVE_HISTORICAL_LICENSE_AND_SCOPE",
+      "sha256": "6ba8708b9bdb89840c72ec22d1ac34a2b24b87cd740f48fe922c9340a013b9a3",
+      "third_party_rights_granted": false
+    },
+    {
+      "author_decision": "APPROVED",
+      "authority": [
+        "original-v0.1/LICENSE-MANIFEST.json"
+      ],
+      "category": "ORIGINAL_UNCHANGED",
+      "decision_id": "L01",
+      "license": "CC-BY-4.0",
+      "new_grant": false,
+      "path": "original-v0.1/README.md",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "PRESERVE_HISTORICAL_LICENSE_AND_SCOPE",
+      "sha256": "27973fd9658db30ce6d636915cc1e1a4fba81929a41967e37bbe61524fa90a2a",
+      "third_party_rights_granted": false
+    },
+    {
+      "author_decision": "APPROVED",
+      "authority": [
+        "original-v0.1/LICENSE-MANIFEST.json"
+      ],
+      "category": "ORIGINAL_UNCHANGED",
+      "decision_id": "L03",
+      "license": "NO_NEW_GRANT_METADATA",
+      "new_grant": false,
+      "path": "original-v0.1/SHA256SUMS",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "PRESERVE_HISTORICAL_LICENSE_AND_SCOPE",
+      "sha256": "36c99b5f5fe27bd4c1ce175ee5085ccb908398008bbca546ead2898747499a2b",
+      "third_party_rights_granted": false
+    },
+    {
+      "author_decision": "APPROVED",
+      "authority": [
+        "original-v0.1/LICENSE-MANIFEST.json"
+      ],
+      "category": "ORIGINAL_UNCHANGED",
+      "decision_id": "L01",
+      "license": "CC-BY-4.0",
+      "new_grant": false,
+      "path": "original-v0.1/research/v0.1/ABSTRACT.md",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "PRESERVE_HISTORICAL_LICENSE_AND_SCOPE",
+      "sha256": "0638f6b2b31a8d10d63fe28a5c0b20abae758b0325e41a07b34627ae0e19131f",
+      "third_party_rights_granted": false
+    },
+    {
+      "author_decision": "APPROVED",
+      "authority": [
+        "original-v0.1/LICENSE-MANIFEST.json"
+      ],
+      "category": "ORIGINAL_UNCHANGED",
+      "decision_id": "L01",
+      "license": "CC-BY-4.0",
+      "new_grant": false,
+      "path": "original-v0.1/research/v0.1/CLAIM-QUALIFICATION.md",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "PRESERVE_HISTORICAL_LICENSE_AND_SCOPE",
+      "sha256": "c2fe23f18422a908eab2b252034987184eb528c1afd60c59bb6f567823d65d44",
+      "third_party_rights_granted": false
+    },
+    {
+      "author_decision": "APPROVED",
+      "authority": [
+        "original-v0.1/LICENSE-MANIFEST.json"
+      ],
+      "category": "ORIGINAL_UNCHANGED",
+      "decision_id": "L01",
+      "license": "CC-BY-4.0",
+      "new_grant": false,
+      "path": "original-v0.1/research/v0.1/DISTRIBUTION-STATUS.md",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "PRESERVE_HISTORICAL_LICENSE_AND_SCOPE",
+      "sha256": "0e5eda51b6c5b9f25c7a68b3bbf7c10adc7ea327bd132ca7b02e77f8d8de7479",
+      "third_party_rights_granted": false
+    },
+    {
+      "author_decision": "APPROVED",
+      "authority": [
+        "original-v0.1/LICENSE-MANIFEST.json"
+      ],
+      "category": "ORIGINAL_UNCHANGED",
+      "decision_id": "L01",
+      "license": "CC-BY-4.0",
+      "new_grant": false,
+      "path": "original-v0.1/research/v0.1/EXPERIMENTAL-RESULTS.md",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "PRESERVE_HISTORICAL_LICENSE_AND_SCOPE",
+      "sha256": "5c8372eec7966c483f448cac86316eaafd002a5f2aee4cb351f9ad255fd12648",
+      "third_party_rights_granted": false
+    },
+    {
+      "author_decision": "APPROVED",
+      "authority": [
+        "original-v0.1/LICENSE-MANIFEST.json"
+      ],
+      "category": "ORIGINAL_UNCHANGED",
+      "decision_id": "L01",
+      "license": "CC-BY-4.0",
+      "new_grant": false,
+      "path": "original-v0.1/research/v0.1/HYPOTHESES.md",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "PRESERVE_HISTORICAL_LICENSE_AND_SCOPE",
+      "sha256": "37dfa5911a84f6148ee6a9b8e764f8f025f2ba025a61dee30b74f2b38faa2ece",
+      "third_party_rights_granted": false
+    },
+    {
+      "author_decision": "APPROVED",
+      "authority": [
+        "original-v0.1/LICENSE-MANIFEST.json"
+      ],
+      "category": "ORIGINAL_UNCHANGED",
+      "decision_id": "L01",
+      "license": "CC-BY-4.0",
+      "new_grant": false,
+      "path": "original-v0.1/research/v0.1/LICENSE-REVIEW.md",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "PRESERVE_HISTORICAL_LICENSE_AND_SCOPE",
+      "sha256": "3a7621c2bf1f31bb98af45c5bfebe009a6be3afdcf1f600df18dba44a0a23a49",
+      "third_party_rights_granted": false
+    },
+    {
+      "author_decision": "APPROVED",
+      "authority": [
+        "original-v0.1/LICENSE-MANIFEST.json"
+      ],
+      "category": "ORIGINAL_UNCHANGED",
+      "decision_id": "L01",
+      "license": "CC-BY-4.0",
+      "new_grant": false,
+      "path": "original-v0.1/research/v0.1/METHODOLOGY.md",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "PRESERVE_HISTORICAL_LICENSE_AND_SCOPE",
+      "sha256": "7b9102306e0195e11092b096a6aa1353c1e7883e8233fa6d06b772c512b4ae41",
+      "third_party_rights_granted": false
+    },
+    {
+      "author_decision": "APPROVED",
+      "authority": [
+        "original-v0.1/LICENSE-MANIFEST.json"
+      ],
+      "category": "ORIGINAL_UNCHANGED",
+      "decision_id": "L01",
+      "license": "CC-BY-4.0",
+      "new_grant": false,
+      "path": "original-v0.1/research/v0.1/PROVENANCE.md",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "PRESERVE_HISTORICAL_LICENSE_AND_SCOPE",
+      "sha256": "a1f0ec3bb33eb78bf17826dbb240461a5889eb45aa1f36500b83c2de586b5ec6",
+      "third_party_rights_granted": false
+    },
+    {
+      "author_decision": "APPROVED",
+      "authority": [
+        "original-v0.1/LICENSE-MANIFEST.json"
+      ],
+      "category": "ORIGINAL_UNCHANGED",
+      "decision_id": "L01",
+      "license": "CC-BY-4.0",
+      "new_grant": false,
+      "path": "original-v0.1/research/v0.1/REPRODUCTION.md",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "PRESERVE_HISTORICAL_LICENSE_AND_SCOPE",
+      "sha256": "2556c250e3ed22b77aa9a294ab17c6be97ac214c3148b21980c8464915bd103a",
+      "third_party_rights_granted": false
+    },
+    {
+      "author_decision": "APPROVED",
+      "authority": [
+        "original-v0.1/LICENSE-MANIFEST.json"
+      ],
+      "category": "ORIGINAL_UNCHANGED",
+      "decision_id": "L01",
+      "license": "CC-BY-4.0",
+      "new_grant": false,
+      "path": "original-v0.1/research/v0.1/SCIENTIFIC-REPORT.md",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "PRESERVE_HISTORICAL_LICENSE_AND_SCOPE",
+      "sha256": "5243f3a012a14736fbef948022415e1a57e10d993e1181c3b4fcedaace4fe39e",
+      "third_party_rights_granted": false
+    },
+    {
+      "author_decision": "APPROVED",
+      "authority": [
+        "original-v0.1/LICENSE-MANIFEST.json"
+      ],
+      "category": "ORIGINAL_UNCHANGED",
+      "decision_id": "L01",
+      "license": "CC-BY-4.0",
+      "new_grant": false,
+      "path": "original-v0.1/research/v0.1/THREATS-TO-VALIDITY.md",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "PRESERVE_HISTORICAL_LICENSE_AND_SCOPE",
+      "sha256": "5d0c4ec0da702b4c24c8792c3e0bc4936d4d888f4697a7d8cab055d67639250f",
+      "third_party_rights_granted": false
+    },
+    {
+      "author_decision": "APPROVED",
+      "authority": [
+        "original-v0.1/LICENSE-MANIFEST.json"
+      ],
+      "category": "ORIGINAL_UNCHANGED",
+      "decision_id": "L01",
+      "license": "CC-BY-4.0",
+      "new_grant": false,
+      "path": "original-v0.1/research/v0.1/evidence/CLAIM-REVIEW.json",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "PRESERVE_HISTORICAL_LICENSE_AND_SCOPE",
+      "sha256": "05d0791d44e1e571f953fc054ac0e5cca94e0456f4d916376bb146ae3275e532",
+      "third_party_rights_granted": false
+    },
+    {
+      "author_decision": "APPROVED",
+      "authority": [
+        "original-v0.1/LICENSE-MANIFEST.json"
+      ],
+      "category": "ORIGINAL_UNCHANGED",
+      "decision_id": "L01",
+      "license": "CC-BY-4.0",
+      "new_grant": false,
+      "path": "original-v0.1/research/v0.1/evidence/METRIC-REVIEW.json",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "PRESERVE_HISTORICAL_LICENSE_AND_SCOPE",
+      "sha256": "e6f799c758acc9f898776702e9a5df7f90f29b1a24c116268e145d2bbb95c9d1",
+      "third_party_rights_granted": false
+    },
+    {
+      "author_decision": "APPROVED",
+      "authority": [
+        "original-v0.1/LICENSE-MANIFEST.json"
+      ],
+      "category": "ORIGINAL_UNCHANGED",
+      "decision_id": "L01",
+      "license": "CC-BY-4.0",
+      "new_grant": false,
+      "path": "original-v0.1/research/v0.1/evidence/SEMANTIC-SUPPLEMENT.json",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "PRESERVE_HISTORICAL_LICENSE_AND_SCOPE",
+      "sha256": "a3e25c3991c66acaedc34f22fd1aee441d06d64813362eba83a70b5dd1bb2ba5",
+      "third_party_rights_granted": false
+    },
+    {
+      "author_decision": "APPROVED",
+      "authority": [
+        "original-v0.1/LICENSE-MANIFEST.json"
+      ],
+      "category": "ORIGINAL_UNCHANGED",
+      "decision_id": "L01",
+      "license": "CC-BY-4.0",
+      "new_grant": false,
+      "path": "original-v0.1/research/v0.1/evidence/THREAT-REVIEW.json",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "PRESERVE_HISTORICAL_LICENSE_AND_SCOPE",
+      "sha256": "9d315603949b2a8d927c249ad094c77f5522686929c310bedf96ccea5f1823c3",
+      "third_party_rights_granted": false
+    },
+    {
+      "author_decision": "APPROVED",
+      "authority": [
+        "original-v0.1/LICENSE-MANIFEST.json"
+      ],
+      "category": "ORIGINAL_UNCHANGED",
+      "decision_id": "L02",
+      "license": "Apache-2.0",
+      "new_grant": false,
+      "path": "original-v0.1/research/v0.1/tools/typed_adapter.py",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "PRESERVE_HISTORICAL_LICENSE_AND_SCOPE",
+      "sha256": "5ae06843da94da84c74d49e82b0211ff5b3ec9a0ab240fb24f6bb0d80e6efdaa",
+      "third_party_rights_granted": false
+    },
+    {
+      "author_decision": "APPROVED",
+      "authority": [
+        "original-v0.1/LICENSE-MANIFEST.json"
+      ],
+      "category": "ORIGINAL_UNCHANGED",
+      "decision_id": "L02",
+      "license": "Apache-2.0",
+      "new_grant": false,
+      "path": "original-v0.1/research/v0.1/tools/witness.py",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "PRESERVE_HISTORICAL_LICENSE_AND_SCOPE",
+      "sha256": "4ef3b030c9bb4faba453e4dd5ed17433e170203d54f7a5463a47efe85d9ebdfb",
+      "third_party_rights_granted": false
+    },
+    {
+      "attribution": {
+        "adaptation_disclosed": true,
+        "author": "Thales Rangel",
+        "orcid": "https://orcid.org/0000-0002-0629-9731",
+        "source_doi": "10.5281/zenodo.24230342"
+      },
+      "author_decision": "APPROVED",
+      "category": "EDITORIAL_CANDIDATE",
+      "decision_id": "L05",
+      "license": "CC-BY-4.0",
+      "license_authorization": "AUTHOR_APPROVED",
+      "new_grant": false,
+      "path": "related-work/COMPARATIVE-MATRIX.json",
+      "public_release": "NOT_AUTHORIZED",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "ELIGIBLE_AUTHOR_CONTRIBUTIONS_ONLY",
+      "sha256": "550ef1d3fb7ef7e252a1d5040b4e7a14e857a0b6064f35316966c25b3969e1cb",
+      "third_party_rights_granted": false
+    },
+    {
+      "attribution": {
+        "adaptation_disclosed": true,
+        "author": "Thales Rangel",
+        "orcid": "https://orcid.org/0000-0002-0629-9731",
+        "source_doi": "10.5281/zenodo.24230342"
+      },
+      "author_decision": "APPROVED",
+      "category": "EDITORIAL_CANDIDATE",
+      "decision_id": "L05",
+      "license": "CC-BY-4.0",
+      "license_authorization": "AUTHOR_APPROVED",
+      "new_grant": false,
+      "path": "related-work/REFERENCES.md",
+      "public_release": "NOT_AUTHORIZED",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "ELIGIBLE_AUTHOR_CONTRIBUTIONS_ONLY",
+      "sha256": "12d828cabaf8ce7e60b2eedd648689bd4ef3ce284032d1c5ab9efca3c185ddc2",
+      "third_party_rights_granted": false
+    },
+    {
+      "attribution": {
+        "adaptation_disclosed": true,
+        "author": "Thales Rangel",
+        "orcid": "https://orcid.org/0000-0002-0629-9731",
+        "source_doi": "10.5281/zenodo.24230342"
+      },
+      "author_decision": "APPROVED",
+      "category": "EDITORIAL_CANDIDATE",
+      "decision_id": "L05",
+      "license": "CC-BY-4.0",
+      "license_authorization": "AUTHOR_APPROVED",
+      "new_grant": false,
+      "path": "related-work/STATE-OF-THE-ART.en.md",
+      "public_release": "NOT_AUTHORIZED",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "ELIGIBLE_AUTHOR_CONTRIBUTIONS_ONLY",
+      "sha256": "cea371bc80b4f7d3418cd560bf2ba9d627635323fd54480887762e61b081de1c",
+      "third_party_rights_granted": false
+    },
+    {
+      "attribution": {
+        "adaptation_disclosed": true,
+        "author": "Thales Rangel",
+        "orcid": "https://orcid.org/0000-0002-0629-9731",
+        "source_doi": "10.5281/zenodo.24230342"
+      },
+      "author_decision": "APPROVED",
+      "category": "EDITORIAL_CANDIDATE",
+      "decision_id": "L05",
+      "license": "CC-BY-4.0",
+      "license_authorization": "AUTHOR_APPROVED",
+      "new_grant": false,
+      "path": "related-work/STATE-OF-THE-ART.pt-BR.md",
+      "public_release": "NOT_AUTHORIZED",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "ELIGIBLE_AUTHOR_CONTRIBUTIONS_ONLY",
+      "sha256": "d2670af25b7746b5b22d709e681b6acf25f600a74cec9b4d7566ad0e84598654",
+      "third_party_rights_granted": false
+    },
+    {
+      "adaptation": "Portuguese translation",
+      "attribution": {
+        "adaptation_disclosed": true,
+        "author": "Thales Rangel",
+        "orcid": "https://orcid.org/0000-0002-0629-9731",
+        "source_doi": "10.5281/zenodo.24230342"
+      },
+      "author_decision": "APPROVED",
+      "category": "PRESERVED_TRANSLATION",
+      "decision_id": "L04",
+      "license": "CC-BY-4.0",
+      "license_authorization": "AUTHOR_APPROVED",
+      "new_editorial_rights": "AUTHOR_APPROVED",
+      "new_grant": false,
+      "path": "translations/pt-BR/ABSTRACT.md",
+      "public_release": "NOT_AUTHORIZED",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "ELIGIBLE_AUTHOR_CONTRIBUTIONS_ONLY",
+      "sha256": "8d58b70f8073df20b60ef80699ab18a04122ff8f51dcbf8c4a160ae9905df06f",
+      "source_author": "Thales Rangel",
+      "source_doi": "10.5281/zenodo.24230342",
+      "source_license": "CC-BY-4.0",
+      "third_party_rights_granted": false
+    },
+    {
+      "adaptation": "Portuguese translation",
+      "attribution": {
+        "adaptation_disclosed": true,
+        "author": "Thales Rangel",
+        "orcid": "https://orcid.org/0000-0002-0629-9731",
+        "source_doi": "10.5281/zenodo.24230342"
+      },
+      "author_decision": "APPROVED",
+      "category": "PRESERVED_TRANSLATION",
+      "decision_id": "L04",
+      "license": "CC-BY-4.0",
+      "license_authorization": "AUTHOR_APPROVED",
+      "new_editorial_rights": "AUTHOR_APPROVED",
+      "new_grant": false,
+      "path": "translations/pt-BR/CLAIM-QUALIFICATION.md",
+      "public_release": "NOT_AUTHORIZED",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "ELIGIBLE_AUTHOR_CONTRIBUTIONS_ONLY",
+      "sha256": "1747e369b8e0ba4f0d41ff3b25d6008151a0c3bef77497e822ae4aec0c046815",
+      "source_author": "Thales Rangel",
+      "source_doi": "10.5281/zenodo.24230342",
+      "source_license": "CC-BY-4.0",
+      "third_party_rights_granted": false
+    },
+    {
+      "adaptation": "Portuguese translation",
+      "attribution": {
+        "adaptation_disclosed": true,
+        "author": "Thales Rangel",
+        "orcid": "https://orcid.org/0000-0002-0629-9731",
+        "source_doi": "10.5281/zenodo.24230342"
+      },
+      "author_decision": "APPROVED",
+      "category": "PRESERVED_TRANSLATION",
+      "decision_id": "L04",
+      "license": "CC-BY-4.0",
+      "license_authorization": "AUTHOR_APPROVED",
+      "new_editorial_rights": "AUTHOR_APPROVED",
+      "new_grant": false,
+      "path": "translations/pt-BR/DISTRIBUTION-STATUS.md",
+      "public_release": "NOT_AUTHORIZED",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "ELIGIBLE_AUTHOR_CONTRIBUTIONS_ONLY",
+      "sha256": "7e4da6a61c18be7cffd0191f21be4b51be6504c4dc65dfe3b2bf31743ead11d0",
+      "source_author": "Thales Rangel",
+      "source_doi": "10.5281/zenodo.24230342",
+      "source_license": "CC-BY-4.0",
+      "third_party_rights_granted": false
+    },
+    {
+      "adaptation": "Portuguese translation",
+      "attribution": {
+        "adaptation_disclosed": true,
+        "author": "Thales Rangel",
+        "orcid": "https://orcid.org/0000-0002-0629-9731",
+        "source_doi": "10.5281/zenodo.24230342"
+      },
+      "author_decision": "APPROVED",
+      "category": "PRESERVED_TRANSLATION",
+      "decision_id": "L04",
+      "license": "CC-BY-4.0",
+      "license_authorization": "AUTHOR_APPROVED",
+      "new_editorial_rights": "AUTHOR_APPROVED",
+      "new_grant": false,
+      "path": "translations/pt-BR/EXPERIMENTAL-RESULTS.md",
+      "public_release": "NOT_AUTHORIZED",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "ELIGIBLE_AUTHOR_CONTRIBUTIONS_ONLY",
+      "sha256": "71ea71631b69d6c6b97b73b3f1b307b9cd394b30ea2df8bd4a1f61266b4450e8",
+      "source_author": "Thales Rangel",
+      "source_doi": "10.5281/zenodo.24230342",
+      "source_license": "CC-BY-4.0",
+      "third_party_rights_granted": false
+    },
+    {
+      "adaptation": "Portuguese translation",
+      "attribution": {
+        "adaptation_disclosed": true,
+        "author": "Thales Rangel",
+        "orcid": "https://orcid.org/0000-0002-0629-9731",
+        "source_doi": "10.5281/zenodo.24230342"
+      },
+      "author_decision": "APPROVED",
+      "category": "PRESERVED_TRANSLATION",
+      "decision_id": "L04",
+      "license": "CC-BY-4.0",
+      "license_authorization": "AUTHOR_APPROVED",
+      "new_editorial_rights": "AUTHOR_APPROVED",
+      "new_grant": false,
+      "path": "translations/pt-BR/HYPOTHESES.md",
+      "public_release": "NOT_AUTHORIZED",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "ELIGIBLE_AUTHOR_CONTRIBUTIONS_ONLY",
+      "sha256": "42619d13d5c744b026c6821d76f58db196ad053079020136a53d837e794a7db1",
+      "source_author": "Thales Rangel",
+      "source_doi": "10.5281/zenodo.24230342",
+      "source_license": "CC-BY-4.0",
+      "third_party_rights_granted": false
+    },
+    {
+      "adaptation": "Portuguese translation",
+      "attribution": {
+        "adaptation_disclosed": true,
+        "author": "Thales Rangel",
+        "orcid": "https://orcid.org/0000-0002-0629-9731",
+        "source_doi": "10.5281/zenodo.24230342"
+      },
+      "author_decision": "APPROVED",
+      "category": "PRESERVED_TRANSLATION",
+      "decision_id": "L04",
+      "license": "CC-BY-4.0",
+      "license_authorization": "AUTHOR_APPROVED",
+      "new_editorial_rights": "AUTHOR_APPROVED",
+      "new_grant": false,
+      "path": "translations/pt-BR/LICENSE-REVIEW.md",
+      "public_release": "NOT_AUTHORIZED",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "ELIGIBLE_AUTHOR_CONTRIBUTIONS_ONLY",
+      "sha256": "911c8a4c69a4e3e688d8e021e998987a94a965b2797532a9382cd4a0d04ae9a9",
+      "source_author": "Thales Rangel",
+      "source_doi": "10.5281/zenodo.24230342",
+      "source_license": "CC-BY-4.0",
+      "third_party_rights_granted": false
+    },
+    {
+      "adaptation": "Portuguese translation",
+      "attribution": {
+        "adaptation_disclosed": true,
+        "author": "Thales Rangel",
+        "orcid": "https://orcid.org/0000-0002-0629-9731",
+        "source_doi": "10.5281/zenodo.24230342"
+      },
+      "author_decision": "APPROVED",
+      "category": "PRESERVED_TRANSLATION",
+      "decision_id": "L04",
+      "license": "CC-BY-4.0",
+      "license_authorization": "AUTHOR_APPROVED",
+      "new_editorial_rights": "AUTHOR_APPROVED",
+      "new_grant": false,
+      "path": "translations/pt-BR/METHODOLOGY.md",
+      "public_release": "NOT_AUTHORIZED",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "ELIGIBLE_AUTHOR_CONTRIBUTIONS_ONLY",
+      "sha256": "af866bfc6289b670c599d4d3fb3ba1e88ce0b9dee90964ed309b369d8b17da9b",
+      "source_author": "Thales Rangel",
+      "source_doi": "10.5281/zenodo.24230342",
+      "source_license": "CC-BY-4.0",
+      "third_party_rights_granted": false
+    },
+    {
+      "adaptation": "Portuguese translation",
+      "attribution": {
+        "adaptation_disclosed": true,
+        "author": "Thales Rangel",
+        "orcid": "https://orcid.org/0000-0002-0629-9731",
+        "source_doi": "10.5281/zenodo.24230342"
+      },
+      "author_decision": "APPROVED",
+      "category": "PRESERVED_TRANSLATION",
+      "decision_id": "L04",
+      "license": "CC-BY-4.0",
+      "license_authorization": "AUTHOR_APPROVED",
+      "new_editorial_rights": "AUTHOR_APPROVED",
+      "new_grant": false,
+      "path": "translations/pt-BR/PROVENANCE.md",
+      "public_release": "NOT_AUTHORIZED",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "ELIGIBLE_AUTHOR_CONTRIBUTIONS_ONLY",
+      "sha256": "6036c0768a614ab415ecce66c6c67c0d2667cf988319db704a1b52ab670eff0f",
+      "source_author": "Thales Rangel",
+      "source_doi": "10.5281/zenodo.24230342",
+      "source_license": "CC-BY-4.0",
+      "third_party_rights_granted": false
+    },
+    {
+      "adaptation": "Portuguese translation",
+      "attribution": {
+        "adaptation_disclosed": true,
+        "author": "Thales Rangel",
+        "orcid": "https://orcid.org/0000-0002-0629-9731",
+        "source_doi": "10.5281/zenodo.24230342"
+      },
+      "author_decision": "APPROVED",
+      "category": "PRESERVED_TRANSLATION",
+      "decision_id": "L04",
+      "license": "CC-BY-4.0",
+      "license_authorization": "AUTHOR_APPROVED",
+      "new_editorial_rights": "AUTHOR_APPROVED",
+      "new_grant": false,
+      "path": "translations/pt-BR/README.md",
+      "public_release": "NOT_AUTHORIZED",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "ELIGIBLE_AUTHOR_CONTRIBUTIONS_ONLY",
+      "sha256": "921cb26169a5a6b527159ae92af655c98d194a1913bbc24848e53153c958ab60",
+      "source_author": "Thales Rangel",
+      "source_doi": "10.5281/zenodo.24230342",
+      "source_license": "CC-BY-4.0",
+      "third_party_rights_granted": false
+    },
+    {
+      "adaptation": "Portuguese translation",
+      "attribution": {
+        "adaptation_disclosed": true,
+        "author": "Thales Rangel",
+        "orcid": "https://orcid.org/0000-0002-0629-9731",
+        "source_doi": "10.5281/zenodo.24230342"
+      },
+      "author_decision": "APPROVED",
+      "category": "PRESERVED_TRANSLATION",
+      "decision_id": "L04",
+      "license": "CC-BY-4.0",
+      "license_authorization": "AUTHOR_APPROVED",
+      "new_editorial_rights": "AUTHOR_APPROVED",
+      "new_grant": false,
+      "path": "translations/pt-BR/REPRODUCTION.md",
+      "public_release": "NOT_AUTHORIZED",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "ELIGIBLE_AUTHOR_CONTRIBUTIONS_ONLY",
+      "sha256": "bf927171877a04700dde9994defad0107d37fea5192221e66ac7fb05c2f29386",
+      "source_author": "Thales Rangel",
+      "source_doi": "10.5281/zenodo.24230342",
+      "source_license": "CC-BY-4.0",
+      "third_party_rights_granted": false
+    },
+    {
+      "adaptation": "Portuguese translation",
+      "attribution": {
+        "adaptation_disclosed": true,
+        "author": "Thales Rangel",
+        "orcid": "https://orcid.org/0000-0002-0629-9731",
+        "source_doi": "10.5281/zenodo.24230342"
+      },
+      "author_decision": "APPROVED",
+      "category": "PRESERVED_TRANSLATION",
+      "decision_id": "L04",
+      "license": "CC-BY-4.0",
+      "license_authorization": "AUTHOR_APPROVED",
+      "new_editorial_rights": "AUTHOR_APPROVED",
+      "new_grant": false,
+      "path": "translations/pt-BR/SCIENTIFIC-REPORT.md",
+      "public_release": "NOT_AUTHORIZED",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "ELIGIBLE_AUTHOR_CONTRIBUTIONS_ONLY",
+      "sha256": "a445931a7acfc62c91336e422c2eed4994580b7b4f1d41b8f8a7bfd271559d78",
+      "source_author": "Thales Rangel",
+      "source_doi": "10.5281/zenodo.24230342",
+      "source_license": "CC-BY-4.0",
+      "third_party_rights_granted": false
+    },
+    {
+      "adaptation": "Portuguese translation",
+      "attribution": {
+        "adaptation_disclosed": true,
+        "author": "Thales Rangel",
+        "orcid": "https://orcid.org/0000-0002-0629-9731",
+        "source_doi": "10.5281/zenodo.24230342"
+      },
+      "author_decision": "APPROVED",
+      "category": "PRESERVED_TRANSLATION",
+      "decision_id": "L04",
+      "license": "CC-BY-4.0",
+      "license_authorization": "AUTHOR_APPROVED",
+      "new_editorial_rights": "AUTHOR_APPROVED",
+      "new_grant": false,
+      "path": "translations/pt-BR/THREATS-TO-VALIDITY.md",
+      "public_release": "NOT_AUTHORIZED",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "ELIGIBLE_AUTHOR_CONTRIBUTIONS_ONLY",
+      "sha256": "6501b6c6a84b0db249ac4694742d76ff23a77648ddd6d3cb19b7cf353ad2ddec",
+      "source_author": "Thales Rangel",
+      "source_doi": "10.5281/zenodo.24230342",
+      "source_license": "CC-BY-4.0",
+      "third_party_rights_granted": false
+    },
+    {
+      "author_decision": "APPROVED",
+      "category": "EDITORIAL_METADATA",
+      "decision_id": "L06",
+      "license": "NO_NEW_GRANT_METADATA",
+      "new_grant": false,
+      "path": "LICENSE-MANIFEST-v0.2.json",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "INTEGRITY_METADATA_NO_GRANT_OVER_REFERENCED_MATERIAL",
+      "sha256": "RECORDED_IN_ROOT_SHA256SUMS",
+      "third_party_rights_granted": false
+    },
+    {
+      "adaptation": "English editorial translation",
+      "attribution": {
+        "adaptation_disclosed": true,
+        "author": "Thales Rangel",
+        "orcid": "https://orcid.org/0000-0002-0629-9731",
+        "source_doi": "10.5281/zenodo.24230342"
+      },
+      "author_decision": "APPROVED",
+      "category": "EDITORIAL_CANDIDATE",
+      "decision_id": "L05",
+      "license": "CC-BY-4.0",
+      "license_authorization": "AUTHOR_APPROVED",
+      "new_grant": false,
+      "path": "editorial/THREATS-TO-VALIDITY.en.md",
+      "public_release": "NOT_AUTHORIZED",
+      "publication": "NOT_AUTHORIZED",
+      "rights_scope": "ELIGIBLE_AUTHOR_CONTRIBUTIONS_ONLY",
+      "sha256": "7f83c3a1aee94f7fa1bcf124c9da76ddc893e54d2e5821eebf99c31b07b7e561",
+      "source_author": "Thales Rangel",
+      "source_doi": "10.5281/zenodo.24230342",
+      "source_license": "CC-BY-4.0",
+      "source_path": "original-v0.1/research/v0.1/THREATS-TO-VALIDITY.md",
+      "third_party_rights_granted": false
+    }
+  ],
+  "human_editorial_acceptance": "APPROVED_E5_C",
+  "license_authorization_scope": "CC-BY-4.0_FOR_ELIGIBLE_AUTHOR_CONTRIBUTIONS",
+  "license_decision_checkpoint": "b2bee0c1f0432fed4ec6cda70e64120825e261d7344de2b74d4b947199cda335",
+  "new_editorial_license": "AUTHOR_APPROVED",
+  "original_distribution": {
+    "Apache-2.0": 2,
+    "CC-BY-4.0": 19,
+    "no_new_grant": 5
+  },
+  "original_license_manifest_preserved": true,
+  "original_manifest_paths": [
+    "LICENSE-MANIFEST.json"
+  ],
+  "public_release": "NOT_AUTHORIZED",
+  "publication": "NOT_AUTHORIZED",
+  "publication_status_at_packaging": "NOT_AUTHORIZED",
+  "schema": "SSSVL-LICENSE-QUALIFICATION-v0.2"
+}

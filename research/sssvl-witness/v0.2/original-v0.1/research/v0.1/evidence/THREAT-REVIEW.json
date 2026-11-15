@@ -1,0 +1,50 @@
+[
+  {
+    "id": "T1",
+    "original": "Casos desenhados pela equipe do comparador; oraculos pre-registrados nao garantem independencia metodologica.",
+    "residual": "OPEN_LIMITATION",
+    "response": "Pre-registration mitigates post-hoc adjustment, not shared design bias; independent replication recommended."
+  },
+  {
+    "id": "T2",
+    "original": "Mesma linhagem de build entre inventarios e referencia; nao reproducao independente de compilacao.",
+    "residual": "OPEN_LIMITATION",
+    "response": "Freeze reference before mutation; shared build lineage remains a limitation."
+  },
+  {
+    "id": "T3",
+    "original": "Repeticoes deterministicas nao sao amostra estatistica independente.",
+    "residual": "OPEN_LIMITATION",
+    "response": "Report distinct cases and paired repetitions separately; no pooled statistical rate."
+  },
+  {
+    "id": "T4",
+    "original": "W04 usa entidades e arestas sinteticas; B2-A usa arquivo e declaracao direta, nao pacote ou provedor.",
+    "residual": "OPEN_LIMITATION",
+    "response": "Distinguish W04 synthetic entities/edges from B2-A file/declaration roles."
+  },
+  {
+    "id": "T5",
+    "original": "Validade formal limitada a schema/referencias; REAL-07 preserva SHA1 e altera alegacao SHA256.",
+    "residual": "OPEN_LIMITATION",
+    "response": "Limit schema claims to Draft7 and implemented reference checks; distinguish false hash claim from changed bytes."
+  },
+  {
+    "id": "T6",
+    "original": "Configuracao autenticada pelo chamador; REAL-08 testa incompatibilidade explicita, nao descoberta autonoma.",
+    "residual": "OPEN_LIMITATION",
+    "response": "Report explicit configuration mismatch, not autonomous inference."
+  },
+  {
+    "id": "T7",
+    "original": "Sem scanner real, runtime, vulnerabilidade ou seguranca operacional demonstrada.",
+    "residual": "OPEN_LIMITATION",
+    "response": "No scanner, exploit or runtime safety conclusion; further work requires separate authorization."
+  },
+  {
+    "id": "T8",
+    "original": "Sem isolamento OS qualificado; Evidence Vault pendente.",
+    "residual": "OPEN_LIMITATION",
+    "response": "Process separation is not sandbox isolation; vault and MT06 remain blocked/unverified."
+  }
+]

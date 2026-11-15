@@ -1,0 +1,3 @@
+# Resultados experimentais
+
+STD: 546 arquivos instalados, 474 ELF, 432 declarações diretas; EDS: 565, 483, 458. ELF constitui um subconjunto dos arquivos instalados. As contagens representam ocorrências específicas da configuração. Sintéticos: 11 casos distintos, 44 execuções, 330+330 asserções de nível folha, 22/22 pares, 3/3 verificações pareadas. Perfil original: aceitação indevida 0/11, bloqueio indevido N/A (sem positivos); perfil suplementado: 0/8 e 0/3. Derivados de dados reais: 8 casos distintos, 16 avaliações, concordância com os oráculos de 16/16, 8/8 pares, aceitação indevida 0/12, bloqueio indevido 0/4. Primária: 0/6 e 0/2; repetição: 0/6 e 0/2. Não agregar unidades distintas nem tratar repetições como casos independentes.

@@ -1,0 +1,3 @@
+# Provenance
+
+Independent study; NASA cFS upstream authors retain their rights. Historical published research: https://github.com/bonushora/nasa-cfs-sbom-research/tree/da53788b15c290b5e14afda3332a016aada8f0e0/research/v0.3 and https://github.com/bonushora/nasa-cfs-sbom-research/tree/ca55a93cd551cc8d53ebed2528ebc7774292eab9/research/v0.4. These are historical references, not a new remote verification. EVIDENCE-INDEX.json links selected files to sealed sources. AI assistance was used for code drafting, analysis and documentation under human authorization and verification; the author retains responsibility. No claim of NASA endorsement or external peer review.
